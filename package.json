@@ -1,0 +1,25 @@
+{
+  "name": "k12-english-reading-platform",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && node scripts/build-sites-worker.mjs",
+    "preview": "vite preview",
+    "db:generate": "drizzle-kit generate",
+    "test:worker": "node scripts/test-worker.mjs",
+    "test:reading-data": "node scripts/test-reading-data.mjs"
+  },
+  "dependencies": {
+    "@phosphor-icons/react": "^2.1.10",
+    "@vitejs/plugin-react": "5.0.4",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "vite": "6.4.2"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.31.10",
+    "drizzle-orm": "^0.44.5"
+  }
+}
