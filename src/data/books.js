@@ -9,6 +9,13 @@ export const categories = [
   { id: "world", name: "世界故事", tone: "cyan", description: "来自不同文化的经典故事" },
 ];
 
+export const ageFilters = [
+  { id: "4-7", label: "4–7 岁" },
+  { id: "7-9", label: "7–9 岁" },
+  { id: "9-12", label: "9–12 岁" },
+  { id: "12+", label: "12 岁以上" },
+];
+
 const descriptions = Object.fromEntries(categories.map((category) => [category.id, category.description]));
 
 function recommendedAge(wordCount) {
@@ -19,17 +26,29 @@ function recommendedAge(wordCount) {
   return "12–16 岁";
 }
 
-export const books = gutenbergBooks.map((book) => ({
-  ...book,
-  textPath: book.textPath.replace(/\.gz$/, ""),
-  vocabularyPath: `/vocabulary/${book.gutenbergId}.json`,
-  audiobook: librivoxAudiobooks[book.gutenbergId] || null,
-  ageRange: recommendedAge(book.wordCount),
-  illustrations: book.illustrations?.length ? book.illustrations : [book.cover],
-  description: `${descriptions[book.themeId]}。完整英文原文来自 Project Gutenberg，可直接在线阅读。`,
-  lexile: "平台估算",
-  tags: [book.category, book.level, book.grade, book.author],
-}));
+function ageGroupFor(ageRange) {
+  const startAge = Number.parseInt(ageRange, 10);
+  if (startAge <= 4) return "4-7";
+  if (startAge <= 8) return "7-9";
+  if (startAge <= 10) return "9-12";
+  return "12+";
+}
+
+export const books = gutenbergBooks.map((book) => {
+  const ageRange = book.ageRange || recommendedAge(book.wordCount);
+  return {
+    ...book,
+    textPath: book.textPath.replace(/\.gz$/, ""),
+    vocabularyPath: `/vocabulary/${book.gutenbergId}.json`,
+    audiobook: librivoxAudiobooks[book.gutenbergId] || null,
+    ageRange,
+    ageGroup: ageGroupFor(ageRange),
+    illustrations: book.illustrations?.length ? book.illustrations : [book.cover],
+    description: `${descriptions[book.themeId]}。完整英文原文来自 Project Gutenberg，可直接在线阅读。`,
+    lexile: "平台估算",
+    tags: [book.category, book.level, book.grade, book.author],
+  };
+});
 
 export const featuredBooks = categories.map((category) =>
   books.find((book) => book.themeId === category.id),

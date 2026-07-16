@@ -2,7 +2,10 @@ import { readFile, writeFile } from "node:fs/promises";
 
 const books = JSON.parse(await readFile(new URL("../src/data/gutenberg-books.json", import.meta.url), "utf8"));
 const outputFile = new URL("../src/data/librivox-audiobooks.json", import.meta.url);
-const result = {};
+const requestedIds = new Set(process.argv.slice(2).map(Number).filter(Number.isFinite));
+const existing = JSON.parse(await readFile(outputFile, "utf8").catch(() => "{}"));
+const bookIds = new Set(books.map((book) => String(book.gutenbergId)));
+const result = requestedIds.size ? Object.fromEntries(Object.entries(existing).filter(([id]) => bookIds.has(id))) : {};
 let completed = 0;
 
 function normalize(value) {
@@ -98,17 +101,19 @@ async function findAudiobook(book) {
   };
 }
 
-const queue = [...books];
+const queue = books.filter((book) => !requestedIds.size || requestedIds.has(book.gutenbergId));
+const total = queue.length;
 async function worker() {
   while (queue.length) {
     const book = queue.shift();
     const audiobook = await findAudiobook(book);
     if (audiobook) result[book.gutenbergId] = audiobook;
+    else delete result[book.gutenbergId];
     completed += 1;
-    process.stdout.write(`[${String(completed).padStart(3, "0")}/100] ${audiobook ? `matched ${audiobook.sections.length} tracks` : "TTS fallback"} · ${book.title}\n`);
+    process.stdout.write(`[${String(completed).padStart(3, "0")}/${total}] ${audiobook ? `matched ${audiobook.sections.length} tracks` : "TTS fallback"} · ${book.title}\n`);
   }
 }
 
 await Promise.all(Array.from({ length: 6 }, () => worker()));
 await writeFile(outputFile, `${JSON.stringify(result, null, 2)}\n`);
-process.stdout.write(`Matched ${Object.keys(result).length}/100 LibriVox audiobooks; all remaining books use page TTS.\n`);
+process.stdout.write(`Matched ${Object.keys(result).length}/${books.length} LibriVox audiobooks; all remaining books use page TTS.\n`);

@@ -17,4 +17,5 @@ When implementing from a selected generated mock, treat that image as the source
 - The social layer should use real friend codes and durable shared progress; adding a friend must reveal that reader's actual public check-in summary.
 - Keep a current-page learning assistant on the reader's right side: select vocabulary for the book's recommended age, and show pronunciation, Chinese meaning, part of speech, an English definition, the sentence in context, and one-tap word audio.
 - Clicking a vocabulary card should highlight that word in the reading page and smoothly locate its nearest visible occurrence; clicking the selected card again clears the highlight.
+- Show the number of matched learning words on every reader page, and keep age as a first-class catalog filter. Maintain a meaningful 4–7-year-old collection rather than relabeling long novels as early readers.
 - Every book must be listenable in the reader. Prefer a correctly matched LibriVox public-domain human recording with chapters; use device English speech synthesis for the current page whenever no reliable human recording exists.

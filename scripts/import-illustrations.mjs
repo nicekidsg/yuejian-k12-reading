@@ -115,7 +115,7 @@ async function importBook(book, bookIndex) {
     illustrations,
     illustrationSourceUrl: pageUrl,
   };
-  process.stdout.write(`[${String(bookIndex + 1).padStart(3, "0")}/100] ${id}: ${illustrations.length} illustration(s)\n`);
+  process.stdout.write(`[${String(bookIndex + 1).padStart(3, "0")}/${books.length}] ${id}: ${illustrations.length} illustration(s)\n`);
 }
 
 let nextBookIndex = 0;

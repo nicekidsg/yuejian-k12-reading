@@ -29,7 +29,10 @@ i'm you're we're they're i've you've we've they've i'll you'll we'll they'll it'
 """.split())
 
 
-def age_profile(word_count):
+def age_profile(book):
+    if book.get("ageRange") == "4–7 岁":
+        return "4–7 岁", 200, 4_500
+    word_count = book["wordCount"]
     if word_count < 12_000:
         return "7–10 岁", 800, 7_000
     if word_count < 30_000:
@@ -141,7 +144,7 @@ totals = []
 for book in books:
     book_id = book["gutenbergId"]
     selected_ids.add(f"{book_id}.json")
-    age_range, low, high = age_profile(book["wordCount"])
+    age_range, low, high = age_profile(book)
     candidates = []
     for word, count in book_tokens[book_id].items():
         entry = dictionary.get(word)
@@ -178,7 +181,7 @@ for book in books:
     }
     (OUTPUT_DIR / f"{book_id}.json").write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":")), "utf-8")
     totals.append(len(words))
-    print(f"[{len(totals):03d}/100] {book['title']}: {len(words)} words")
+    print(f"[{len(totals):03d}/{len(books)}] {book['title']}: {len(words)} words")
 
 for path in OUTPUT_DIR.glob("*.json"):
     if path.name not in selected_ids:

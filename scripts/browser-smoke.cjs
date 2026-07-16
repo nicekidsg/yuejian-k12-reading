@@ -5,6 +5,7 @@ const path = require("node:path");
 
 const baseUrl = "http://127.0.0.1:4174/";
 const qaDir = path.resolve(__dirname, "..", "qa");
+const bookCount = JSON.parse(fs.readFileSync(path.resolve(__dirname, "..", "src/data/gutenberg-books.json"), "utf8")).length;
 fs.mkdirSync(qaDir, { recursive: true });
 
 (async () => {
@@ -37,9 +38,15 @@ fs.mkdirSync(qaDir, { recursive: true });
   await page.screenshot({ path: path.join(qaDir, "v3-home-zero.png"), fullPage: true });
 
   await page.locator(".side-nav").getByRole("button", { name: "探索" }).click();
-  await page.getByRole("heading", { name: "100 本可直接阅读的英文故事" }).waitFor();
-  assert.equal(await page.locator(".catalog-count strong").textContent(), "100");
+  await page.getByRole("heading", { name: `${bookCount} 本可直接阅读的英文故事` }).waitFor();
+  assert.equal(await page.locator(".catalog-count strong").textContent(), String(bookCount));
   assert.equal(await page.locator(".catalog-card").count(), 20);
+  const ageFilter = page.locator(".filter-group").first();
+  await ageFilter.getByRole("button", { name: "4–7 岁" }).click();
+  assert.equal(Number(await page.locator(".catalog-count strong").textContent()) >= 50, true);
+  assert.equal((await page.locator(".catalog-meta").allTextContents()).every((value) => value.includes("4–7 岁")), true);
+  await ageFilter.getByRole("button", { name: "全部" }).click();
+  assert.equal(await page.locator(".catalog-count strong").textContent(), String(bookCount));
 
   const firstCard = page.locator(".catalog-card").first();
   await firstCard.locator(".catalog-card-main").click();
@@ -52,6 +59,8 @@ fs.mkdirSync(qaDir, { recursive: true });
   await page.locator(".reader-scroll pre").first().waitFor({ state: "visible", timeout: 15000 });
   assert.match((await page.locator(".reader-scroll article").textContent()).slice(0, 1800), /Alice/i);
   assert.match(await page.locator(".reader-pagination").innerText(), /第 1 页[\s\S]*共 \d+ 页/);
+  await page.waitForFunction(() => !document.querySelector(".vocabulary-panel .tool-loading"));
+  assert.match(await page.locator(".vocabulary-count").innerText(), /^\d+\s*个$/);
   assert.equal(await page.locator(".reader-illustration img").count() >= 1, true);
   await page.locator(".reader-scroll").evaluate((element) => { element.scrollTop = (element.scrollHeight - element.clientHeight) * 0.48; });
   await page.waitForFunction(() => Number(document.querySelector(".reader-percent")?.textContent.replace("%", "")) >= 40);
@@ -85,7 +94,7 @@ fs.mkdirSync(qaDir, { recursive: true });
   await mobilePage.reload({ waitUntil: "networkidle" });
   assert.equal(await mobilePage.evaluate(() => document.documentElement.scrollWidth <= document.documentElement.clientWidth), true);
   await mobilePage.locator(".mobile-nav").getByRole("button", { name: "探索" }).click();
-  await mobilePage.getByRole("heading", { name: "100 本可直接阅读的英文故事" }).waitFor();
+  await mobilePage.getByRole("heading", { name: `${bookCount} 本可直接阅读的英文故事` }).waitFor();
   await mobilePage.locator(".mobile-nav").getByRole("button", { name: "我的书架" }).click();
   await mobilePage.getByRole("heading", { name: "我的书架" }).waitFor();
   assert.equal(await mobilePage.locator(".page-count strong").textContent(), "0");
