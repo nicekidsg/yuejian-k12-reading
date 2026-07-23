@@ -19,3 +19,4 @@ When implementing from a selected generated mock, treat that image as the source
 - Clicking a vocabulary card should highlight that word in the reading page and smoothly locate its nearest visible occurrence; clicking the selected card again clears the highlight.
 - Show the number of matched learning words on every reader page, and keep age as a first-class catalog filter. Maintain a meaningful 4–7-year-old collection rather than relabeling long novels as early readers.
 - Every book must be listenable in the reader. Prefer a correctly matched LibriVox public-domain human recording with chapters; use device English speech synthesis for the current page whenever no reliable human recording exists.
+- When source-edition art is sparse, add child-safe AI illustrations that match a concrete scene and the recommended age. Keep original images first, label every generated image clearly in the reader, and never present generated art as an original edition asset.

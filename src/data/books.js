@@ -36,6 +36,13 @@ function ageGroupFor(ageRange) {
 
 export const books = gutenbergBooks.map((book) => {
   const ageRange = book.ageRange || recommendedAge(book.wordCount);
+  const originalIllustrations = book.originalIllustrations || [];
+  const aiIllustrations = book.aiIllustrations || [];
+  const illustrations = [
+    book.cover,
+    ...originalIllustrations,
+    ...aiIllustrations,
+  ].filter((value, index, values) => value && values.indexOf(value) === index);
   return {
     ...book,
     textPath: book.textPath.replace(/\.gz$/, ""),
@@ -43,10 +50,21 @@ export const books = gutenbergBooks.map((book) => {
     audiobook: librivoxAudiobooks[book.gutenbergId] || null,
     ageRange,
     ageGroup: ageGroupFor(ageRange),
-    illustrations: book.illustrations?.length ? book.illustrations : [book.cover],
-    description: `${descriptions[book.themeId]}。完整英文原文来自 Project Gutenberg，可直接在线阅读。`,
+    originalIllustrations,
+    aiIllustrations,
+    illustrations,
+    description: book.recommendation
+      ? `${book.recommendation}。完整英文原文来自 Project Gutenberg，可直接在线阅读。`
+      : `${descriptions[book.themeId]}。完整英文原文来自 Project Gutenberg，可直接在线阅读。`,
     lexile: "平台估算",
-    tags: [book.category, book.level, book.grade, book.author],
+    tags: [
+      book.category,
+      book.secondaryCategory,
+      book.contentType,
+      book.level,
+      book.grade,
+      book.author,
+    ].filter(Boolean),
   };
 });
 

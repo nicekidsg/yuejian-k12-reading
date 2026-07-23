@@ -31,19 +31,27 @@ async function fetchWithRetry(url, binary = false, attempts = 2) {
   throw new Error(`${url}: ${lastError?.message || "request failed"}`);
 }
 
-function imageUrls(html, pageUrl) {
-  const urls = [];
+function imageCandidates(html, pageUrl) {
+  const candidates = [];
   const seen = new Set();
-  for (const match of html.matchAll(/<img\b[^>]*\bsrc=["']([^"']+)["']/gi)) {
-    const url = new URL(match[1], pageUrl);
+  for (const match of html.matchAll(/<img\b([^>]*)>/gi)) {
+    const attributes = match[1];
+    const source = attributes.match(/\bsrc=["']([^"']+)["']/i)?.[1];
+    if (!source) continue;
+    const url = new URL(source, pageUrl);
     if (!/\.(?:jpe?g|png)$/i.test(url.pathname)) continue;
     if (/logo|icon|spacer|button/i.test(url.pathname)) continue;
     const value = url.href;
     if (seen.has(value)) continue;
     seen.add(value);
-    urls.push(value);
+    const alt = attributes.match(/\balt=["']([^"']*)["']/i)?.[1] || "";
+    const title = attributes.match(/\btitle=["']([^"']*)["']/i)?.[1] || "";
+    candidates.push({
+      url: value,
+      descriptor: `${url.pathname} ${alt} ${title}`.toLowerCase(),
+    });
   }
-  return urls;
+  return candidates;
 }
 
 function evenlySample(items, count) {
@@ -75,10 +83,13 @@ const updated = [...books];
 
 async function importBook(book, bookIndex) {
   const id = book.gutenbergId;
-  const sourceId = alternativeIllustratedEditions.get(id) || id;
+  const textSourceId = Number(book.textSourceUrl?.match(/\/ebooks\/(\d+)/)?.[1]);
+  const sourceId = alternativeIllustratedEditions.get(id) || textSourceId || id;
   const pageUrl = `https://www.gutenberg.org/cache/epub/${sourceId}/pg${sourceId}-images.html`;
   const bookDirectory = path.join(illustrationRoot, String(id));
   const localImages = [];
+  let originalCover = null;
+  let originalCoverSourceUrl = null;
   const desiredCount = Math.min(8, Math.max(3, Math.ceil(book.wordCount / 6_000)));
 
   await rm(bookDirectory, { recursive: true, force: true });
@@ -86,10 +97,45 @@ async function importBook(book, bookIndex) {
 
   try {
     const html = await fetchWithRetry(pageUrl);
-    const candidates = imageUrls(html, pageUrl).filter((url) => !/cover/i.test(url));
-    const selected = evenlySample(candidates, Math.max(0, desiredCount - 1));
+    const candidates = imageCandidates(html, pageUrl);
+    const coverCandidate = candidates.find(({ descriptor }) =>
+      /(?:front[\s_-]*)?cover|title[\s_-]*page|titlepage/.test(descriptor),
+    );
 
-    const downloads = await Promise.all(selected.map(async (url, imageIndex) => {
+    if (coverCandidate) {
+      try {
+        const buffer = await fetchWithRetry(coverCandidate.url, true, 1);
+        const dimensions = imageDimensions(buffer);
+        if (
+          buffer.length >= 4_000 &&
+          buffer.length <= 3_500_000 &&
+          dimensions?.width >= 240 &&
+          dimensions?.height >= 180
+        ) {
+          const extension =
+            path.extname(new URL(coverCandidate.url).pathname).toLowerCase() ===
+            ".png"
+              ? "png"
+              : "jpg";
+          const filename = `${id}-original.${extension}`;
+          await writeFile(path.join(projectRoot, "public", "covers", filename), buffer);
+          originalCover = `/covers/${filename}`;
+          originalCoverSourceUrl = coverCandidate.url;
+        }
+      } catch (error) {
+        process.stderr.write(`Original cover skipped for ${id}: ${error.message}\n`);
+      }
+    }
+
+    const illustrationCandidates = candidates.filter(
+      ({ url }) => url !== coverCandidate?.url,
+    );
+    const selected = evenlySample(
+      illustrationCandidates,
+      Math.max(0, desiredCount - 1),
+    );
+
+    const downloads = await Promise.all(selected.map(async ({ url }, imageIndex) => {
       try {
         const buffer = await fetchWithRetry(url, true, 1);
         if (buffer.length < 4_000 || buffer.length > 2_500_000) return null;
@@ -109,9 +155,16 @@ async function importBook(book, bookIndex) {
     process.stderr.write(`Illustrated edition unavailable for ${id}: ${error.message}\n`);
   }
 
-  const illustrations = [book.cover, ...localImages];
+  const cover = originalCover || book.cover;
+  const aiIllustrations = book.aiIllustrations || [];
+  const illustrations = [cover, ...localImages, ...aiIllustrations];
   updated[bookIndex] = {
     ...book,
+    cover,
+    coverSource: originalCover ? "original-edition" : book.coverSource,
+    coverSourceUrl: originalCoverSourceUrl || book.coverSourceUrl,
+    originalIllustrations: localImages,
+    originalIllustrationCount: localImages.length,
     illustrations,
     illustrationSourceUrl: pageUrl,
   };

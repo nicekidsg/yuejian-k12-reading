@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build && node scripts/build-sites-worker.mjs",
+    "import:curated": "node scripts/import-curated-catalog.mjs",
+    "register:ai-illustrations": "node scripts/register-ai-illustrations.mjs",
     "preview": "vite preview",
     "db:generate": "drizzle-kit generate",
     "test:worker": "node scripts/test-worker.mjs",

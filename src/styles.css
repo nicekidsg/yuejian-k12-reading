@@ -192,6 +192,8 @@ button:focus-visible, input:focus-visible, a:focus-visible { outline: 3px solid 
 .detail-copy { min-width: 0; padding-right: 8px; }.detail-copy h2 { margin: 0 0 7px; color: #183e64; font-family: Georgia,"Times New Roman",serif; font-size: 31px; line-height: 1.06; }.detail-author { margin: 0 0 17px !important; color: #52718c !important; font-weight: 700; }.detail-copy > p { color: #688297; font-size: 11px; line-height: 1.65; }
 .book-facts { display: grid; grid-template-columns: repeat(4,1fr); gap: 7px; margin: 17px 0; }.book-facts span { padding: 10px 7px; border-radius: 13px; color: #6a8194; background: #eff7fb; font-size: 8px; text-align: center; }.book-facts strong { display: block; color: #285f97; font-size: 13px; }
 .detail-progress { margin-bottom: 15px; }.detail-progress > span { display: flex; justify-content: space-between; margin-bottom: 6px; color: #5b7690; font-size: 9px; }
+.detail-guidance { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 0 0 12px; }.detail-guidance span { padding: 10px; border-radius: 13px; color: #5f7689; background: #f2f7fb; font-size: 8px; line-height: 1.55; }.detail-guidance strong { display: block; margin-bottom: 4px; color: #2d679b; font-size: 9px; }
+.detail-warning { margin: 0 0 12px; padding: 10px 12px; border: 1px solid #f3d7a5; border-radius: 13px; color: #8a6129; background: #fff7e8; font-size: 8px; line-height: 1.55; }.detail-warning strong { display: block; margin-bottom: 3px; color: #915f1e; }
 .detail-trust { display: flex; gap: 8px; padding: 12px; border-radius: 14px; color: #38735f; background: #e9f8f2; font-size: 9px; line-height: 1.5; }.detail-trust > svg { flex: 0 0 auto; }.detail-trust a { display: block; margin-top: 4px; color: #286bc2; }
 .detail-actions { display: flex; gap: 8px; margin-top: 18px; }
 .toast { position: fixed; z-index: 180; left: calc(50% + var(--sidebar)/2); bottom: 31px; display: flex; align-items: center; gap: 8px; padding: 11px 17px; border-radius: 20px; color: #fff; background: #173b61; box-shadow: 0 11px 28px rgba(17,51,78,.28); font-size: 11px; font-weight: 750; opacity: 0; pointer-events: none; transform: translate(-50%,12px); transition: .18s ease; }.toast.is-visible { opacity: 1; transform: translate(-50%,0); }
@@ -214,6 +216,8 @@ button:focus-visible, input:focus-visible, a:focus-visible { outline: 3px solid 
 .reader-illustration { width: min(590px,100%); margin: 38px auto; text-align: center; }
 .reader-illustration.hero { width: min(360px,82%); margin-top: 0; }
 .reader-illustration img { display: block; width: 100%; max-height: 580px; object-fit: contain; border: 1px solid #ded4c2; border-radius: 9px; background: #f4efe5; box-shadow: 0 12px 30px rgba(69,54,32,.13); }
+.reader-illustration.is-ai img { border-color: #bcded5; background: #eef8f4; }
+.reader-illustration.is-ai figcaption { color: #44806f; }
 .reader-illustration figcaption { margin-top: 8px; color: #918572; font-size: 9px; }
 .reader-pagination { min-height: 62px; display: grid; grid-template-columns: 130px minmax(120px,1fr) 130px; align-items: center; gap: 12px; padding: 8px 20px; border-top: 1px solid #ded7c9; background: rgba(255,253,247,.98); box-shadow: 0 -8px 22px rgba(68,55,37,.07); }
 .reader-pagination button { min-height: 40px; display: inline-flex; align-items: center; justify-content: center; gap: 6px; border: 1px solid #d7d0c4; border-radius: 14px; color: #4f6678; background: #fff; cursor: pointer; font-size: 10px; font-weight: 800; }
