@@ -11,7 +11,9 @@
     "preview": "vite preview",
     "db:generate": "drizzle-kit generate",
     "test:worker": "node scripts/test-worker.mjs",
-    "test:reading-data": "node scripts/test-reading-data.mjs"
+    "test:reading-data": "node scripts/test-reading-data.mjs",
+    "test:vocabulary-context": "node scripts/test-vocabulary-context.mjs",
+    "test:vocabulary-ui": "node scripts/test-vocabulary-ui.cjs"
   },
   "dependencies": {
     "@phosphor-icons/react": "^2.1.10",

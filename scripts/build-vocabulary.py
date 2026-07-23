@@ -64,12 +64,31 @@ def clean_translation(value):
     return result if re.search(r"[\u3400-\u9fff]", result) else ""
 
 
-def clean_definition(value):
+UNSAFE_DEFINITION = re.compile(
+    r"\b(?:ethnic slur|offensive|disparaging|penis|sexual intercourse|caucasoid race|grown man)\b",
+    re.I,
+)
+
+
+def clean_definition(value, pos_label):
+    wanted = {
+        "n. 名词": {"n"},
+        "v. 动词": {"v"},
+        "vt. 及物动词": {"v"},
+        "vi. 不及物动词": {"v"},
+        "adj. 形容词": {"a", "s"},
+        "adv. 副词": {"r"},
+    }.get(pos_label, set())
+    fallback = ""
     for line in (value or "").replace("\\n", "\n").splitlines():
         line = line.strip()
-        if line:
+        if not line or UNSAFE_DEFINITION.search(line):
+            continue
+        fallback = fallback or line
+        marker = re.match(r"^([a-z]+)\.", line, re.I)
+        if not wanted or (marker and marker.group(1).lower() in wanted):
             return line[:160]
-    return ""
+    return fallback[:160] if not wanted else ""
 
 
 def primary_pos(value, translation):
@@ -124,14 +143,15 @@ with dictionary_path.open("r", encoding="utf-8-sig", newline="") as source:
         translation = clean_translation(row.get("translation"))
         if not translation:
             continue
+        pos_label = primary_pos(row.get("pos"), translation)
         ranks = [value for value in (number(row.get("bnc")), number(row.get("frq"))) if value > 0]
         rank = min(ranks) if ranks else 0
         dictionary[word] = {
             "word": word,
             "phonetic": (row.get("phonetic") or "").strip()[:60],
             "translation": translation,
-            "definition": clean_definition(row.get("definition")),
-            "pos": primary_pos(row.get("pos"), translation),
+            "definition": clean_definition(row.get("definition"), pos_label),
+            "pos": pos_label,
             "rank": rank,
             "oxford": number(row.get("oxford")) > 0,
             "tags": (row.get("tag") or "").split(),

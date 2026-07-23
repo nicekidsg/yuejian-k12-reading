@@ -41,6 +41,7 @@ for (const book of books) {
   for (const entry of payload.words) {
     assert.ok(entry.word && entry.translation && entry.pos && entry.level, `${book.title} has an incomplete vocabulary card`);
     assert.match(entry.translation, /[\u3400-\u9fff]/, `${entry.word} lacks a Chinese explanation`);
+    assert.doesNotMatch(entry.definition || "", /\b(?:ethnic slur|offensive|disparaging|penis|sexual intercourse|caucasoid race|grown man)\b/i, `${entry.word} has a child-inappropriate definition`);
     wordCards += 1;
     if (entry.phonetic) phoneticCards += 1;
   }

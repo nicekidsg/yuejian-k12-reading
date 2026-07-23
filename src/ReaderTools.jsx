@@ -8,13 +8,7 @@ import {
   Stop,
   Waveform,
 } from "@phosphor-icons/react";
-
-function sentenceForWord(text, word) {
-  const normalized = text.replace(/\s+/g, " ").trim();
-  const sentences = normalized.match(/[^.!?]+[.!?]?/g) || [normalized];
-  const sentence = sentences.find((item) => new RegExp(`\\b${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`, "i").test(item)) || "";
-  return sentence.length > 170 ? `${sentence.slice(0, 167).trim()}…` : sentence.trim();
-}
+import { contextualizeVocabularyEntry, sentenceForWord } from "./vocabulary-context.js";
 
 function chunksForSpeech(text) {
   const sentences = text.replace(/\s+/g, " ").trim().match(/[^.!?]+[.!?]+|[^.!?]+$/g) || [];
@@ -38,7 +32,10 @@ function VocabularyPanel({ pageNumber, pageText, vocabulary, loading, onSpeakWor
       const key = token.toLowerCase().replace("’", "'");
       if (seen.has(key) || !entries.has(key)) continue;
       seen.add(key);
-      matches.push({ ...entries.get(key), example: sentenceForWord(pageText, key) });
+      matches.push({
+        ...contextualizeVocabularyEntry(entries.get(key), pageText, token),
+        example: sentenceForWord(pageText, key),
+      });
       if (matches.length === 8) break;
     }
     return matches;
@@ -50,7 +47,7 @@ function VocabularyPanel({ pageNumber, pageText, vocabulary, loading, onSpeakWor
     onSelectWord(word);
   };
 
-  return <div className="reader-tool-content vocabulary-panel"><header><span><BookOpenText size={21} weight="duotone" /></span><div><strong>第 {pageNumber} 页重点词</strong><small>{vocabulary?.selection || "正在匹配年龄与词频"}</small></div><em className="vocabulary-count" aria-label={`本页共 ${words.length} 个重点词`}>{loading ? "…" : words.length}<small>个</small></em></header>{loading ? <div className="tool-loading"><i />正在整理本页单词…</div> : words.length ? <><p className="vocabulary-tip">本页共 {words.length} 个重点词 · 点击词卡可在正文中高亮定位</p><div className="vocabulary-list">{words.map((entry) => <article className={`vocabulary-card ${selectedWord === entry.word ? "is-selected" : ""}`} key={entry.word} role="button" tabIndex={0} aria-pressed={selectedWord === entry.word} onClick={() => onSelectWord(entry.word)} onKeyDown={(event) => selectFromKeyboard(event, entry.word)}><div className="vocabulary-word"><span><strong>{entry.word}</strong>{entry.phonetic && <small>/{entry.phonetic}/</small>}</span><button type="button" onClick={(event) => { event.stopPropagation(); onSpeakWord(entry.word); }} aria-label={`朗读单词 ${entry.word}`}><SpeakerHigh size={18} weight="fill" /></button></div><div className="vocabulary-labels"><span>{entry.pos}</span><em>{entry.level}</em></div><p className="vocabulary-translation">{entry.translation}</p>{entry.definition && <p className="vocabulary-definition">{entry.definition}</p>}{entry.example && <blockquote>“{entry.example}”</blockquote>}</article>)}</div></> : <div className="tool-empty"><BookOpenText size={36} weight="duotone" /><strong>{pageText ? "本页没有需要特别解释的词" : "这是封面或插图页"}</strong><p>继续翻页后，会自动整理当前可见文字中的重点词。</p></div>}<footer>词义、音标与词频来自 ECDICT；结合本书年龄段筛选。</footer></div>;
+  return <div className="reader-tool-content vocabulary-panel"><header><span><BookOpenText size={21} weight="duotone" /></span><div><strong>第 {pageNumber} 页重点词</strong><small>{vocabulary?.selection || "正在匹配年龄与词频"}</small></div><em className="vocabulary-count" aria-label={`本页共 ${words.length} 个重点词`}>{loading ? "…" : words.length}<small>个</small></em></header>{loading ? <div className="tool-loading"><i />正在整理本页单词…</div> : words.length ? <><p className="vocabulary-tip">本页共 {words.length} 个重点词 · 点击词卡可在正文中高亮定位</p><div className="vocabulary-list">{words.map((entry) => <article className={`vocabulary-card ${selectedWord === entry.lookupWord ? "is-selected" : ""}`} key={entry.lookupWord} role="button" tabIndex={0} aria-pressed={selectedWord === entry.lookupWord} onClick={() => onSelectWord(entry.lookupWord)} onKeyDown={(event) => selectFromKeyboard(event, entry.lookupWord)}><div className="vocabulary-word"><span><strong>{entry.displayWord}</strong>{entry.phonetic && <small>/{entry.phonetic}/</small>}</span><button type="button" onClick={(event) => { event.stopPropagation(); onSpeakWord(entry.displayWord); }} aria-label={`朗读单词 ${entry.displayWord}`}><SpeakerHigh size={18} weight="fill" /></button></div><div className="vocabulary-labels"><span>{entry.pos}</span><em>{entry.level}</em></div><p className="vocabulary-translation">{entry.translation}</p>{entry.definition && <p className="vocabulary-definition">{entry.definition}</p>}{entry.example && <blockquote>“{entry.example}”</blockquote>}<div className="vocabulary-source"><span>{entry.sourceLabel}</span><div><small>权威复核</small>{entry.authorityLinks.map((source) => <a href={source.url} key={source.label} target="_blank" rel="noreferrer" onClick={(event) => event.stopPropagation()} onKeyDown={(event) => event.stopPropagation()}>{source.label}</a>)}</div></div></article>)}</div></> : <div className="tool-empty"><BookOpenText size={36} weight="duotone" /><strong>{pageText ? "本页没有需要特别解释的词" : "这是封面或插图页"}</strong><p>继续翻页后，会自动整理当前可见文字中的重点词。</p></div>}<footer>人名与角色名优先按本书语境解释；普通词义来自 ECDICT，并提供剑桥英汉、柯林斯英汉与韦氏学生词典复核入口。</footer></div>;
 }
 
 function AudioPanel({ book, pageNumber, pageText, preferredVoice, voices, voiceName, setVoiceName, rate, setRate, speechState, onToggleSpeech, onStopSpeech, audioRef }) {
