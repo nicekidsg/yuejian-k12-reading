@@ -1,0 +1,2807 @@
+{
+  "totalCovers": 280,
+  "beforeBytes": 88731489,
+  "afterBytes": 60825126,
+  "covers": [
+    {
+      "gutenbergId": 12103,
+      "cover": "/covers/12103-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 421317,
+      "afterBytes": 300998
+    },
+    {
+      "gutenbergId": 14838,
+      "cover": "/covers/14838-display.webp",
+      "dimensions": [
+        623,
+        877
+      ],
+      "beforeBytes": 131020,
+      "afterBytes": 102218
+    },
+    {
+      "gutenbergId": 14220,
+      "cover": "/covers/14220-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 354658,
+      "afterBytes": 221234
+    },
+    {
+      "gutenbergId": 14407,
+      "cover": "/covers/14407-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 361003,
+      "afterBytes": 230020
+    },
+    {
+      "gutenbergId": 14797,
+      "cover": "/covers/14797-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 332677,
+      "afterBytes": 199878
+    },
+    {
+      "gutenbergId": 14814,
+      "cover": "/covers/14814-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 376896,
+      "afterBytes": 244414
+    },
+    {
+      "gutenbergId": 14837,
+      "cover": "/covers/14837-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 341189,
+      "afterBytes": 216670
+    },
+    {
+      "gutenbergId": 14848,
+      "cover": "/covers/14848-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 329023,
+      "afterBytes": 205912
+    },
+    {
+      "gutenbergId": 14868,
+      "cover": "/covers/14868-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 312364,
+      "afterBytes": 191392
+    },
+    {
+      "gutenbergId": 14872,
+      "cover": "/covers/14872-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 355433,
+      "afterBytes": 227530
+    },
+    {
+      "gutenbergId": 14877,
+      "cover": "/covers/14877-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 295784,
+      "afterBytes": 181066
+    },
+    {
+      "gutenbergId": 15077,
+      "cover": "/covers/15077-display.webp",
+      "dimensions": [
+        760,
+        1000
+      ],
+      "beforeBytes": 129282,
+      "afterBytes": 70844
+    },
+    {
+      "gutenbergId": 15234,
+      "cover": "/covers/15234-display.webp",
+      "dimensions": [
+        820,
+        802
+      ],
+      "beforeBytes": 134003,
+      "afterBytes": 96194
+    },
+    {
+      "gutenbergId": 15284,
+      "cover": "/covers/15284-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 339714,
+      "afterBytes": 211788
+    },
+    {
+      "gutenbergId": 15575,
+      "cover": "/covers/15575-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 314382,
+      "afterBytes": 192028
+    },
+    {
+      "gutenbergId": 17089,
+      "cover": "/covers/17089-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 353586,
+      "afterBytes": 217860
+    },
+    {
+      "gutenbergId": 19805,
+      "cover": "/covers/19805-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 365308,
+      "afterBytes": 229922
+    },
+    {
+      "gutenbergId": 23350,
+      "cover": "/covers/23350-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 345051,
+      "afterBytes": 222602
+    },
+    {
+      "gutenbergId": 45264,
+      "cover": "/covers/45264-display.webp",
+      "dimensions": [
+        574,
+        800
+      ],
+      "beforeBytes": 85690,
+      "afterBytes": 54500
+    },
+    {
+      "gutenbergId": 45265,
+      "cover": "/covers/45265-display.webp",
+      "dimensions": [
+        528,
+        800
+      ],
+      "beforeBytes": 148249,
+      "afterBytes": 136554
+    },
+    {
+      "gutenbergId": 15809,
+      "cover": "/covers/15809-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 323893,
+      "afterBytes": 198948
+    },
+    {
+      "gutenbergId": 19541,
+      "cover": "/covers/19541-display.webp",
+      "dimensions": [
+        600,
+        762
+      ],
+      "beforeBytes": 100917,
+      "afterBytes": 79544
+    },
+    {
+      "gutenbergId": 22888,
+      "cover": "/covers/22888-display.webp",
+      "dimensions": [
+        600,
+        821
+      ],
+      "beforeBytes": 107707,
+      "afterBytes": 83446
+    },
+    {
+      "gutenbergId": 23794,
+      "cover": "/covers/23794-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 339284,
+      "afterBytes": 202876
+    },
+    {
+      "gutenbergId": 25418,
+      "cover": "/covers/25418-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 415448,
+      "afterBytes": 281066
+    },
+    {
+      "gutenbergId": 25432,
+      "cover": "/covers/25432-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 556982,
+      "afterBytes": 413620
+    },
+    {
+      "gutenbergId": 25433,
+      "cover": "/covers/25433-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 535938,
+      "afterBytes": 368132
+    },
+    {
+      "gutenbergId": 25714,
+      "cover": "/covers/25714-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 392389,
+      "afterBytes": 241388
+    },
+    {
+      "gutenbergId": 10607,
+      "cover": "/covers/10607-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 390246,
+      "afterBytes": 246046
+    },
+    {
+      "gutenbergId": 18546,
+      "cover": "/covers/18546-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 349771,
+      "afterBytes": 210158
+    },
+    {
+      "gutenbergId": 20511,
+      "cover": "/covers/20511-display.webp",
+      "dimensions": [
+        1000,
+        738
+      ],
+      "beforeBytes": 139186,
+      "afterBytes": 88910
+    },
+    {
+      "gutenbergId": 22014,
+      "cover": "/covers/22014-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 444239,
+      "afterBytes": 293734
+    },
+    {
+      "gutenbergId": 38562,
+      "cover": "/covers/38562-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 364430,
+      "afterBytes": 229658
+    },
+    {
+      "gutenbergId": 47284,
+      "cover": "/covers/47284-display.webp",
+      "dimensions": [
+        594,
+        800
+      ],
+      "beforeBytes": 115795,
+      "afterBytes": 75100
+    },
+    {
+      "gutenbergId": 42947,
+      "cover": "/covers/42947-display.webp",
+      "dimensions": [
+        510,
+        800
+      ],
+      "beforeBytes": 118762,
+      "afterBytes": 101466
+    },
+    {
+      "gutenbergId": 18155,
+      "cover": "/covers/18155-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 314641,
+      "afterBytes": 192606
+    },
+    {
+      "gutenbergId": 19772,
+      "cover": "/covers/19772-display.webp",
+      "dimensions": [
+        783,
+        1000
+      ],
+      "beforeBytes": 141465,
+      "afterBytes": 81806
+    },
+    {
+      "gutenbergId": 1599,
+      "cover": "/covers/1599-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 477649,
+      "afterBytes": 352784
+    },
+    {
+      "gutenbergId": 23521,
+      "cover": "/covers/23521-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 403375,
+      "afterBytes": 275822
+    },
+    {
+      "gutenbergId": 11757,
+      "cover": "/covers/11757-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 424724,
+      "afterBytes": 295322
+    },
+    {
+      "gutenbergId": 19994,
+      "cover": "/covers/19994-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 399542,
+      "afterBytes": 251880
+    },
+    {
+      "gutenbergId": 40425,
+      "cover": "/covers/40425-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 469110,
+      "afterBytes": 351464
+    },
+    {
+      "gutenbergId": 18343,
+      "cover": "/covers/18343-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 444206,
+      "afterBytes": 306762
+    },
+    {
+      "gutenbergId": 31342,
+      "cover": "/covers/31342-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 395429,
+      "afterBytes": 280052
+    },
+    {
+      "gutenbergId": 63463,
+      "cover": "/covers/63463-display.webp",
+      "dimensions": [
+        736,
+        1000
+      ],
+      "beforeBytes": 319837,
+      "afterBytes": 303596
+    },
+    {
+      "gutenbergId": 18735,
+      "cover": "/covers/18735-display.webp",
+      "dimensions": [
+        600,
+        783
+      ],
+      "beforeBytes": 125376,
+      "afterBytes": 115360
+    },
+    {
+      "gutenbergId": 71096,
+      "cover": "/covers/71096-display.webp",
+      "dimensions": [
+        1307,
+        1800
+      ],
+      "beforeBytes": 558350,
+      "afterBytes": 386130
+    },
+    {
+      "gutenbergId": 20437,
+      "cover": "/covers/20437-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 464333,
+      "afterBytes": 337442
+    },
+    {
+      "gutenbergId": 37529,
+      "cover": "/covers/37529-display.webp",
+      "dimensions": [
+        638,
+        1000
+      ],
+      "beforeBytes": 146712,
+      "afterBytes": 99684
+    },
+    {
+      "gutenbergId": 5727,
+      "cover": "/covers/5727-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 414916,
+      "afterBytes": 285626
+    },
+    {
+      "gutenbergId": 1825,
+      "cover": "/covers/1825-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 304876,
+      "afterBytes": 181840
+    },
+    {
+      "gutenbergId": 2493,
+      "cover": "/covers/2493-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 326205,
+      "afterBytes": 195420
+    },
+    {
+      "gutenbergId": 2557,
+      "cover": "/covers/2557-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 307367,
+      "afterBytes": 180764
+    },
+    {
+      "gutenbergId": 4670,
+      "cover": "/covers/4670-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 304913,
+      "afterBytes": 180534
+    },
+    {
+      "gutenbergId": 4698,
+      "cover": "/covers/4698-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 318120,
+      "afterBytes": 189266
+    },
+    {
+      "gutenbergId": 4979,
+      "cover": "/covers/4979-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 307159,
+      "afterBytes": 181100
+    },
+    {
+      "gutenbergId": 4980,
+      "cover": "/covers/4980-display.webp",
+      "dimensions": [
+        670,
+        1000
+      ],
+      "beforeBytes": 216050,
+      "afterBytes": 196720
+    },
+    {
+      "gutenbergId": 5110,
+      "cover": "/covers/5110-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 321674,
+      "afterBytes": 192744
+    },
+    {
+      "gutenbergId": 5791,
+      "cover": "/covers/5791-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 306614,
+      "afterBytes": 183216
+    },
+    {
+      "gutenbergId": 5844,
+      "cover": "/covers/5844-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 320241,
+      "afterBytes": 191792
+    },
+    {
+      "gutenbergId": 5846,
+      "cover": "/covers/5846-display.webp",
+      "dimensions": [
+        651,
+        1000
+      ],
+      "beforeBytes": 212634,
+      "afterBytes": 185914
+    },
+    {
+      "gutenbergId": 11915,
+      "cover": "/covers/11915-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 315071,
+      "afterBytes": 188642
+    },
+    {
+      "gutenbergId": 12630,
+      "cover": "/covers/12630-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 382414,
+      "afterBytes": 260034
+    },
+    {
+      "gutenbergId": 13355,
+      "cover": "/covers/13355-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 402837,
+      "afterBytes": 300788
+    },
+    {
+      "gutenbergId": 14375,
+      "cover": "/covers/14375-display.webp",
+      "dimensions": [
+        480,
+        754
+      ],
+      "beforeBytes": 106959,
+      "afterBytes": 90150
+    },
+    {
+      "gutenbergId": 14732,
+      "cover": "/covers/14732-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 383941,
+      "afterBytes": 264064
+    },
+    {
+      "gutenbergId": 55,
+      "cover": "/covers/55-display.webp",
+      "dimensions": [
+        750,
+        1000
+      ],
+      "beforeBytes": 222107,
+      "afterBytes": 215476
+    },
+    {
+      "gutenbergId": 54,
+      "cover": "/covers/54-display.webp",
+      "dimensions": [
+        1275,
+        1786
+      ],
+      "beforeBytes": 418645,
+      "afterBytes": 348096
+    },
+    {
+      "gutenbergId": 486,
+      "cover": "/covers/486-display.webp",
+      "dimensions": [
+        1305,
+        1800
+      ],
+      "beforeBytes": 801081,
+      "afterBytes": 702250
+    },
+    {
+      "gutenbergId": 420,
+      "cover": "/covers/420-display.webp",
+      "dimensions": [
+        1342,
+        1800
+      ],
+      "beforeBytes": 547316,
+      "afterBytes": 321868
+    },
+    {
+      "gutenbergId": 485,
+      "cover": "/covers/485-display.webp",
+      "dimensions": [
+        853,
+        1166
+      ],
+      "beforeBytes": 357317,
+      "afterBytes": 365516
+    },
+    {
+      "gutenbergId": 517,
+      "cover": "/covers/517-display.webp",
+      "dimensions": [
+        768,
+        1046
+      ],
+      "beforeBytes": 290145,
+      "afterBytes": 253372
+    },
+    {
+      "gutenbergId": 955,
+      "cover": "/covers/955-display.webp",
+      "dimensions": [
+        1258,
+        1800
+      ],
+      "beforeBytes": 818735,
+      "afterBytes": 668102
+    },
+    {
+      "gutenbergId": 956,
+      "cover": "/covers/956-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 315319,
+      "afterBytes": 186996
+    },
+    {
+      "gutenbergId": 957,
+      "cover": "/covers/957-display.webp",
+      "dimensions": [
+        1276,
+        1800
+      ],
+      "beforeBytes": 674385,
+      "afterBytes": 491440
+    },
+    {
+      "gutenbergId": 958,
+      "cover": "/covers/958-display.webp",
+      "dimensions": [
+        1294,
+        1800
+      ],
+      "beforeBytes": 632163,
+      "afterBytes": 469746
+    },
+    {
+      "gutenbergId": 503,
+      "cover": "/covers/503-display.webp",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "beforeBytes": 262968,
+      "afterBytes": 154298
+    },
+    {
+      "gutenbergId": 540,
+      "cover": "/covers/540-display.webp",
+      "dimensions": [
+        650,
+        1010
+      ],
+      "beforeBytes": 255255,
+      "afterBytes": 245554
+    },
+    {
+      "gutenbergId": 640,
+      "cover": "/covers/640-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 318400,
+      "afterBytes": 180060
+    },
+    {
+      "gutenbergId": 641,
+      "cover": "/covers/641-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 317955,
+      "afterBytes": 180180
+    },
+    {
+      "gutenbergId": 1597,
+      "cover": "/covers/1597-display.webp",
+      "dimensions": [
+        992,
+        1586
+      ],
+      "beforeBytes": 419797,
+      "afterBytes": 472096
+    },
+    {
+      "gutenbergId": 17860,
+      "cover": "/covers/17860-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 377878,
+      "afterBytes": 230926
+    },
+    {
+      "gutenbergId": 2591,
+      "cover": "/covers/2591-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 321864,
+      "afterBytes": 184960
+    },
+    {
+      "gutenbergId": 11027,
+      "cover": "/covers/11027-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 420720,
+      "afterBytes": 281592
+    },
+    {
+      "gutenbergId": 19068,
+      "cover": "/covers/19068-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 356376,
+      "afterBytes": 225458
+    },
+    {
+      "gutenbergId": 4357,
+      "cover": "/covers/4357-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 321796,
+      "afterBytes": 182648
+    },
+    {
+      "gutenbergId": 289,
+      "cover": "/covers/289-display.webp",
+      "dimensions": [
+        640,
+        1000
+      ],
+      "beforeBytes": 187506,
+      "afterBytes": 165206
+    },
+    {
+      "gutenbergId": 21588,
+      "cover": "/covers/21588-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 322994,
+      "afterBytes": 192032
+    },
+    {
+      "gutenbergId": 2781,
+      "cover": "/covers/2781-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 301484,
+      "afterBytes": 178034
+    },
+    {
+      "gutenbergId": 501,
+      "cover": "/covers/501-display.webp",
+      "dimensions": [
+        501,
+        800
+      ],
+      "beforeBytes": 138470,
+      "afterBytes": 129054
+    },
+    {
+      "gutenbergId": 500,
+      "cover": "/covers/500-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 336960,
+      "afterBytes": 202162
+    },
+    {
+      "gutenbergId": 496,
+      "cover": "/covers/496-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 316026,
+      "afterBytes": 188724
+    },
+    {
+      "gutenbergId": 11,
+      "cover": "/covers/11-display.webp",
+      "dimensions": [
+        800,
+        1104
+      ],
+      "beforeBytes": 138834,
+      "afterBytes": 107948
+    },
+    {
+      "gutenbergId": 12,
+      "cover": "/covers/12-display.webp",
+      "dimensions": [
+        1014,
+        1326
+      ],
+      "beforeBytes": 418726,
+      "afterBytes": 391958
+    },
+    {
+      "gutenbergId": 697,
+      "cover": "/covers/697-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 322163,
+      "afterBytes": 190966
+    },
+    {
+      "gutenbergId": 708,
+      "cover": "/covers/708-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 323899,
+      "afterBytes": 192780
+    },
+    {
+      "gutenbergId": 23661,
+      "cover": "/covers/23661-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 392924,
+      "afterBytes": 267836
+    },
+    {
+      "gutenbergId": 902,
+      "cover": "/covers/902-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 427884,
+      "afterBytes": 315918
+    },
+    {
+      "gutenbergId": 20916,
+      "cover": "/covers/20916-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 429710,
+      "afterBytes": 293344
+    },
+    {
+      "gutenbergId": 1018,
+      "cover": "/covers/1018-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 386518,
+      "afterBytes": 274298
+    },
+    {
+      "gutenbergId": 770,
+      "cover": "/covers/770-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 308971,
+      "afterBytes": 165838
+    },
+    {
+      "gutenbergId": 778,
+      "cover": "/covers/778-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 324471,
+      "afterBytes": 192532
+    },
+    {
+      "gutenbergId": 794,
+      "cover": "/covers/794-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 308805,
+      "afterBytes": 164210
+    },
+    {
+      "gutenbergId": 836,
+      "cover": "/covers/836-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 325613,
+      "afterBytes": 194148
+    },
+    {
+      "gutenbergId": 837,
+      "cover": "/covers/837-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 322363,
+      "afterBytes": 200048
+    },
+    {
+      "gutenbergId": 1430,
+      "cover": "/covers/1430-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 338805,
+      "afterBytes": 194054
+    },
+    {
+      "gutenbergId": 1874,
+      "cover": "/covers/1874-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 267848,
+      "afterBytes": 138964
+    },
+    {
+      "gutenbergId": 3536,
+      "cover": "/covers/3536-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 323498,
+      "afterBytes": 191340
+    },
+    {
+      "gutenbergId": 20606,
+      "cover": "/covers/20606-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 419027,
+      "afterBytes": 306662
+    },
+    {
+      "gutenbergId": 27903,
+      "cover": "/covers/27903-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 365424,
+      "afterBytes": 251542
+    },
+    {
+      "gutenbergId": 50361,
+      "cover": "/covers/50361-display.webp",
+      "dimensions": [
+        600,
+        800
+      ],
+      "beforeBytes": 129813,
+      "afterBytes": 105484
+    },
+    {
+      "gutenbergId": 57799,
+      "cover": "/covers/57799-display.webp",
+      "dimensions": [
+        631,
+        1000
+      ],
+      "beforeBytes": 45901,
+      "afterBytes": 17686
+    },
+    {
+      "gutenbergId": 113,
+      "cover": "/covers/113-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 265349,
+      "afterBytes": 137966
+    },
+    {
+      "gutenbergId": 146,
+      "cover": "/covers/146-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 304358,
+      "afterBytes": 159368
+    },
+    {
+      "gutenbergId": 384,
+      "cover": "/covers/384-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 262577,
+      "afterBytes": 133356
+    },
+    {
+      "gutenbergId": 479,
+      "cover": "/covers/479-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 263643,
+      "afterBytes": 135404
+    },
+    {
+      "gutenbergId": 5302,
+      "cover": "/covers/5302-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 273306,
+      "afterBytes": 144278
+    },
+    {
+      "gutenbergId": 8574,
+      "cover": "/covers/8574-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 346147,
+      "afterBytes": 207580
+    },
+    {
+      "gutenbergId": 42366,
+      "cover": "/covers/42366-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 357171,
+      "afterBytes": 227954
+    },
+    {
+      "gutenbergId": 42920,
+      "cover": "/covers/42920-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 338309,
+      "afterBytes": 211742
+    },
+    {
+      "gutenbergId": 163,
+      "cover": "/covers/163-display.webp",
+      "dimensions": [
+        621,
+        1000
+      ],
+      "beforeBytes": 217186,
+      "afterBytes": 205976
+    },
+    {
+      "gutenbergId": 514,
+      "cover": "/covers/514-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 260446,
+      "afterBytes": 131922
+    },
+    {
+      "gutenbergId": 2726,
+      "cover": "/covers/2726-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 260576,
+      "afterBytes": 132166
+    },
+    {
+      "gutenbergId": 2786,
+      "cover": "/covers/2786-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 261157,
+      "afterBytes": 133360
+    },
+    {
+      "gutenbergId": 2787,
+      "cover": "/covers/2787-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 269670,
+      "afterBytes": 140346
+    },
+    {
+      "gutenbergId": 2788,
+      "cover": "/covers/2788-display.webp",
+      "dimensions": [
+        1108,
+        1800
+      ],
+      "beforeBytes": 500008,
+      "afterBytes": 388414
+    },
+    {
+      "gutenbergId": 2804,
+      "cover": "/covers/2804-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 275203,
+      "afterBytes": 143980
+    },
+    {
+      "gutenbergId": 3795,
+      "cover": "/covers/3795-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 266067,
+      "afterBytes": 140422
+    },
+    {
+      "gutenbergId": 45,
+      "cover": "/covers/45-display.webp",
+      "dimensions": [
+        1183,
+        1415
+      ],
+      "beforeBytes": 358717,
+      "afterBytes": 288964
+    },
+    {
+      "gutenbergId": 47,
+      "cover": "/covers/47-display.webp",
+      "dimensions": [
+        661,
+        1000
+      ],
+      "beforeBytes": 210533,
+      "afterBytes": 208960
+    },
+    {
+      "gutenbergId": 51,
+      "cover": "/covers/51-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 266905,
+      "afterBytes": 139070
+    },
+    {
+      "gutenbergId": 316,
+      "cover": "/covers/316-display.webp",
+      "dimensions": [
+        1155,
+        1800
+      ],
+      "beforeBytes": 530762,
+      "afterBytes": 446184
+    },
+    {
+      "gutenbergId": 1354,
+      "cover": "/covers/1354-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 268976,
+      "afterBytes": 140290
+    },
+    {
+      "gutenbergId": 5342,
+      "cover": "/covers/5342-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 261179,
+      "afterBytes": 132186
+    },
+    {
+      "gutenbergId": 1448,
+      "cover": "/covers/1448-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 249012,
+      "afterBytes": 127830
+    },
+    {
+      "gutenbergId": 6380,
+      "cover": "/covers/6380-display.webp",
+      "dimensions": [
+        1119,
+        1800
+      ],
+      "beforeBytes": 596756,
+      "afterBytes": 511654
+    },
+    {
+      "gutenbergId": 9075,
+      "cover": "/covers/9075-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 348898,
+      "afterBytes": 230870
+    },
+    {
+      "gutenbergId": 9383,
+      "cover": "/covers/9383-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 331629,
+      "afterBytes": 209186
+    },
+    {
+      "gutenbergId": 9482,
+      "cover": "/covers/9482-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 330949,
+      "afterBytes": 200452
+    },
+    {
+      "gutenbergId": 10142,
+      "cover": "/covers/10142-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 344922,
+      "afterBytes": 213200
+    },
+    {
+      "gutenbergId": 225,
+      "cover": "/covers/225-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 321349,
+      "afterBytes": 192922
+    },
+    {
+      "gutenbergId": 709,
+      "cover": "/covers/709-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 324781,
+      "afterBytes": 193570
+    },
+    {
+      "gutenbergId": 236,
+      "cover": "/covers/236-display.webp",
+      "dimensions": [
+        652,
+        1000
+      ],
+      "beforeBytes": 214057,
+      "afterBytes": 214638
+    },
+    {
+      "gutenbergId": 1937,
+      "cover": "/covers/1937-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 308473,
+      "afterBytes": 181812
+    },
+    {
+      "gutenbergId": 16,
+      "cover": "/covers/16-display.webp",
+      "dimensions": [
+        1283,
+        1797
+      ],
+      "beforeBytes": 489863,
+      "afterBytes": 671842
+    },
+    {
+      "gutenbergId": 271,
+      "cover": "/covers/271-display.webp",
+      "dimensions": [
+        1110,
+        1800
+      ],
+      "beforeBytes": 596608,
+      "afterBytes": 525346
+    },
+    {
+      "gutenbergId": 120,
+      "cover": "/covers/120-display.webp",
+      "dimensions": [
+        671,
+        1000
+      ],
+      "beforeBytes": 191195,
+      "afterBytes": 148374
+    },
+    {
+      "gutenbergId": 421,
+      "cover": "/covers/421-display.webp",
+      "dimensions": [
+        650,
+        1000
+      ],
+      "beforeBytes": 216491,
+      "afterBytes": 199066
+    },
+    {
+      "gutenbergId": 677,
+      "cover": "/covers/677-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 364835,
+      "afterBytes": 227034
+    },
+    {
+      "gutenbergId": 976,
+      "cover": "/covers/976-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 318727,
+      "afterBytes": 180514
+    },
+    {
+      "gutenbergId": 419,
+      "cover": "/covers/419-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 319010,
+      "afterBytes": 189810
+    },
+    {
+      "gutenbergId": 959,
+      "cover": "/covers/959-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 380405,
+      "afterBytes": 236224
+    },
+    {
+      "gutenbergId": 960,
+      "cover": "/covers/960-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 376324,
+      "afterBytes": 237814
+    },
+    {
+      "gutenbergId": 961,
+      "cover": "/covers/961-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 391718,
+      "afterBytes": 245974
+    },
+    {
+      "gutenbergId": 4356,
+      "cover": "/covers/4356-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 364000,
+      "afterBytes": 225294
+    },
+    {
+      "gutenbergId": 4358,
+      "cover": "/covers/4358-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 321827,
+      "afterBytes": 190918
+    },
+    {
+      "gutenbergId": 518,
+      "cover": "/covers/518-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 364096,
+      "afterBytes": 225180
+    },
+    {
+      "gutenbergId": 520,
+      "cover": "/covers/520-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 334986,
+      "afterBytes": 200280
+    },
+    {
+      "gutenbergId": 55737,
+      "cover": "/covers/55737-display.webp",
+      "dimensions": [
+        590,
+        800
+      ],
+      "beforeBytes": 191728,
+      "afterBytes": 184662
+    },
+    {
+      "gutenbergId": 47166,
+      "cover": "/covers/47166-display.webp",
+      "dimensions": [
+        724,
+        1000
+      ],
+      "beforeBytes": 150123,
+      "afterBytes": 149828
+    },
+    {
+      "gutenbergId": 103,
+      "cover": "/covers/103-display.webp",
+      "dimensions": [
+        686,
+        1000
+      ],
+      "beforeBytes": 283342,
+      "afterBytes": 273246
+    },
+    {
+      "gutenbergId": 18857,
+      "cover": "/covers/18857-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 325934,
+      "afterBytes": 202154
+    },
+    {
+      "gutenbergId": 164,
+      "cover": "/covers/164-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 451556,
+      "afterBytes": 347328
+    },
+    {
+      "gutenbergId": 1268,
+      "cover": "/covers/1268-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 322688,
+      "afterBytes": 190542
+    },
+    {
+      "gutenbergId": 83,
+      "cover": "/covers/83-display.webp",
+      "dimensions": [
+        650,
+        1000
+      ],
+      "beforeBytes": 233377,
+      "afterBytes": 218752
+    },
+    {
+      "gutenbergId": 16457,
+      "cover": "/covers/16457-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 444816,
+      "afterBytes": 349094
+    },
+    {
+      "gutenbergId": 521,
+      "cover": "/covers/521-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 342480,
+      "afterBytes": 203688
+    },
+    {
+      "gutenbergId": 11703,
+      "cover": "/covers/11703-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 167645,
+      "afterBytes": 72942
+    },
+    {
+      "gutenbergId": 829,
+      "cover": "/covers/829-display.webp",
+      "dimensions": [
+        714,
+        1000
+      ],
+      "beforeBytes": 172919,
+      "afterBytes": 140140
+    },
+    {
+      "gutenbergId": 1257,
+      "cover": "/covers/1257-display.webp",
+      "dimensions": [
+        972,
+        1398
+      ],
+      "beforeBytes": 222794,
+      "afterBytes": 127134
+    },
+    {
+      "gutenbergId": 1184,
+      "cover": "/covers/1184-display.webp",
+      "dimensions": [
+        671,
+        1000
+      ],
+      "beforeBytes": 118910,
+      "afterBytes": 87276
+    },
+    {
+      "gutenbergId": 95,
+      "cover": "/covers/95-display.webp",
+      "dimensions": [
+        682,
+        1000
+      ],
+      "beforeBytes": 306555,
+      "afterBytes": 306944
+    },
+    {
+      "gutenbergId": 82,
+      "cover": "/covers/82-display.webp",
+      "dimensions": [
+        668,
+        1000
+      ],
+      "beforeBytes": 145182,
+      "afterBytes": 101976
+    },
+    {
+      "gutenbergId": 940,
+      "cover": "/covers/940-display.webp",
+      "dimensions": [
+        1286,
+        1800
+      ],
+      "beforeBytes": 741462,
+      "afterBytes": 627490
+    },
+    {
+      "gutenbergId": 1880,
+      "cover": "/covers/1880-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 329963,
+      "afterBytes": 195764
+    },
+    {
+      "gutenbergId": 3285,
+      "cover": "/covers/3285-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 306798,
+      "afterBytes": 181764
+    },
+    {
+      "gutenbergId": 139,
+      "cover": "/covers/139-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 308156,
+      "afterBytes": 180886
+    },
+    {
+      "gutenbergId": 1661,
+      "cover": "/covers/1661-display.webp",
+      "dimensions": [
+        668,
+        1000
+      ],
+      "beforeBytes": 84800,
+      "afterBytes": 45190
+    },
+    {
+      "gutenbergId": 2852,
+      "cover": "/covers/2852-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 380898,
+      "afterBytes": 239946
+    },
+    {
+      "gutenbergId": 834,
+      "cover": "/covers/834-display.webp",
+      "dimensions": [
+        660,
+        1000
+      ],
+      "beforeBytes": 110709,
+      "afterBytes": 61774
+    },
+    {
+      "gutenbergId": 108,
+      "cover": "/covers/108-display.webp",
+      "dimensions": [
+        677,
+        1000
+      ],
+      "beforeBytes": 115591,
+      "afterBytes": 55694
+    },
+    {
+      "gutenbergId": 215,
+      "cover": "/covers/215-display.webp",
+      "dimensions": [
+        661,
+        1000
+      ],
+      "beforeBytes": 174411,
+      "afterBytes": 123198
+    },
+    {
+      "gutenbergId": 910,
+      "cover": "/covers/910-display.webp",
+      "dimensions": [
+        1025,
+        1590
+      ],
+      "beforeBytes": 386530,
+      "afterBytes": 321750
+    },
+    {
+      "gutenbergId": 1074,
+      "cover": "/covers/1074-display.webp",
+      "dimensions": [
+        1007,
+        1500
+      ],
+      "beforeBytes": 460292,
+      "afterBytes": 453666
+    },
+    {
+      "gutenbergId": 35,
+      "cover": "/covers/35-display.webp",
+      "dimensions": [
+        650,
+        1000
+      ],
+      "beforeBytes": 148151,
+      "afterBytes": 123020
+    },
+    {
+      "gutenbergId": 36,
+      "cover": "/covers/36-display.webp",
+      "dimensions": [
+        787,
+        1000
+      ],
+      "beforeBytes": 134332,
+      "afterBytes": 81284
+    },
+    {
+      "gutenbergId": 5230,
+      "cover": "/covers/5230-display.webp",
+      "dimensions": [
+        655,
+        1000
+      ],
+      "beforeBytes": 161289,
+      "afterBytes": 146340
+    },
+    {
+      "gutenbergId": 1013,
+      "cover": "/covers/1013-display.webp",
+      "dimensions": [
+        890,
+        1000
+      ],
+      "beforeBytes": 199915,
+      "afterBytes": 154900
+    },
+    {
+      "gutenbergId": 848,
+      "cover": "/covers/848-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 326036,
+      "afterBytes": 192422
+    },
+    {
+      "gutenbergId": 2186,
+      "cover": "/covers/2186-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 349502,
+      "afterBytes": 208356
+    },
+    {
+      "gutenbergId": 2226,
+      "cover": "/covers/2226-display.webp",
+      "dimensions": [
+        974,
+        1450
+      ],
+      "beforeBytes": 162414,
+      "afterBytes": 63720
+    },
+    {
+      "gutenbergId": 1837,
+      "cover": "/covers/1837-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 381861,
+      "afterBytes": 250988
+    },
+    {
+      "gutenbergId": 74,
+      "cover": "/covers/74-display.webp",
+      "dimensions": [
+        784,
+        1000
+      ],
+      "beforeBytes": 197500,
+      "afterBytes": 161496
+    },
+    {
+      "gutenbergId": 86,
+      "cover": "/covers/86-display.webp",
+      "dimensions": [
+        740,
+        1000
+      ],
+      "beforeBytes": 257369,
+      "afterBytes": 263680
+    },
+    {
+      "gutenbergId": 646,
+      "cover": "/covers/646-display.webp",
+      "dimensions": [
+        1263,
+        1432
+      ],
+      "beforeBytes": 211535,
+      "afterBytes": 277590
+    },
+    {
+      "gutenbergId": 46515,
+      "cover": "/covers/46515-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 420525,
+      "afterBytes": 293132
+    },
+    {
+      "gutenbergId": 16436,
+      "cover": "/covers/16436-display.webp",
+      "dimensions": [
+        689,
+        1000
+      ],
+      "beforeBytes": 141002,
+      "afterBytes": 87912
+    },
+    {
+      "gutenbergId": 19221,
+      "cover": "/covers/19221-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 356784,
+      "afterBytes": 207312
+    },
+    {
+      "gutenbergId": 50994,
+      "cover": "/covers/50994-display.webp",
+      "dimensions": [
+        500,
+        806
+      ],
+      "beforeBytes": 102597,
+      "afterBytes": 81290
+    },
+    {
+      "gutenbergId": 68359,
+      "cover": "/covers/68359-display.webp",
+      "dimensions": [
+        473,
+        1000
+      ],
+      "beforeBytes": 107206,
+      "afterBytes": 76284
+    },
+    {
+      "gutenbergId": 41,
+      "cover": "/covers/41-display.webp",
+      "dimensions": [
+        721,
+        1003
+      ],
+      "beforeBytes": 276498,
+      "afterBytes": 267298
+    },
+    {
+      "gutenbergId": 46,
+      "cover": "/covers/46-display.webp",
+      "dimensions": [
+        660,
+        990
+      ],
+      "beforeBytes": 77198,
+      "afterBytes": 75164
+    },
+    {
+      "gutenbergId": 25581,
+      "cover": "/covers/25581-display.webp",
+      "dimensions": [
+        600,
+        811
+      ],
+      "beforeBytes": 91109,
+      "afterBytes": 76066
+    },
+    {
+      "gutenbergId": 22566,
+      "cover": "/covers/22566-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 340606,
+      "afterBytes": 219718
+    },
+    {
+      "gutenbergId": 25564,
+      "cover": "/covers/25564-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 387577,
+      "afterBytes": 258218
+    },
+    {
+      "gutenbergId": 23869,
+      "cover": "/covers/23869-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 401862,
+      "afterBytes": 255006
+    },
+    {
+      "gutenbergId": 22022,
+      "cover": "/covers/22022-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 328882,
+      "afterBytes": 197576
+    },
+    {
+      "gutenbergId": 25496,
+      "cover": "/covers/25496-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 431374,
+      "afterBytes": 309212
+    },
+    {
+      "gutenbergId": 19575,
+      "cover": "/covers/19575-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 266857,
+      "afterBytes": 139476
+    },
+    {
+      "gutenbergId": 25519,
+      "cover": "/covers/25519-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 375311,
+      "afterBytes": 253534
+    },
+    {
+      "gutenbergId": 22234,
+      "cover": "/covers/22234-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 351839,
+      "afterBytes": 222762
+    },
+    {
+      "gutenbergId": 19466,
+      "cover": "/covers/19466-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 326066,
+      "afterBytes": 193728
+    },
+    {
+      "gutenbergId": 23871,
+      "cover": "/covers/23871-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 361382,
+      "afterBytes": 237672
+    },
+    {
+      "gutenbergId": 21015,
+      "cover": "/covers/21015-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 403512,
+      "afterBytes": 270238
+    },
+    {
+      "gutenbergId": 544,
+      "cover": "/covers/544-display.webp",
+      "dimensions": [
+        1166,
+        1800
+      ],
+      "beforeBytes": 783122,
+      "afterBytes": 716086
+    },
+    {
+      "gutenbergId": 20997,
+      "cover": "/covers/20997-display.webp",
+      "dimensions": [
+        800,
+        1233
+      ],
+      "beforeBytes": 159619,
+      "afterBytes": 77278
+    },
+    {
+      "gutenbergId": 21935,
+      "cover": "/covers/21935-display.webp",
+      "dimensions": [
+        665,
+        1000
+      ],
+      "beforeBytes": 80938,
+      "afterBytes": 52598
+    },
+    {
+      "gutenbergId": 20781,
+      "cover": "/covers/20781-display.webp",
+      "dimensions": [
+        583,
+        800
+      ],
+      "beforeBytes": 135263,
+      "afterBytes": 118002
+    },
+    {
+      "gutenbergId": 17314,
+      "cover": "/covers/17314-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 306836,
+      "afterBytes": 188890
+    },
+    {
+      "gutenbergId": 13707,
+      "cover": "/covers/13707-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 316061,
+      "afterBytes": 179898
+    },
+    {
+      "gutenbergId": 3499,
+      "cover": "/covers/3499-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 255101,
+      "afterBytes": 129472
+    },
+    {
+      "gutenbergId": 5343,
+      "cover": "/covers/5343-display.webp",
+      "dimensions": [
+        665,
+        1000
+      ],
+      "beforeBytes": 160481,
+      "afterBytes": 116238
+    },
+    {
+      "gutenbergId": 498,
+      "cover": "/covers/498-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 321105,
+      "afterBytes": 189548
+    },
+    {
+      "gutenbergId": 2770,
+      "cover": "/covers/2770-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 328511,
+      "afterBytes": 193518
+    },
+    {
+      "gutenbergId": 7277,
+      "cover": "/covers/7277-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 302379,
+      "afterBytes": 178250
+    },
+    {
+      "gutenbergId": 1154,
+      "cover": "/covers/1154-display.webp",
+      "dimensions": [
+        513,
+        800
+      ],
+      "beforeBytes": 141438,
+      "afterBytes": 118006
+    },
+    {
+      "gutenbergId": 5340,
+      "cover": "/covers/5340-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 304937,
+      "afterBytes": 180738
+    },
+    {
+      "gutenbergId": 5615,
+      "cover": "/covers/5615-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 303476,
+      "afterBytes": 178866
+    },
+    {
+      "gutenbergId": 8994,
+      "cover": "/covers/8994-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 298626,
+      "afterBytes": 176060
+    },
+    {
+      "gutenbergId": 678,
+      "cover": "/covers/678-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 394171,
+      "afterBytes": 275004
+    },
+    {
+      "gutenbergId": 2435,
+      "cover": "/covers/2435-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 271641,
+      "afterBytes": 141396
+    },
+    {
+      "gutenbergId": 3454,
+      "cover": "/covers/3454-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 264882,
+      "afterBytes": 137400
+    },
+    {
+      "gutenbergId": 5347,
+      "cover": "/covers/5347-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 355137,
+      "afterBytes": 232628
+    },
+    {
+      "gutenbergId": 5341,
+      "cover": "/covers/5341-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 321144,
+      "afterBytes": 182190
+    },
+    {
+      "gutenbergId": 13815,
+      "cover": "/covers/13815-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 343195,
+      "afterBytes": 197410
+    },
+    {
+      "gutenbergId": 3282,
+      "cover": "/covers/3282-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 318294,
+      "afterBytes": 179412
+    },
+    {
+      "gutenbergId": 3027,
+      "cover": "/covers/3027-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 318734,
+      "afterBytes": 180750
+    },
+    {
+      "gutenbergId": 6746,
+      "cover": "/covers/6746-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 315374,
+      "afterBytes": 178702
+    },
+    {
+      "gutenbergId": 557,
+      "cover": "/covers/557-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 316837,
+      "afterBytes": 178154
+    },
+    {
+      "gutenbergId": 519,
+      "cover": "/covers/519-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 325196,
+      "afterBytes": 185034
+    },
+    {
+      "gutenbergId": 8995,
+      "cover": "/covers/8995-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 364157,
+      "afterBytes": 232828
+    },
+    {
+      "gutenbergId": 9255,
+      "cover": "/covers/9255-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 316928,
+      "afterBytes": 180940
+    },
+    {
+      "gutenbergId": 1375,
+      "cover": "/covers/1375-display.webp",
+      "dimensions": [
+        1128,
+        1800
+      ],
+      "beforeBytes": 705664,
+      "afterBytes": 667158
+    },
+    {
+      "gutenbergId": 23462,
+      "cover": "/covers/23462-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 393161,
+      "afterBytes": 256236
+    },
+    {
+      "gutenbergId": 24778,
+      "cover": "/covers/24778-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 390890,
+      "afterBytes": 273776
+    },
+    {
+      "gutenbergId": 17135,
+      "cover": "/covers/17135-display.webp",
+      "dimensions": [
+        1000,
+        384
+      ],
+      "beforeBytes": 74499,
+      "afterBytes": 46386
+    },
+    {
+      "gutenbergId": 17208,
+      "cover": "/covers/17208-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 397049,
+      "afterBytes": 263284
+    },
+    {
+      "gutenbergId": 15137,
+      "cover": "/covers/15137-display.webp",
+      "dimensions": [
+        738,
+        810
+      ],
+      "beforeBytes": 60331,
+      "afterBytes": 29276
+    },
+    {
+      "gutenbergId": 20748,
+      "cover": "/covers/20748-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 404361,
+      "afterBytes": 275380
+    },
+    {
+      "gutenbergId": 19722,
+      "cover": "/covers/19722-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 385871,
+      "afterBytes": 266766
+    },
+    {
+      "gutenbergId": 11592,
+      "cover": "/covers/11592-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 396840,
+      "afterBytes": 265948
+    },
+    {
+      "gutenbergId": 23344,
+      "cover": "/covers/23344-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 394912,
+      "afterBytes": 257266
+    },
+    {
+      "gutenbergId": 23322,
+      "cover": "/covers/23322-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 427456,
+      "afterBytes": 300920
+    },
+    {
+      "gutenbergId": 13646,
+      "cover": "/covers/13646-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 423737,
+      "afterBytes": 301050
+    },
+    {
+      "gutenbergId": 12109,
+      "cover": "/covers/12109-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 415166,
+      "afterBytes": 271384
+    },
+    {
+      "gutenbergId": 13647,
+      "cover": "/covers/13647-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 399188,
+      "afterBytes": 277644
+    },
+    {
+      "gutenbergId": 24912,
+      "cover": "/covers/24912-display.webp",
+      "dimensions": [
+        600,
+        742
+      ],
+      "beforeBytes": 72995,
+      "afterBytes": 80002
+    },
+    {
+      "gutenbergId": 5312,
+      "cover": "/covers/5312-display.webp",
+      "dimensions": [
+        476,
+        800
+      ],
+      "beforeBytes": 49280,
+      "afterBytes": 33862
+    },
+    {
+      "gutenbergId": 17382,
+      "cover": "/covers/17382-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 342673,
+      "afterBytes": 221556
+    },
+    {
+      "gutenbergId": 13648,
+      "cover": "/covers/13648-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 389204,
+      "afterBytes": 268156
+    },
+    {
+      "gutenbergId": 15661,
+      "cover": "/covers/15661-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 310101,
+      "afterBytes": 181150
+    },
+    {
+      "gutenbergId": 10469,
+      "cover": "/covers/10469-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 269874,
+      "afterBytes": 153316
+    },
+    {
+      "gutenbergId": 20860,
+      "cover": "/covers/20860-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 383585,
+      "afterBytes": 261296
+    },
+    {
+      "gutenbergId": 14077,
+      "cover": "/covers/14077-display.webp",
+      "dimensions": [
+        1000,
+        873
+      ],
+      "beforeBytes": 218177,
+      "afterBytes": 152398
+    },
+    {
+      "gutenbergId": 23749,
+      "cover": "/covers/23749-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 377211,
+      "afterBytes": 246604
+    },
+    {
+      "gutenbergId": 21650,
+      "cover": "/covers/21650-display.webp",
+      "dimensions": [
+        600,
+        720
+      ],
+      "beforeBytes": 123181,
+      "afterBytes": 84888
+    },
+    {
+      "gutenbergId": 23302,
+      "cover": "/covers/23302-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 285526,
+      "afterBytes": 157314
+    },
+    {
+      "gutenbergId": 24692,
+      "cover": "/covers/24692-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 366487,
+      "afterBytes": 235216
+    },
+    {
+      "gutenbergId": 24644,
+      "cover": "/covers/24644-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 415943,
+      "afterBytes": 280358
+    },
+    {
+      "gutenbergId": 22921,
+      "cover": "/covers/22921-display.webp",
+      "dimensions": [
+        600,
+        1005
+      ],
+      "beforeBytes": 106299,
+      "afterBytes": 89796
+    },
+    {
+      "gutenbergId": 18417,
+      "cover": "/covers/18417-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 451090,
+      "afterBytes": 320140
+    },
+    {
+      "gutenbergId": 11092,
+      "cover": "/covers/11092-display.webp",
+      "dimensions": [
+        789,
+        1000
+      ],
+      "beforeBytes": 272911,
+      "afterBytes": 258364
+    },
+    {
+      "gutenbergId": 22406,
+      "cover": "/covers/22406-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 413441,
+      "afterBytes": 292640
+    },
+    {
+      "gutenbergId": 23433,
+      "cover": "/covers/23433-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 361593,
+      "afterBytes": 245128
+    },
+    {
+      "gutenbergId": 10742,
+      "cover": "/covers/10742-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 432997,
+      "afterBytes": 314270
+    },
+    {
+      "gutenbergId": 23452,
+      "cover": "/covers/23452-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 381410,
+      "afterBytes": 249018
+    },
+    {
+      "gutenbergId": 10834,
+      "cover": "/covers/10834-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 341127,
+      "afterBytes": 207450
+    },
+    {
+      "gutenbergId": 17283,
+      "cover": "/covers/17283-display.webp",
+      "dimensions": [
+        984,
+        1200
+      ],
+      "beforeBytes": 168460,
+      "afterBytes": 121034
+    },
+    {
+      "gutenbergId": 20652,
+      "cover": "/covers/20652-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 455033,
+      "afterBytes": 320648
+    },
+    {
+      "gutenbergId": 23665,
+      "cover": "/covers/23665-display.webp",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "beforeBytes": 440062,
+      "afterBytes": 304396
+    }
+  ]
+}

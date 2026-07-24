@@ -2,7 +2,7 @@
   {
     "gutenbergId": 11,
     "status": "upgraded",
-    "cover": "/covers/11-hd.jpg",
+    "cover": "/covers/11-display.webp",
     "dimensions": [
       800,
       1104
@@ -12,7 +12,7 @@
   {
     "gutenbergId": 12,
     "status": "upgraded",
-    "cover": "/covers/12-hd.jpg",
+    "cover": "/covers/12-display.webp",
     "dimensions": [
       1014,
       1326
@@ -22,7 +22,7 @@
   {
     "gutenbergId": 16,
     "status": "upgraded",
-    "cover": "/covers/16-hd.jpg",
+    "cover": "/covers/16-display.webp",
     "dimensions": [
       1283,
       1797
@@ -32,7 +32,7 @@
   {
     "gutenbergId": 35,
     "status": "already-hd",
-    "cover": "/covers/35-original.jpg",
+    "cover": "/covers/35-display.webp",
     "dimensions": [
       650,
       1000
@@ -41,7 +41,7 @@
   {
     "gutenbergId": 36,
     "status": "already-hd",
-    "cover": "/covers/36-original.jpg",
+    "cover": "/covers/36-display.webp",
     "dimensions": [
       787,
       1000
@@ -50,7 +50,7 @@
   {
     "gutenbergId": 41,
     "status": "upgraded",
-    "cover": "/covers/41-hd.jpg",
+    "cover": "/covers/41-display.webp",
     "dimensions": [
       721,
       1003
@@ -60,7 +60,7 @@
   {
     "gutenbergId": 45,
     "status": "upgraded",
-    "cover": "/covers/45-hd.jpg",
+    "cover": "/covers/45-display.webp",
     "dimensions": [
       1183,
       1415
@@ -70,7 +70,7 @@
   {
     "gutenbergId": 46,
     "status": "already-hd",
-    "cover": "/covers/46-original.jpg",
+    "cover": "/covers/46-display.webp",
     "dimensions": [
       660,
       990
@@ -79,7 +79,7 @@
   {
     "gutenbergId": 47,
     "status": "upgraded",
-    "cover": "/covers/47-hd.jpg",
+    "cover": "/covers/47-display.webp",
     "dimensions": [
       661,
       1000
@@ -89,7 +89,7 @@
   {
     "gutenbergId": 51,
     "status": "ai-assisted",
-    "cover": "/covers/51-ai-hd.jpg",
+    "cover": "/covers/51-display.webp",
     "dimensions": [
       1200,
       1600
@@ -100,7 +100,7 @@
   {
     "gutenbergId": 54,
     "status": "upgraded",
-    "cover": "/covers/54-hd.jpg",
+    "cover": "/covers/54-display.webp",
     "dimensions": [
       1275,
       1786
@@ -110,7 +110,7 @@
   {
     "gutenbergId": 55,
     "status": "already-hd",
-    "cover": "/covers/55-original.jpg",
+    "cover": "/covers/55-display.webp",
     "dimensions": [
       750,
       1000
@@ -119,7 +119,7 @@
   {
     "gutenbergId": 74,
     "status": "upgraded",
-    "cover": "/covers/74-hd.jpg",
+    "cover": "/covers/74-display.webp",
     "dimensions": [
       784,
       1000
@@ -129,7 +129,7 @@
   {
     "gutenbergId": 82,
     "status": "already-hd",
-    "cover": "/covers/82-original.jpg",
+    "cover": "/covers/82-display.webp",
     "dimensions": [
       668,
       1000
@@ -138,7 +138,7 @@
   {
     "gutenbergId": 83,
     "status": "already-hd",
-    "cover": "/covers/83-original.jpg",
+    "cover": "/covers/83-display.webp",
     "dimensions": [
       650,
       1000
@@ -147,7 +147,7 @@
   {
     "gutenbergId": 86,
     "status": "upgraded",
-    "cover": "/covers/86-hd.jpg",
+    "cover": "/covers/86-display.webp",
     "dimensions": [
       740,
       1000
@@ -157,7 +157,7 @@
   {
     "gutenbergId": 95,
     "status": "already-hd",
-    "cover": "/covers/95-original.jpg",
+    "cover": "/covers/95-display.webp",
     "dimensions": [
       682,
       1000
@@ -166,7 +166,7 @@
   {
     "gutenbergId": 103,
     "status": "upgraded",
-    "cover": "/covers/103-hd.jpg",
+    "cover": "/covers/103-display.webp",
     "dimensions": [
       686,
       1000
@@ -176,7 +176,7 @@
   {
     "gutenbergId": 108,
     "status": "upgraded",
-    "cover": "/covers/108-hd.jpg",
+    "cover": "/covers/108-display.webp",
     "dimensions": [
       677,
       1000
@@ -186,7 +186,7 @@
   {
     "gutenbergId": 113,
     "status": "ai-assisted",
-    "cover": "/covers/113-ai-hd.jpg",
+    "cover": "/covers/113-display.webp",
     "dimensions": [
       1200,
       1600
@@ -197,7 +197,7 @@
   {
     "gutenbergId": 120,
     "status": "already-hd",
-    "cover": "/covers/120-original.jpg",
+    "cover": "/covers/120-display.webp",
     "dimensions": [
       671,
       1000
@@ -206,7 +206,7 @@
   {
     "gutenbergId": 139,
     "status": "ai-assisted",
-    "cover": "/covers/139-ai-hd.jpg",
+    "cover": "/covers/139-display.webp",
     "dimensions": [
       1200,
       1600
@@ -217,7 +217,7 @@
   {
     "gutenbergId": 146,
     "status": "ai-assisted",
-    "cover": "/covers/146-ai-hd.jpg",
+    "cover": "/covers/146-display.webp",
     "dimensions": [
       1200,
       1600
@@ -228,7 +228,7 @@
   {
     "gutenbergId": 163,
     "status": "already-hd",
-    "cover": "/covers/163-original.jpg",
+    "cover": "/covers/163-display.webp",
     "dimensions": [
       621,
       1000
@@ -237,7 +237,7 @@
   {
     "gutenbergId": 164,
     "status": "ai-assisted",
-    "cover": "/covers/164-ai-hd.jpg",
+    "cover": "/covers/164-display.webp",
     "dimensions": [
       1200,
       1600
@@ -248,7 +248,7 @@
   {
     "gutenbergId": 215,
     "status": "already-hd",
-    "cover": "/covers/215-original.jpg",
+    "cover": "/covers/215-display.webp",
     "dimensions": [
       661,
       1000
@@ -257,7 +257,7 @@
   {
     "gutenbergId": 225,
     "status": "ai-assisted",
-    "cover": "/covers/225-ai-hd.jpg",
+    "cover": "/covers/225-display.webp",
     "dimensions": [
       1200,
       1600
@@ -268,7 +268,7 @@
   {
     "gutenbergId": 236,
     "status": "upgraded",
-    "cover": "/covers/236-hd.jpg",
+    "cover": "/covers/236-display.webp",
     "dimensions": [
       652,
       1000
@@ -278,7 +278,7 @@
   {
     "gutenbergId": 271,
     "status": "upgraded",
-    "cover": "/covers/271-hd.jpg",
+    "cover": "/covers/271-display.webp",
     "dimensions": [
       1110,
       1800
@@ -288,7 +288,7 @@
   {
     "gutenbergId": 289,
     "status": "already-hd",
-    "cover": "/covers/289-original.jpg",
+    "cover": "/covers/289-display.webp",
     "dimensions": [
       640,
       1000
@@ -297,7 +297,7 @@
   {
     "gutenbergId": 316,
     "status": "upgraded",
-    "cover": "/covers/316-hd.jpg",
+    "cover": "/covers/316-display.webp",
     "dimensions": [
       1155,
       1800
@@ -307,7 +307,7 @@
   {
     "gutenbergId": 384,
     "status": "ai-assisted",
-    "cover": "/covers/384-ai-hd.jpg",
+    "cover": "/covers/384-display.webp",
     "dimensions": [
       1200,
       1600
@@ -318,7 +318,7 @@
   {
     "gutenbergId": 419,
     "status": "ai-assisted",
-    "cover": "/covers/419-ai-hd.jpg",
+    "cover": "/covers/419-display.webp",
     "dimensions": [
       1200,
       1600
@@ -329,7 +329,7 @@
   {
     "gutenbergId": 420,
     "status": "upgraded",
-    "cover": "/covers/420-hd.jpg",
+    "cover": "/covers/420-display.webp",
     "dimensions": [
       1342,
       1800
@@ -339,7 +339,7 @@
   {
     "gutenbergId": 421,
     "status": "upgraded",
-    "cover": "/covers/421-hd.jpg",
+    "cover": "/covers/421-display.webp",
     "dimensions": [
       650,
       1000
@@ -349,7 +349,7 @@
   {
     "gutenbergId": 479,
     "status": "ai-assisted",
-    "cover": "/covers/479-ai-hd.jpg",
+    "cover": "/covers/479-display.webp",
     "dimensions": [
       1200,
       1600
@@ -360,7 +360,7 @@
   {
     "gutenbergId": 485,
     "status": "upgraded",
-    "cover": "/covers/485-hd.jpg",
+    "cover": "/covers/485-display.webp",
     "dimensions": [
       853,
       1166
@@ -370,7 +370,7 @@
   {
     "gutenbergId": 486,
     "status": "upgraded",
-    "cover": "/covers/486-hd.jpg",
+    "cover": "/covers/486-display.webp",
     "dimensions": [
       1305,
       1800
@@ -380,7 +380,7 @@
   {
     "gutenbergId": 496,
     "status": "ai-assisted",
-    "cover": "/covers/496-ai-hd.jpg",
+    "cover": "/covers/496-display.webp",
     "dimensions": [
       1200,
       1600
@@ -391,7 +391,7 @@
   {
     "gutenbergId": 498,
     "status": "ai-assisted",
-    "cover": "/covers/498-ai-hd.jpg",
+    "cover": "/covers/498-display.webp",
     "dimensions": [
       1200,
       1600
@@ -402,7 +402,7 @@
   {
     "gutenbergId": 500,
     "status": "ai-assisted",
-    "cover": "/covers/500-ai-hd.jpg",
+    "cover": "/covers/500-display.webp",
     "dimensions": [
       1200,
       1600
@@ -413,7 +413,7 @@
   {
     "gutenbergId": 501,
     "status": "already-hd",
-    "cover": "/covers/501-original.jpg",
+    "cover": "/covers/501-display.webp",
     "dimensions": [
       501,
       800
@@ -422,7 +422,7 @@
   {
     "gutenbergId": 503,
     "status": "upgraded",
-    "cover": "/covers/503-hd.jpg",
+    "cover": "/covers/503-display.webp",
     "dimensions": [
       1024,
       1536
@@ -432,7 +432,7 @@
   {
     "gutenbergId": 514,
     "status": "ai-assisted",
-    "cover": "/covers/514-ai-hd.jpg",
+    "cover": "/covers/514-display.webp",
     "dimensions": [
       1200,
       1600
@@ -443,7 +443,7 @@
   {
     "gutenbergId": 517,
     "status": "upgraded",
-    "cover": "/covers/517-hd.jpg",
+    "cover": "/covers/517-display.webp",
     "dimensions": [
       768,
       1046
@@ -453,7 +453,7 @@
   {
     "gutenbergId": 518,
     "status": "ai-assisted",
-    "cover": "/covers/518-ai-hd.jpg",
+    "cover": "/covers/518-display.webp",
     "dimensions": [
       1200,
       1600
@@ -464,7 +464,7 @@
   {
     "gutenbergId": 519,
     "status": "ai-assisted",
-    "cover": "/covers/519-ai-hd.jpg",
+    "cover": "/covers/519-display.webp",
     "dimensions": [
       1200,
       1600
@@ -475,7 +475,7 @@
   {
     "gutenbergId": 520,
     "status": "ai-assisted",
-    "cover": "/covers/520-ai-hd.jpg",
+    "cover": "/covers/520-display.webp",
     "dimensions": [
       1200,
       1600
@@ -486,7 +486,7 @@
   {
     "gutenbergId": 521,
     "status": "ai-assisted",
-    "cover": "/covers/521-ai-hd.jpg",
+    "cover": "/covers/521-display.webp",
     "dimensions": [
       1200,
       1600
@@ -497,7 +497,7 @@
   {
     "gutenbergId": 540,
     "status": "upgraded",
-    "cover": "/covers/540-hd.jpg",
+    "cover": "/covers/540-display.webp",
     "dimensions": [
       650,
       1010
@@ -507,7 +507,7 @@
   {
     "gutenbergId": 544,
     "status": "upgraded",
-    "cover": "/covers/544-hd.jpg",
+    "cover": "/covers/544-display.webp",
     "dimensions": [
       1166,
       1800
@@ -517,7 +517,7 @@
   {
     "gutenbergId": 557,
     "status": "ai-assisted",
-    "cover": "/covers/557-ai-hd.jpg",
+    "cover": "/covers/557-display.webp",
     "dimensions": [
       1200,
       1600
@@ -528,7 +528,7 @@
   {
     "gutenbergId": 640,
     "status": "ai-assisted",
-    "cover": "/covers/640-ai-hd.jpg",
+    "cover": "/covers/640-display.webp",
     "dimensions": [
       1200,
       1600
@@ -539,7 +539,7 @@
   {
     "gutenbergId": 641,
     "status": "ai-assisted",
-    "cover": "/covers/641-ai-hd.jpg",
+    "cover": "/covers/641-display.webp",
     "dimensions": [
       1200,
       1600
@@ -550,7 +550,7 @@
   {
     "gutenbergId": 646,
     "status": "already-hd",
-    "cover": "/covers/646-original.jpg",
+    "cover": "/covers/646-display.webp",
     "dimensions": [
       1263,
       1432
@@ -559,7 +559,7 @@
   {
     "gutenbergId": 677,
     "status": "ai-assisted",
-    "cover": "/covers/677-ai-hd.jpg",
+    "cover": "/covers/677-display.webp",
     "dimensions": [
       1200,
       1600
@@ -570,7 +570,7 @@
   {
     "gutenbergId": 678,
     "status": "ai-assisted",
-    "cover": "/covers/678-ai-hd.jpg",
+    "cover": "/covers/678-display.webp",
     "dimensions": [
       1200,
       1600
@@ -581,7 +581,7 @@
   {
     "gutenbergId": 697,
     "status": "ai-assisted",
-    "cover": "/covers/697-ai-hd.jpg",
+    "cover": "/covers/697-display.webp",
     "dimensions": [
       1200,
       1600
@@ -592,7 +592,7 @@
   {
     "gutenbergId": 708,
     "status": "ai-assisted",
-    "cover": "/covers/708-ai-hd.jpg",
+    "cover": "/covers/708-display.webp",
     "dimensions": [
       1200,
       1600
@@ -603,7 +603,7 @@
   {
     "gutenbergId": 709,
     "status": "ai-assisted",
-    "cover": "/covers/709-ai-hd.jpg",
+    "cover": "/covers/709-display.webp",
     "dimensions": [
       1200,
       1600
@@ -614,7 +614,7 @@
   {
     "gutenbergId": 770,
     "status": "ai-assisted",
-    "cover": "/covers/770-ai-hd.jpg",
+    "cover": "/covers/770-display.webp",
     "dimensions": [
       1200,
       1600
@@ -625,7 +625,7 @@
   {
     "gutenbergId": 778,
     "status": "ai-assisted",
-    "cover": "/covers/778-ai-hd.jpg",
+    "cover": "/covers/778-display.webp",
     "dimensions": [
       1200,
       1600
@@ -636,7 +636,7 @@
   {
     "gutenbergId": 794,
     "status": "ai-assisted",
-    "cover": "/covers/794-ai-hd.jpg",
+    "cover": "/covers/794-display.webp",
     "dimensions": [
       1200,
       1600
@@ -647,7 +647,7 @@
   {
     "gutenbergId": 829,
     "status": "upgraded",
-    "cover": "/covers/829-hd.jpg",
+    "cover": "/covers/829-display.webp",
     "dimensions": [
       714,
       1000
@@ -657,7 +657,7 @@
   {
     "gutenbergId": 834,
     "status": "already-hd",
-    "cover": "/covers/834-original.jpg",
+    "cover": "/covers/834-display.webp",
     "dimensions": [
       660,
       1000
@@ -666,7 +666,7 @@
   {
     "gutenbergId": 836,
     "status": "ai-assisted",
-    "cover": "/covers/836-ai-hd.jpg",
+    "cover": "/covers/836-display.webp",
     "dimensions": [
       1200,
       1600
@@ -677,7 +677,7 @@
   {
     "gutenbergId": 837,
     "status": "ai-assisted",
-    "cover": "/covers/837-ai-hd.jpg",
+    "cover": "/covers/837-display.webp",
     "dimensions": [
       1200,
       1600
@@ -688,7 +688,7 @@
   {
     "gutenbergId": 848,
     "status": "ai-assisted",
-    "cover": "/covers/848-ai-hd.jpg",
+    "cover": "/covers/848-display.webp",
     "dimensions": [
       1200,
       1600
@@ -699,7 +699,7 @@
   {
     "gutenbergId": 902,
     "status": "ai-assisted",
-    "cover": "/covers/902-ai-hd.jpg",
+    "cover": "/covers/902-display.webp",
     "dimensions": [
       1200,
       1600
@@ -710,7 +710,7 @@
   {
     "gutenbergId": 910,
     "status": "upgraded",
-    "cover": "/covers/910-hd.jpg",
+    "cover": "/covers/910-display.webp",
     "dimensions": [
       1025,
       1590
@@ -720,7 +720,7 @@
   {
     "gutenbergId": 940,
     "status": "upgraded",
-    "cover": "/covers/940-hd.jpg",
+    "cover": "/covers/940-display.webp",
     "dimensions": [
       1286,
       1800
@@ -730,7 +730,7 @@
   {
     "gutenbergId": 955,
     "status": "upgraded",
-    "cover": "/covers/955-hd.jpg",
+    "cover": "/covers/955-display.webp",
     "dimensions": [
       1258,
       1800
@@ -740,7 +740,7 @@
   {
     "gutenbergId": 956,
     "status": "ai-assisted",
-    "cover": "/covers/956-ai-hd.jpg",
+    "cover": "/covers/956-display.webp",
     "dimensions": [
       1200,
       1600
@@ -751,7 +751,7 @@
   {
     "gutenbergId": 957,
     "status": "upgraded",
-    "cover": "/covers/957-hd.jpg",
+    "cover": "/covers/957-display.webp",
     "dimensions": [
       1276,
       1800
@@ -761,7 +761,7 @@
   {
     "gutenbergId": 958,
     "status": "upgraded",
-    "cover": "/covers/958-hd.jpg",
+    "cover": "/covers/958-display.webp",
     "dimensions": [
       1294,
       1800
@@ -771,7 +771,7 @@
   {
     "gutenbergId": 959,
     "status": "ai-assisted",
-    "cover": "/covers/959-ai-hd.jpg",
+    "cover": "/covers/959-display.webp",
     "dimensions": [
       1200,
       1600
@@ -782,7 +782,7 @@
   {
     "gutenbergId": 960,
     "status": "ai-assisted",
-    "cover": "/covers/960-ai-hd.jpg",
+    "cover": "/covers/960-display.webp",
     "dimensions": [
       1200,
       1600
@@ -793,7 +793,7 @@
   {
     "gutenbergId": 961,
     "status": "ai-assisted",
-    "cover": "/covers/961-ai-hd.jpg",
+    "cover": "/covers/961-display.webp",
     "dimensions": [
       1200,
       1600
@@ -804,7 +804,7 @@
   {
     "gutenbergId": 976,
     "status": "ai-assisted",
-    "cover": "/covers/976-ai-hd.jpg",
+    "cover": "/covers/976-display.webp",
     "dimensions": [
       1200,
       1600
@@ -815,7 +815,7 @@
   {
     "gutenbergId": 1013,
     "status": "already-hd",
-    "cover": "/covers/1013-original.jpg",
+    "cover": "/covers/1013-display.webp",
     "dimensions": [
       890,
       1000
@@ -824,7 +824,7 @@
   {
     "gutenbergId": 1018,
     "status": "ai-assisted",
-    "cover": "/covers/1018-ai-hd.jpg",
+    "cover": "/covers/1018-display.webp",
     "dimensions": [
       1200,
       1600
@@ -835,7 +835,7 @@
   {
     "gutenbergId": 1074,
     "status": "upgraded",
-    "cover": "/covers/1074-hd.jpg",
+    "cover": "/covers/1074-display.webp",
     "dimensions": [
       1007,
       1500
@@ -845,7 +845,7 @@
   {
     "gutenbergId": 1154,
     "status": "already-hd",
-    "cover": "/covers/1154-original.jpg",
+    "cover": "/covers/1154-display.webp",
     "dimensions": [
       513,
       800
@@ -854,7 +854,7 @@
   {
     "gutenbergId": 1184,
     "status": "upgraded",
-    "cover": "/covers/1184-hd.jpg",
+    "cover": "/covers/1184-display.webp",
     "dimensions": [
       671,
       1000
@@ -864,7 +864,7 @@
   {
     "gutenbergId": 1257,
     "status": "upgraded",
-    "cover": "/covers/1257-hd.jpg",
+    "cover": "/covers/1257-display.webp",
     "dimensions": [
       972,
       1398
@@ -874,7 +874,7 @@
   {
     "gutenbergId": 1268,
     "status": "ai-assisted",
-    "cover": "/covers/1268-ai-hd.jpg",
+    "cover": "/covers/1268-display.webp",
     "dimensions": [
       1200,
       1600
@@ -885,7 +885,7 @@
   {
     "gutenbergId": 1354,
     "status": "ai-assisted",
-    "cover": "/covers/1354-ai-hd.jpg",
+    "cover": "/covers/1354-display.webp",
     "dimensions": [
       1200,
       1600
@@ -896,7 +896,7 @@
   {
     "gutenbergId": 1375,
     "status": "upgraded",
-    "cover": "/covers/1375-hd.jpg",
+    "cover": "/covers/1375-display.webp",
     "dimensions": [
       1128,
       1800
@@ -906,7 +906,7 @@
   {
     "gutenbergId": 1430,
     "status": "ai-assisted",
-    "cover": "/covers/1430-ai-hd.jpg",
+    "cover": "/covers/1430-display.webp",
     "dimensions": [
       1200,
       1600
@@ -917,7 +917,7 @@
   {
     "gutenbergId": 1448,
     "status": "ai-assisted",
-    "cover": "/covers/1448-ai-hd.jpg",
+    "cover": "/covers/1448-display.webp",
     "dimensions": [
       1200,
       1600
@@ -928,7 +928,7 @@
   {
     "gutenbergId": 1597,
     "status": "upgraded",
-    "cover": "/covers/1597-hd.jpg",
+    "cover": "/covers/1597-display.webp",
     "dimensions": [
       992,
       1586
@@ -938,7 +938,7 @@
   {
     "gutenbergId": 1599,
     "status": "ai-assisted",
-    "cover": "/covers/1599-ai-hd.jpg",
+    "cover": "/covers/1599-display.webp",
     "dimensions": [
       1200,
       1600
@@ -949,7 +949,7 @@
   {
     "gutenbergId": 1661,
     "status": "already-hd",
-    "cover": "/covers/1661-original.jpg",
+    "cover": "/covers/1661-display.webp",
     "dimensions": [
       668,
       1000
@@ -958,7 +958,7 @@
   {
     "gutenbergId": 1825,
     "status": "ai-assisted",
-    "cover": "/covers/1825-ai-hd.jpg",
+    "cover": "/covers/1825-display.webp",
     "dimensions": [
       1200,
       1600
@@ -969,7 +969,7 @@
   {
     "gutenbergId": 1837,
     "status": "ai-assisted",
-    "cover": "/covers/1837-ai-hd.jpg",
+    "cover": "/covers/1837-display.webp",
     "dimensions": [
       1200,
       1600
@@ -980,7 +980,7 @@
   {
     "gutenbergId": 1874,
     "status": "ai-assisted",
-    "cover": "/covers/1874-ai-hd.jpg",
+    "cover": "/covers/1874-display.webp",
     "dimensions": [
       1200,
       1600
@@ -991,7 +991,7 @@
   {
     "gutenbergId": 1880,
     "status": "ai-assisted",
-    "cover": "/covers/1880-ai-hd.jpg",
+    "cover": "/covers/1880-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1002,7 +1002,7 @@
   {
     "gutenbergId": 1937,
     "status": "ai-assisted",
-    "cover": "/covers/1937-ai-hd.jpg",
+    "cover": "/covers/1937-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1013,7 +1013,7 @@
   {
     "gutenbergId": 2186,
     "status": "ai-assisted",
-    "cover": "/covers/2186-ai-hd.jpg",
+    "cover": "/covers/2186-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1024,7 +1024,7 @@
   {
     "gutenbergId": 2226,
     "status": "upgraded",
-    "cover": "/covers/2226-hd.jpg",
+    "cover": "/covers/2226-display.webp",
     "dimensions": [
       974,
       1450
@@ -1034,7 +1034,7 @@
   {
     "gutenbergId": 2435,
     "status": "ai-assisted",
-    "cover": "/covers/2435-ai-hd.jpg",
+    "cover": "/covers/2435-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1045,7 +1045,7 @@
   {
     "gutenbergId": 2493,
     "status": "ai-assisted",
-    "cover": "/covers/2493-ai-hd.jpg",
+    "cover": "/covers/2493-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1056,7 +1056,7 @@
   {
     "gutenbergId": 2557,
     "status": "ai-assisted",
-    "cover": "/covers/2557-ai-hd.jpg",
+    "cover": "/covers/2557-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1067,7 +1067,7 @@
   {
     "gutenbergId": 2591,
     "status": "ai-assisted",
-    "cover": "/covers/2591-ai-hd.jpg",
+    "cover": "/covers/2591-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1078,7 +1078,7 @@
   {
     "gutenbergId": 2726,
     "status": "ai-assisted",
-    "cover": "/covers/2726-ai-hd.jpg",
+    "cover": "/covers/2726-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1089,7 +1089,7 @@
   {
     "gutenbergId": 2770,
     "status": "ai-assisted",
-    "cover": "/covers/2770-ai-hd.jpg",
+    "cover": "/covers/2770-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1100,7 +1100,7 @@
   {
     "gutenbergId": 2781,
     "status": "ai-assisted",
-    "cover": "/covers/2781-ai-hd.jpg",
+    "cover": "/covers/2781-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1111,7 +1111,7 @@
   {
     "gutenbergId": 2786,
     "status": "ai-assisted",
-    "cover": "/covers/2786-ai-hd.jpg",
+    "cover": "/covers/2786-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1122,7 +1122,7 @@
   {
     "gutenbergId": 2787,
     "status": "ai-assisted",
-    "cover": "/covers/2787-ai-hd.jpg",
+    "cover": "/covers/2787-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1133,7 +1133,7 @@
   {
     "gutenbergId": 2788,
     "status": "upgraded",
-    "cover": "/covers/2788-hd.jpg",
+    "cover": "/covers/2788-display.webp",
     "dimensions": [
       1108,
       1800
@@ -1143,7 +1143,7 @@
   {
     "gutenbergId": 2804,
     "status": "ai-assisted",
-    "cover": "/covers/2804-ai-hd.jpg",
+    "cover": "/covers/2804-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1154,7 +1154,7 @@
   {
     "gutenbergId": 2852,
     "status": "ai-assisted",
-    "cover": "/covers/2852-ai-hd.jpg",
+    "cover": "/covers/2852-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1165,7 +1165,7 @@
   {
     "gutenbergId": 3027,
     "status": "ai-assisted",
-    "cover": "/covers/3027-ai-hd.jpg",
+    "cover": "/covers/3027-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1176,7 +1176,7 @@
   {
     "gutenbergId": 3282,
     "status": "ai-assisted",
-    "cover": "/covers/3282-ai-hd.jpg",
+    "cover": "/covers/3282-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1187,7 +1187,7 @@
   {
     "gutenbergId": 3285,
     "status": "ai-assisted",
-    "cover": "/covers/3285-ai-hd.jpg",
+    "cover": "/covers/3285-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1198,7 +1198,7 @@
   {
     "gutenbergId": 3454,
     "status": "ai-assisted",
-    "cover": "/covers/3454-ai-hd.jpg",
+    "cover": "/covers/3454-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1209,7 +1209,7 @@
   {
     "gutenbergId": 3499,
     "status": "ai-assisted",
-    "cover": "/covers/3499-ai-hd.jpg",
+    "cover": "/covers/3499-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1220,7 +1220,7 @@
   {
     "gutenbergId": 3536,
     "status": "ai-assisted",
-    "cover": "/covers/3536-ai-hd.jpg",
+    "cover": "/covers/3536-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1231,7 +1231,7 @@
   {
     "gutenbergId": 3795,
     "status": "ai-assisted",
-    "cover": "/covers/3795-ai-hd.jpg",
+    "cover": "/covers/3795-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1242,7 +1242,7 @@
   {
     "gutenbergId": 4356,
     "status": "ai-assisted",
-    "cover": "/covers/4356-ai-hd.jpg",
+    "cover": "/covers/4356-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1253,7 +1253,7 @@
   {
     "gutenbergId": 4357,
     "status": "ai-assisted",
-    "cover": "/covers/4357-ai-hd.jpg",
+    "cover": "/covers/4357-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1264,7 +1264,7 @@
   {
     "gutenbergId": 4358,
     "status": "ai-assisted",
-    "cover": "/covers/4358-ai-hd.jpg",
+    "cover": "/covers/4358-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1275,7 +1275,7 @@
   {
     "gutenbergId": 4670,
     "status": "ai-assisted",
-    "cover": "/covers/4670-ai-hd.jpg",
+    "cover": "/covers/4670-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1286,7 +1286,7 @@
   {
     "gutenbergId": 4698,
     "status": "ai-assisted",
-    "cover": "/covers/4698-ai-hd.jpg",
+    "cover": "/covers/4698-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1297,7 +1297,7 @@
   {
     "gutenbergId": 4979,
     "status": "ai-assisted",
-    "cover": "/covers/4979-ai-hd.jpg",
+    "cover": "/covers/4979-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1308,7 +1308,7 @@
   {
     "gutenbergId": 4980,
     "status": "upgraded",
-    "cover": "/covers/4980-hd.jpg",
+    "cover": "/covers/4980-display.webp",
     "dimensions": [
       670,
       1000
@@ -1318,7 +1318,7 @@
   {
     "gutenbergId": 5110,
     "status": "ai-assisted",
-    "cover": "/covers/5110-ai-hd.jpg",
+    "cover": "/covers/5110-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1329,7 +1329,7 @@
   {
     "gutenbergId": 5230,
     "status": "already-hd",
-    "cover": "/covers/5230-original.jpg",
+    "cover": "/covers/5230-display.webp",
     "dimensions": [
       655,
       1000
@@ -1338,7 +1338,7 @@
   {
     "gutenbergId": 5302,
     "status": "ai-assisted",
-    "cover": "/covers/5302-ai-hd.jpg",
+    "cover": "/covers/5302-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1349,7 +1349,7 @@
   {
     "gutenbergId": 5312,
     "status": "already-hd",
-    "cover": "/covers/5312-original.jpg",
+    "cover": "/covers/5312-display.webp",
     "dimensions": [
       476,
       800
@@ -1358,7 +1358,7 @@
   {
     "gutenbergId": 5340,
     "status": "ai-assisted",
-    "cover": "/covers/5340-ai-hd.jpg",
+    "cover": "/covers/5340-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1369,7 +1369,7 @@
   {
     "gutenbergId": 5341,
     "status": "ai-assisted",
-    "cover": "/covers/5341-ai-hd.jpg",
+    "cover": "/covers/5341-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1380,7 +1380,7 @@
   {
     "gutenbergId": 5342,
     "status": "ai-assisted",
-    "cover": "/covers/5342-ai-hd.jpg",
+    "cover": "/covers/5342-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1391,7 +1391,7 @@
   {
     "gutenbergId": 5343,
     "status": "already-hd",
-    "cover": "/covers/5343-original.jpg",
+    "cover": "/covers/5343-display.webp",
     "dimensions": [
       665,
       1000
@@ -1400,7 +1400,7 @@
   {
     "gutenbergId": 5347,
     "status": "ai-assisted",
-    "cover": "/covers/5347-ai-hd.jpg",
+    "cover": "/covers/5347-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1411,7 +1411,7 @@
   {
     "gutenbergId": 5615,
     "status": "ai-assisted",
-    "cover": "/covers/5615-ai-hd.jpg",
+    "cover": "/covers/5615-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1422,7 +1422,7 @@
   {
     "gutenbergId": 5727,
     "status": "ai-assisted",
-    "cover": "/covers/5727-ai-hd.jpg",
+    "cover": "/covers/5727-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1433,7 +1433,7 @@
   {
     "gutenbergId": 5791,
     "status": "ai-assisted",
-    "cover": "/covers/5791-ai-hd.jpg",
+    "cover": "/covers/5791-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1444,7 +1444,7 @@
   {
     "gutenbergId": 5844,
     "status": "ai-assisted",
-    "cover": "/covers/5844-ai-hd.jpg",
+    "cover": "/covers/5844-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1455,7 +1455,7 @@
   {
     "gutenbergId": 5846,
     "status": "already-hd",
-    "cover": "/covers/5846-original.jpg",
+    "cover": "/covers/5846-display.webp",
     "dimensions": [
       651,
       1000
@@ -1464,7 +1464,7 @@
   {
     "gutenbergId": 6380,
     "status": "upgraded",
-    "cover": "/covers/6380-hd.jpg",
+    "cover": "/covers/6380-display.webp",
     "dimensions": [
       1119,
       1800
@@ -1474,7 +1474,7 @@
   {
     "gutenbergId": 6746,
     "status": "ai-assisted",
-    "cover": "/covers/6746-ai-hd.jpg",
+    "cover": "/covers/6746-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1485,7 +1485,7 @@
   {
     "gutenbergId": 7277,
     "status": "ai-assisted",
-    "cover": "/covers/7277-ai-hd.jpg",
+    "cover": "/covers/7277-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1496,7 +1496,7 @@
   {
     "gutenbergId": 8574,
     "status": "ai-assisted",
-    "cover": "/covers/8574-ai-hd.jpg",
+    "cover": "/covers/8574-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1507,7 +1507,7 @@
   {
     "gutenbergId": 8994,
     "status": "ai-assisted",
-    "cover": "/covers/8994-ai-hd.jpg",
+    "cover": "/covers/8994-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1518,7 +1518,7 @@
   {
     "gutenbergId": 8995,
     "status": "ai-assisted",
-    "cover": "/covers/8995-ai-hd.jpg",
+    "cover": "/covers/8995-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1529,7 +1529,7 @@
   {
     "gutenbergId": 9075,
     "status": "ai-assisted",
-    "cover": "/covers/9075-ai-hd.jpg",
+    "cover": "/covers/9075-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1540,7 +1540,7 @@
   {
     "gutenbergId": 9255,
     "status": "ai-assisted",
-    "cover": "/covers/9255-ai-hd.jpg",
+    "cover": "/covers/9255-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1551,7 +1551,7 @@
   {
     "gutenbergId": 9383,
     "status": "ai-assisted",
-    "cover": "/covers/9383-ai-hd.jpg",
+    "cover": "/covers/9383-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1562,7 +1562,7 @@
   {
     "gutenbergId": 9482,
     "status": "ai-assisted",
-    "cover": "/covers/9482-ai-hd.jpg",
+    "cover": "/covers/9482-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1573,7 +1573,7 @@
   {
     "gutenbergId": 10142,
     "status": "ai-assisted",
-    "cover": "/covers/10142-ai-hd.jpg",
+    "cover": "/covers/10142-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1584,7 +1584,7 @@
   {
     "gutenbergId": 10469,
     "status": "ai-assisted",
-    "cover": "/covers/10469-ai-hd.jpg",
+    "cover": "/covers/10469-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1595,7 +1595,7 @@
   {
     "gutenbergId": 10607,
     "status": "ai-assisted",
-    "cover": "/covers/10607-ai-hd.jpg",
+    "cover": "/covers/10607-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1606,7 +1606,7 @@
   {
     "gutenbergId": 10742,
     "status": "ai-assisted",
-    "cover": "/covers/10742-ai-hd.jpg",
+    "cover": "/covers/10742-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1617,7 +1617,7 @@
   {
     "gutenbergId": 10834,
     "status": "ai-assisted",
-    "cover": "/covers/10834-ai-hd.jpg",
+    "cover": "/covers/10834-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1628,7 +1628,7 @@
   {
     "gutenbergId": 11027,
     "status": "ai-assisted",
-    "cover": "/covers/11027-ai-hd.jpg",
+    "cover": "/covers/11027-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1639,7 +1639,7 @@
   {
     "gutenbergId": 11092,
     "status": "upgraded",
-    "cover": "/covers/11092-hd.jpg",
+    "cover": "/covers/11092-display.webp",
     "dimensions": [
       789,
       1000
@@ -1649,7 +1649,7 @@
   {
     "gutenbergId": 11592,
     "status": "ai-assisted",
-    "cover": "/covers/11592-ai-hd.jpg",
+    "cover": "/covers/11592-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1660,7 +1660,7 @@
   {
     "gutenbergId": 11703,
     "status": "upgraded",
-    "cover": "/covers/11703-hd.jpg",
+    "cover": "/covers/11703-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1670,7 +1670,7 @@
   {
     "gutenbergId": 11757,
     "status": "ai-assisted",
-    "cover": "/covers/11757-ai-hd.jpg",
+    "cover": "/covers/11757-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1681,7 +1681,7 @@
   {
     "gutenbergId": 11915,
     "status": "ai-assisted",
-    "cover": "/covers/11915-ai-hd.jpg",
+    "cover": "/covers/11915-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1692,7 +1692,7 @@
   {
     "gutenbergId": 12103,
     "status": "ai-assisted",
-    "cover": "/covers/12103-ai-hd.jpg",
+    "cover": "/covers/12103-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1703,7 +1703,7 @@
   {
     "gutenbergId": 12109,
     "status": "ai-assisted",
-    "cover": "/covers/12109-ai-hd.jpg",
+    "cover": "/covers/12109-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1714,7 +1714,7 @@
   {
     "gutenbergId": 12630,
     "status": "ai-assisted",
-    "cover": "/covers/12630-ai-hd.jpg",
+    "cover": "/covers/12630-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1725,7 +1725,7 @@
   {
     "gutenbergId": 13355,
     "status": "ai-assisted",
-    "cover": "/covers/13355-ai-hd.jpg",
+    "cover": "/covers/13355-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1736,7 +1736,7 @@
   {
     "gutenbergId": 13646,
     "status": "ai-assisted",
-    "cover": "/covers/13646-ai-hd.jpg",
+    "cover": "/covers/13646-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1747,7 +1747,7 @@
   {
     "gutenbergId": 13647,
     "status": "ai-assisted",
-    "cover": "/covers/13647-ai-hd.jpg",
+    "cover": "/covers/13647-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1758,7 +1758,7 @@
   {
     "gutenbergId": 13648,
     "status": "ai-assisted",
-    "cover": "/covers/13648-ai-hd.jpg",
+    "cover": "/covers/13648-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1769,7 +1769,7 @@
   {
     "gutenbergId": 13707,
     "status": "ai-assisted",
-    "cover": "/covers/13707-ai-hd.jpg",
+    "cover": "/covers/13707-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1780,7 +1780,7 @@
   {
     "gutenbergId": 13815,
     "status": "ai-assisted",
-    "cover": "/covers/13815-ai-hd.jpg",
+    "cover": "/covers/13815-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1791,7 +1791,7 @@
   {
     "gutenbergId": 14077,
     "status": "already-hd",
-    "cover": "/covers/14077-original.jpg",
+    "cover": "/covers/14077-display.webp",
     "dimensions": [
       1000,
       873
@@ -1800,7 +1800,7 @@
   {
     "gutenbergId": 14220,
     "status": "ai-assisted",
-    "cover": "/covers/14220-ai-hd.jpg",
+    "cover": "/covers/14220-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1811,7 +1811,7 @@
   {
     "gutenbergId": 14375,
     "status": "already-hd",
-    "cover": "/covers/14375-original.jpg",
+    "cover": "/covers/14375-display.webp",
     "dimensions": [
       480,
       754
@@ -1820,7 +1820,7 @@
   {
     "gutenbergId": 14407,
     "status": "ai-assisted",
-    "cover": "/covers/14407-ai-hd.jpg",
+    "cover": "/covers/14407-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1831,7 +1831,7 @@
   {
     "gutenbergId": 14732,
     "status": "ai-assisted",
-    "cover": "/covers/14732-ai-hd.jpg",
+    "cover": "/covers/14732-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1842,7 +1842,7 @@
   {
     "gutenbergId": 14797,
     "status": "ai-assisted",
-    "cover": "/covers/14797-ai-hd.jpg",
+    "cover": "/covers/14797-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1853,7 +1853,7 @@
   {
     "gutenbergId": 14814,
     "status": "ai-assisted",
-    "cover": "/covers/14814-ai-hd.jpg",
+    "cover": "/covers/14814-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1864,7 +1864,7 @@
   {
     "gutenbergId": 14837,
     "status": "ai-assisted",
-    "cover": "/covers/14837-ai-hd.jpg",
+    "cover": "/covers/14837-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1875,7 +1875,7 @@
   {
     "gutenbergId": 14838,
     "status": "upgraded",
-    "cover": "/covers/14838-hd.jpg",
+    "cover": "/covers/14838-display.webp",
     "dimensions": [
       623,
       877
@@ -1885,7 +1885,7 @@
   {
     "gutenbergId": 14848,
     "status": "ai-assisted",
-    "cover": "/covers/14848-ai-hd.jpg",
+    "cover": "/covers/14848-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1896,7 +1896,7 @@
   {
     "gutenbergId": 14868,
     "status": "ai-assisted",
-    "cover": "/covers/14868-ai-hd.jpg",
+    "cover": "/covers/14868-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1907,7 +1907,7 @@
   {
     "gutenbergId": 14872,
     "status": "ai-assisted",
-    "cover": "/covers/14872-ai-hd.jpg",
+    "cover": "/covers/14872-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1918,7 +1918,7 @@
   {
     "gutenbergId": 14877,
     "status": "ai-assisted",
-    "cover": "/covers/14877-ai-hd.jpg",
+    "cover": "/covers/14877-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1929,7 +1929,7 @@
   {
     "gutenbergId": 15077,
     "status": "already-hd",
-    "cover": "/covers/15077-original.jpg",
+    "cover": "/covers/15077-display.webp",
     "dimensions": [
       760,
       1000
@@ -1938,7 +1938,7 @@
   {
     "gutenbergId": 15137,
     "status": "upgraded",
-    "cover": "/covers/15137-hd.jpg",
+    "cover": "/covers/15137-display.webp",
     "dimensions": [
       738,
       810
@@ -1948,7 +1948,7 @@
   {
     "gutenbergId": 15234,
     "status": "already-hd",
-    "cover": "/covers/15234-original.jpg",
+    "cover": "/covers/15234-display.webp",
     "dimensions": [
       820,
       802
@@ -1957,7 +1957,7 @@
   {
     "gutenbergId": 15284,
     "status": "ai-assisted",
-    "cover": "/covers/15284-ai-hd.jpg",
+    "cover": "/covers/15284-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1968,7 +1968,7 @@
   {
     "gutenbergId": 15575,
     "status": "ai-assisted",
-    "cover": "/covers/15575-ai-hd.jpg",
+    "cover": "/covers/15575-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1979,7 +1979,7 @@
   {
     "gutenbergId": 15661,
     "status": "ai-assisted",
-    "cover": "/covers/15661-ai-hd.jpg",
+    "cover": "/covers/15661-display.webp",
     "dimensions": [
       1200,
       1600
@@ -1990,7 +1990,7 @@
   {
     "gutenbergId": 15809,
     "status": "ai-assisted",
-    "cover": "/covers/15809-ai-hd.jpg",
+    "cover": "/covers/15809-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2001,7 +2001,7 @@
   {
     "gutenbergId": 16436,
     "status": "upgraded",
-    "cover": "/covers/16436-hd.jpg",
+    "cover": "/covers/16436-display.webp",
     "dimensions": [
       689,
       1000
@@ -2011,7 +2011,7 @@
   {
     "gutenbergId": 16457,
     "status": "ai-assisted",
-    "cover": "/covers/16457-ai-hd.jpg",
+    "cover": "/covers/16457-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2022,7 +2022,7 @@
   {
     "gutenbergId": 17089,
     "status": "ai-assisted",
-    "cover": "/covers/17089-ai-hd.jpg",
+    "cover": "/covers/17089-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2033,7 +2033,7 @@
   {
     "gutenbergId": 17135,
     "status": "already-hd",
-    "cover": "/covers/17135-original.jpg",
+    "cover": "/covers/17135-display.webp",
     "dimensions": [
       1000,
       384
@@ -2042,7 +2042,7 @@
   {
     "gutenbergId": 17208,
     "status": "ai-assisted",
-    "cover": "/covers/17208-ai-hd.jpg",
+    "cover": "/covers/17208-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2053,7 +2053,7 @@
   {
     "gutenbergId": 17283,
     "status": "upgraded",
-    "cover": "/covers/17283-hd.jpg",
+    "cover": "/covers/17283-display.webp",
     "dimensions": [
       984,
       1200
@@ -2063,7 +2063,7 @@
   {
     "gutenbergId": 17314,
     "status": "ai-assisted",
-    "cover": "/covers/17314-ai-hd.jpg",
+    "cover": "/covers/17314-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2074,7 +2074,7 @@
   {
     "gutenbergId": 17382,
     "status": "ai-assisted",
-    "cover": "/covers/17382-ai-hd.jpg",
+    "cover": "/covers/17382-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2085,7 +2085,7 @@
   {
     "gutenbergId": 17860,
     "status": "ai-assisted",
-    "cover": "/covers/17860-ai-hd.jpg",
+    "cover": "/covers/17860-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2096,7 +2096,7 @@
   {
     "gutenbergId": 18155,
     "status": "ai-assisted",
-    "cover": "/covers/18155-ai-hd.jpg",
+    "cover": "/covers/18155-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2107,7 +2107,7 @@
   {
     "gutenbergId": 18343,
     "status": "ai-assisted",
-    "cover": "/covers/18343-ai-hd.jpg",
+    "cover": "/covers/18343-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2118,7 +2118,7 @@
   {
     "gutenbergId": 18417,
     "status": "ai-assisted",
-    "cover": "/covers/18417-ai-hd.jpg",
+    "cover": "/covers/18417-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2129,7 +2129,7 @@
   {
     "gutenbergId": 18546,
     "status": "ai-assisted",
-    "cover": "/covers/18546-ai-hd.jpg",
+    "cover": "/covers/18546-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2140,7 +2140,7 @@
   {
     "gutenbergId": 18735,
     "status": "already-hd",
-    "cover": "/covers/18735-original.jpg",
+    "cover": "/covers/18735-display.webp",
     "dimensions": [
       600,
       783
@@ -2149,7 +2149,7 @@
   {
     "gutenbergId": 18857,
     "status": "ai-assisted",
-    "cover": "/covers/18857-ai-hd.jpg",
+    "cover": "/covers/18857-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2160,7 +2160,7 @@
   {
     "gutenbergId": 19068,
     "status": "ai-assisted",
-    "cover": "/covers/19068-ai-hd.jpg",
+    "cover": "/covers/19068-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2171,7 +2171,7 @@
   {
     "gutenbergId": 19221,
     "status": "ai-assisted",
-    "cover": "/covers/19221-ai-hd.jpg",
+    "cover": "/covers/19221-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2182,7 +2182,7 @@
   {
     "gutenbergId": 19466,
     "status": "ai-assisted",
-    "cover": "/covers/19466-ai-hd.jpg",
+    "cover": "/covers/19466-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2193,7 +2193,7 @@
   {
     "gutenbergId": 19541,
     "status": "already-hd",
-    "cover": "/covers/19541-original.jpg",
+    "cover": "/covers/19541-display.webp",
     "dimensions": [
       600,
       762
@@ -2202,7 +2202,7 @@
   {
     "gutenbergId": 19575,
     "status": "ai-assisted",
-    "cover": "/covers/19575-ai-hd.jpg",
+    "cover": "/covers/19575-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2213,7 +2213,7 @@
   {
     "gutenbergId": 19722,
     "status": "ai-assisted",
-    "cover": "/covers/19722-ai-hd.jpg",
+    "cover": "/covers/19722-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2224,7 +2224,7 @@
   {
     "gutenbergId": 19772,
     "status": "already-hd",
-    "cover": "/covers/19772-original.jpg",
+    "cover": "/covers/19772-display.webp",
     "dimensions": [
       783,
       1000
@@ -2233,7 +2233,7 @@
   {
     "gutenbergId": 19805,
     "status": "ai-assisted",
-    "cover": "/covers/19805-ai-hd.jpg",
+    "cover": "/covers/19805-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2244,7 +2244,7 @@
   {
     "gutenbergId": 19994,
     "status": "ai-assisted",
-    "cover": "/covers/19994-ai-hd.jpg",
+    "cover": "/covers/19994-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2255,7 +2255,7 @@
   {
     "gutenbergId": 20437,
     "status": "ai-assisted",
-    "cover": "/covers/20437-ai-hd.jpg",
+    "cover": "/covers/20437-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2266,7 +2266,7 @@
   {
     "gutenbergId": 20511,
     "status": "already-hd",
-    "cover": "/covers/20511-original.jpg",
+    "cover": "/covers/20511-display.webp",
     "dimensions": [
       1000,
       738
@@ -2275,7 +2275,7 @@
   {
     "gutenbergId": 20606,
     "status": "ai-assisted",
-    "cover": "/covers/20606-ai-hd.jpg",
+    "cover": "/covers/20606-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2286,7 +2286,7 @@
   {
     "gutenbergId": 20652,
     "status": "ai-assisted",
-    "cover": "/covers/20652-ai-hd.jpg",
+    "cover": "/covers/20652-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2297,7 +2297,7 @@
   {
     "gutenbergId": 20748,
     "status": "ai-assisted",
-    "cover": "/covers/20748-ai-hd.jpg",
+    "cover": "/covers/20748-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2308,7 +2308,7 @@
   {
     "gutenbergId": 20781,
     "status": "upgraded",
-    "cover": "/covers/20781-hd.jpg",
+    "cover": "/covers/20781-display.webp",
     "dimensions": [
       583,
       800
@@ -2318,7 +2318,7 @@
   {
     "gutenbergId": 20860,
     "status": "ai-assisted",
-    "cover": "/covers/20860-ai-hd.jpg",
+    "cover": "/covers/20860-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2329,7 +2329,7 @@
   {
     "gutenbergId": 20916,
     "status": "ai-assisted",
-    "cover": "/covers/20916-ai-hd.jpg",
+    "cover": "/covers/20916-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2340,7 +2340,7 @@
   {
     "gutenbergId": 20997,
     "status": "upgraded",
-    "cover": "/covers/20997-hd.jpg",
+    "cover": "/covers/20997-display.webp",
     "dimensions": [
       800,
       1233
@@ -2350,7 +2350,7 @@
   {
     "gutenbergId": 21015,
     "status": "ai-assisted",
-    "cover": "/covers/21015-ai-hd.jpg",
+    "cover": "/covers/21015-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2361,7 +2361,7 @@
   {
     "gutenbergId": 21588,
     "status": "ai-assisted",
-    "cover": "/covers/21588-ai-hd.jpg",
+    "cover": "/covers/21588-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2372,7 +2372,7 @@
   {
     "gutenbergId": 21650,
     "status": "already-hd",
-    "cover": "/covers/21650-original.jpg",
+    "cover": "/covers/21650-display.webp",
     "dimensions": [
       600,
       720
@@ -2381,7 +2381,7 @@
   {
     "gutenbergId": 21935,
     "status": "already-hd",
-    "cover": "/covers/21935-original.jpg",
+    "cover": "/covers/21935-display.webp",
     "dimensions": [
       665,
       1000
@@ -2390,7 +2390,7 @@
   {
     "gutenbergId": 22014,
     "status": "ai-assisted",
-    "cover": "/covers/22014-ai-hd.jpg",
+    "cover": "/covers/22014-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2401,7 +2401,7 @@
   {
     "gutenbergId": 22022,
     "status": "ai-assisted",
-    "cover": "/covers/22022-ai-hd.jpg",
+    "cover": "/covers/22022-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2412,7 +2412,7 @@
   {
     "gutenbergId": 22234,
     "status": "ai-assisted",
-    "cover": "/covers/22234-ai-hd.jpg",
+    "cover": "/covers/22234-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2423,7 +2423,7 @@
   {
     "gutenbergId": 22406,
     "status": "ai-assisted",
-    "cover": "/covers/22406-ai-hd.jpg",
+    "cover": "/covers/22406-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2434,7 +2434,7 @@
   {
     "gutenbergId": 22566,
     "status": "ai-assisted",
-    "cover": "/covers/22566-ai-hd.jpg",
+    "cover": "/covers/22566-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2445,7 +2445,7 @@
   {
     "gutenbergId": 22888,
     "status": "already-hd",
-    "cover": "/covers/22888-original.jpg",
+    "cover": "/covers/22888-display.webp",
     "dimensions": [
       600,
       821
@@ -2454,7 +2454,7 @@
   {
     "gutenbergId": 22921,
     "status": "already-hd",
-    "cover": "/covers/22921-original.jpg",
+    "cover": "/covers/22921-display.webp",
     "dimensions": [
       600,
       1005
@@ -2463,7 +2463,7 @@
   {
     "gutenbergId": 23302,
     "status": "ai-assisted",
-    "cover": "/covers/23302-ai-hd.jpg",
+    "cover": "/covers/23302-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2474,7 +2474,7 @@
   {
     "gutenbergId": 23322,
     "status": "ai-assisted",
-    "cover": "/covers/23322-ai-hd.jpg",
+    "cover": "/covers/23322-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2485,7 +2485,7 @@
   {
     "gutenbergId": 23344,
     "status": "ai-assisted",
-    "cover": "/covers/23344-ai-hd.jpg",
+    "cover": "/covers/23344-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2496,7 +2496,7 @@
   {
     "gutenbergId": 23350,
     "status": "ai-assisted",
-    "cover": "/covers/23350-ai-hd.jpg",
+    "cover": "/covers/23350-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2507,7 +2507,7 @@
   {
     "gutenbergId": 23433,
     "status": "ai-assisted",
-    "cover": "/covers/23433-ai-hd.jpg",
+    "cover": "/covers/23433-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2518,7 +2518,7 @@
   {
     "gutenbergId": 23452,
     "status": "ai-assisted",
-    "cover": "/covers/23452-ai-hd.jpg",
+    "cover": "/covers/23452-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2529,7 +2529,7 @@
   {
     "gutenbergId": 23462,
     "status": "ai-assisted",
-    "cover": "/covers/23462-ai-hd.jpg",
+    "cover": "/covers/23462-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2540,7 +2540,7 @@
   {
     "gutenbergId": 23521,
     "status": "ai-assisted",
-    "cover": "/covers/23521-ai-hd.jpg",
+    "cover": "/covers/23521-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2551,7 +2551,7 @@
   {
     "gutenbergId": 23661,
     "status": "ai-assisted",
-    "cover": "/covers/23661-ai-hd.jpg",
+    "cover": "/covers/23661-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2562,7 +2562,7 @@
   {
     "gutenbergId": 23665,
     "status": "ai-assisted",
-    "cover": "/covers/23665-ai-hd.jpg",
+    "cover": "/covers/23665-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2573,7 +2573,7 @@
   {
     "gutenbergId": 23749,
     "status": "ai-assisted",
-    "cover": "/covers/23749-ai-hd.jpg",
+    "cover": "/covers/23749-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2584,7 +2584,7 @@
   {
     "gutenbergId": 23794,
     "status": "ai-assisted",
-    "cover": "/covers/23794-ai-hd.jpg",
+    "cover": "/covers/23794-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2595,7 +2595,7 @@
   {
     "gutenbergId": 23869,
     "status": "ai-assisted",
-    "cover": "/covers/23869-ai-hd.jpg",
+    "cover": "/covers/23869-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2606,7 +2606,7 @@
   {
     "gutenbergId": 23871,
     "status": "ai-assisted",
-    "cover": "/covers/23871-ai-hd.jpg",
+    "cover": "/covers/23871-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2617,7 +2617,7 @@
   {
     "gutenbergId": 24644,
     "status": "ai-assisted",
-    "cover": "/covers/24644-ai-hd.jpg",
+    "cover": "/covers/24644-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2628,7 +2628,7 @@
   {
     "gutenbergId": 24692,
     "status": "ai-assisted",
-    "cover": "/covers/24692-ai-hd.jpg",
+    "cover": "/covers/24692-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2639,7 +2639,7 @@
   {
     "gutenbergId": 24778,
     "status": "ai-assisted",
-    "cover": "/covers/24778-ai-hd.jpg",
+    "cover": "/covers/24778-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2650,7 +2650,7 @@
   {
     "gutenbergId": 24912,
     "status": "already-hd",
-    "cover": "/covers/24912-original.png",
+    "cover": "/covers/24912-display.webp",
     "dimensions": [
       600,
       742
@@ -2659,7 +2659,7 @@
   {
     "gutenbergId": 25418,
     "status": "ai-assisted",
-    "cover": "/covers/25418-ai-hd.jpg",
+    "cover": "/covers/25418-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2670,7 +2670,7 @@
   {
     "gutenbergId": 25432,
     "status": "ai-assisted",
-    "cover": "/covers/25432-ai-hd.jpg",
+    "cover": "/covers/25432-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2681,7 +2681,7 @@
   {
     "gutenbergId": 25433,
     "status": "ai-assisted",
-    "cover": "/covers/25433-ai-hd.jpg",
+    "cover": "/covers/25433-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2692,7 +2692,7 @@
   {
     "gutenbergId": 25496,
     "status": "ai-assisted",
-    "cover": "/covers/25496-ai-hd.jpg",
+    "cover": "/covers/25496-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2703,7 +2703,7 @@
   {
     "gutenbergId": 25519,
     "status": "ai-assisted",
-    "cover": "/covers/25519-ai-hd.jpg",
+    "cover": "/covers/25519-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2714,7 +2714,7 @@
   {
     "gutenbergId": 25564,
     "status": "ai-assisted",
-    "cover": "/covers/25564-ai-hd.jpg",
+    "cover": "/covers/25564-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2725,7 +2725,7 @@
   {
     "gutenbergId": 25581,
     "status": "already-hd",
-    "cover": "/covers/25581-original.jpg",
+    "cover": "/covers/25581-display.webp",
     "dimensions": [
       600,
       811
@@ -2734,7 +2734,7 @@
   {
     "gutenbergId": 25714,
     "status": "ai-assisted",
-    "cover": "/covers/25714-ai-hd.jpg",
+    "cover": "/covers/25714-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2745,7 +2745,7 @@
   {
     "gutenbergId": 27903,
     "status": "ai-assisted",
-    "cover": "/covers/27903-ai-hd.jpg",
+    "cover": "/covers/27903-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2756,7 +2756,7 @@
   {
     "gutenbergId": 31342,
     "status": "ai-assisted",
-    "cover": "/covers/31342-ai-hd.jpg",
+    "cover": "/covers/31342-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2767,7 +2767,7 @@
   {
     "gutenbergId": 37529,
     "status": "already-hd",
-    "cover": "/covers/37529-original.jpg",
+    "cover": "/covers/37529-display.webp",
     "dimensions": [
       638,
       1000
@@ -2776,7 +2776,7 @@
   {
     "gutenbergId": 38562,
     "status": "ai-assisted",
-    "cover": "/covers/38562-ai-hd.jpg",
+    "cover": "/covers/38562-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2787,7 +2787,7 @@
   {
     "gutenbergId": 40425,
     "status": "ai-assisted",
-    "cover": "/covers/40425-ai-hd.jpg",
+    "cover": "/covers/40425-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2798,7 +2798,7 @@
   {
     "gutenbergId": 42366,
     "status": "ai-assisted",
-    "cover": "/covers/42366-ai-hd.jpg",
+    "cover": "/covers/42366-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2809,7 +2809,7 @@
   {
     "gutenbergId": 42920,
     "status": "ai-assisted",
-    "cover": "/covers/42920-ai-hd.jpg",
+    "cover": "/covers/42920-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2820,7 +2820,7 @@
   {
     "gutenbergId": 42947,
     "status": "already-hd",
-    "cover": "/covers/42947-original.jpg",
+    "cover": "/covers/42947-display.webp",
     "dimensions": [
       510,
       800
@@ -2829,7 +2829,7 @@
   {
     "gutenbergId": 45264,
     "status": "already-hd",
-    "cover": "/covers/45264-original.jpg",
+    "cover": "/covers/45264-display.webp",
     "dimensions": [
       574,
       800
@@ -2838,7 +2838,7 @@
   {
     "gutenbergId": 45265,
     "status": "already-hd",
-    "cover": "/covers/45265-original.jpg",
+    "cover": "/covers/45265-display.webp",
     "dimensions": [
       528,
       800
@@ -2847,7 +2847,7 @@
   {
     "gutenbergId": 46515,
     "status": "ai-assisted",
-    "cover": "/covers/46515-ai-hd.jpg",
+    "cover": "/covers/46515-display.webp",
     "dimensions": [
       1200,
       1600
@@ -2858,7 +2858,7 @@
   {
     "gutenbergId": 47166,
     "status": "upgraded",
-    "cover": "/covers/47166-hd.jpg",
+    "cover": "/covers/47166-display.webp",
     "dimensions": [
       724,
       1000
@@ -2868,7 +2868,7 @@
   {
     "gutenbergId": 47284,
     "status": "already-hd",
-    "cover": "/covers/47284-original.jpg",
+    "cover": "/covers/47284-display.webp",
     "dimensions": [
       594,
       800
@@ -2877,7 +2877,7 @@
   {
     "gutenbergId": 50361,
     "status": "already-hd",
-    "cover": "/covers/50361-original.jpg",
+    "cover": "/covers/50361-display.webp",
     "dimensions": [
       600,
       800
@@ -2886,7 +2886,7 @@
   {
     "gutenbergId": 50994,
     "status": "upgraded",
-    "cover": "/covers/50994-hd.jpg",
+    "cover": "/covers/50994-display.webp",
     "dimensions": [
       500,
       806
@@ -2896,7 +2896,7 @@
   {
     "gutenbergId": 55737,
     "status": "already-hd",
-    "cover": "/covers/55737-original.jpg",
+    "cover": "/covers/55737-display.webp",
     "dimensions": [
       590,
       800
@@ -2905,7 +2905,7 @@
   {
     "gutenbergId": 57799,
     "status": "already-hd",
-    "cover": "/covers/57799-original.jpg",
+    "cover": "/covers/57799-display.webp",
     "dimensions": [
       631,
       1000
@@ -2914,7 +2914,7 @@
   {
     "gutenbergId": 63463,
     "status": "upgraded",
-    "cover": "/covers/63463-hd.jpg",
+    "cover": "/covers/63463-display.webp",
     "dimensions": [
       736,
       1000
@@ -2924,7 +2924,7 @@
   {
     "gutenbergId": 68359,
     "status": "already-hd",
-    "cover": "/covers/68359-original.jpg",
+    "cover": "/covers/68359-display.webp",
     "dimensions": [
       473,
       1000
@@ -2933,7 +2933,7 @@
   {
     "gutenbergId": 71096,
     "status": "upgraded",
-    "cover": "/covers/71096-hd.jpg",
+    "cover": "/covers/71096-display.webp",
     "dimensions": [
       1307,
       1800
