@@ -93,9 +93,11 @@ function ProgressBar({ value, label }) {
 }
 
 function BookCover({ book, compact = false }) {
+  const aiAssisted = book.coverSource === "ai-assisted-reconstruction";
   return (
     <div className={`book-cover ${compact ? "is-compact" : ""} tone-${book.tone}`}>
       <img src={book.cover} alt={`${book.title} 封面`} loading="lazy" />
+      {aiAssisted && <span className="cover-ai-badge">AI 重制</span>}
       <span className="cover-fallback" aria-hidden="true"><BookOpen size={compact ? 28 : 40} weight="duotone" /></span>
     </div>
   );
@@ -108,9 +110,12 @@ function isAiImage(path) {
 function illustrationCaption(book, path, index = 0) {
   if (isAiImage(path)) return `根据《${book.title}》内容生成的儿童插图`;
   if (index === 0) {
-    return book.coverSource === "original-edition"
-      ? `${book.title} · 原版封面`
-      : `${book.title} · Gutenberg 版本封面`;
+    if (book.coverSource === "ai-assisted-reconstruction") {
+      return `${book.title} · AI 辅助重制封面（保留公版原图元素）`;
+    }
+    return book.coverSource?.startsWith("original-edition")
+      ? `${book.title} · 公版原书高清封面`
+      : `${book.title} · Project Gutenberg 版本封面`;
   }
   return `公版原书插图 · 第 ${index} 幅`;
 }
@@ -236,8 +241,50 @@ function EmptyState({ title, copy, action, icon: Icon = MagnifyingGlass, large =
 
 function BookDetail({ book, saved, progress, onClose, onToggleSaved, onRead }) {
   if (!book) return null;
-  const originalImageCount = book.originalIllustrations.length + (book.coverSource === "original-edition" ? 1 : 0);
-  return <div className="modal-backdrop" role="presentation" onMouseDown={onClose}><section className="detail-modal" role="dialog" aria-modal="true" aria-labelledby="detail-title" onMouseDown={(event) => event.stopPropagation()}><button className="modal-close" type="button" onClick={onClose} aria-label="关闭"><X size={22} weight="bold" /></button><div className="detail-visual"><BookCover book={book} /><span className="availability-text"><ShieldCheck size={17} weight="fill" /> {originalImageCount} 张原版图{book.aiIllustrations.length ? ` · ${book.aiIllustrations.length} 张 AI 补图` : ""}</span><span className="availability-text"><Headphones size={17} weight="fill" /> {book.audiobook ? "LibriVox 真人有声书" : "设备英文语音朗读"}</span></div><div className="detail-copy"><p className="eyebrow">{book.category} · {book.contentType || book.level}</p><h2 id="detail-title">{book.title}</h2><p className="detail-author">{book.author}</p><p>{book.description}</p><div className="book-facts"><span><strong>{book.ageRange}</strong> 建议年龄</span><span><strong>{book.wordCount.toLocaleString()}</strong> 英文词</span><span><strong>{book.pages}</strong> 估算页</span><span><strong>{book.minutes}</strong> 估算分钟</span></div>{book.readingSuggestion && <div className="detail-guidance"><span><strong>建议读法</strong>{book.readingSuggestion}</span><span><strong>内容组织</strong>{book.organizationSuggestion}</span></div>}{book.readingWarning && !book.readingWarning.startsWith("无特别提醒") && <div className="detail-warning"><strong>阅读提醒</strong>{book.readingWarning}</div>}{progress > 0 && <div className="detail-progress"><span>你的阅读进度 <b>{progress}%</b></span><ProgressBar value={progress} label="你的阅读进度" /></div>}<div className="detail-trust"><ShieldCheck size={20} weight="fill" /><span>年龄与难度为 EFL 学习场景建议；原版图片保留来源，AI 补图会明确标注。<a href={book.textSourceUrl || book.sourceUrl} target="_blank" rel="noreferrer">查看原始来源</a></span></div><div className="detail-actions"><button className="primary-button" type="button" onClick={() => onRead(book)}><BookOpen size={19} weight="fill" />{progress ? "继续阅读" : "开始阅读"}</button><button className={`secondary-button ${saved ? "is-saved" : ""}`} type="button" onClick={() => onToggleSaved(book.id)}><BookmarkSimple size={19} weight={saved ? "fill" : "regular"} />{saved ? "已收藏" : "收藏"}</button></div></div></section></div>;
+  const hasOriginalCover = book.coverSource?.startsWith("original-edition");
+  const originalImageCount = book.originalIllustrations.length + (hasOriginalCover ? 1 : 0);
+  const coverLabel = book.coverSource === "ai-assisted-reconstruction"
+    ? "AI 辅助重制高清封面"
+    : "公版原书高清封面";
+  return (
+    <div className="modal-backdrop" role="presentation" onMouseDown={onClose}>
+      <section className="detail-modal" role="dialog" aria-modal="true" aria-labelledby="detail-title" onMouseDown={(event) => event.stopPropagation()}>
+        <button className="modal-close" type="button" onClick={onClose} aria-label="关闭"><X size={22} weight="bold" /></button>
+        <div className="detail-visual">
+          <BookCover book={book} />
+          <span className="availability-text"><ShieldCheck size={17} weight="fill" />{coverLabel}</span>
+          <span className="availability-text"><ShieldCheck size={17} weight="fill" />{originalImageCount} 张原版图{book.aiIllustrations.length ? ` · ${book.aiIllustrations.length} 张 AI 补图` : ""}</span>
+          <span className="availability-text"><Headphones size={17} weight="fill" />{book.audiobook ? "LibriVox 真人有声书" : "设备英文语音朗读"}</span>
+        </div>
+        <div className="detail-copy">
+          <p className="eyebrow">{book.category} · {book.contentType || book.level}</p>
+          <h2 id="detail-title">{book.title}</h2>
+          <p className="detail-author">{book.author}</p>
+          <div className="detail-synopsis">
+            <section lang="zh-CN"><strong>故事梗概</strong><p>{book.summaryZh}</p></section>
+            <section lang="en"><strong>English synopsis</strong><p>{book.summaryEn}</p></section>
+          </div>
+          <div className="book-facts">
+            <span><strong>{book.ageRange}</strong>建议年龄</span>
+            <span><strong>{book.wordCount.toLocaleString()}</strong>英文词</span>
+            <span><strong>{book.pages}</strong>估算页</span>
+            <span><strong>{book.minutes}</strong>估算分钟</span>
+          </div>
+          {book.readingSuggestion && <div className="detail-guidance"><span><strong>建议读法</strong>{book.readingSuggestion}</span><span><strong>内容组织</strong>{book.organizationSuggestion}</span></div>}
+          {book.readingWarning && !book.readingWarning.startsWith("无特别提醒") && <div className="detail-warning"><strong>阅读提醒</strong>{book.readingWarning}</div>}
+          {progress > 0 && <div className="detail-progress"><span>你的阅读进度 <b>{progress}%</b></span><ProgressBar value={progress} label="你的阅读进度" /></div>}
+          <div className="detail-trust">
+            <ShieldCheck size={20} weight="fill" />
+            <span>正文已完成完整性与乱码检查；公版原图保留来源，AI 辅助封面和插图均明确标注。<a href={book.textSourceUrl || book.sourceUrl} target="_blank" rel="noreferrer">查看正文原始来源</a></span>
+          </div>
+          <div className="detail-actions">
+            <button className="primary-button" type="button" onClick={() => onRead(book)}><BookOpen size={19} weight="fill" />{progress ? "继续阅读" : "开始阅读"}</button>
+            <button className={`secondary-button ${saved ? "is-saved" : ""}`} type="button" onClick={() => onToggleSaved(book.id)}><BookmarkSimple size={19} weight={saved ? "fill" : "regular"} />{saved ? "已收藏" : "收藏"}</button>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
 }
 
 function illustratedSections(text, illustrations) {
@@ -369,7 +416,7 @@ function Reader({ book, progress, onClose, onProgress }) {
     element.scrollTo({ top: element.scrollTop + element.clientHeight * direction, behavior: "smooth" });
   };
 
-  return <div className="reader-shell" role="dialog" aria-modal="true" aria-labelledby="reader-title"><header className="reader-header"><button type="button" onClick={onClose}><ArrowLeft size={20} weight="bold" />返回书目</button><div className="reader-book-title"><strong id="reader-title">{book.title}</strong><small>{book.author} · {book.ageRange}</small></div><button className={`reader-tools-toggle ${toolsOpen ? "is-active" : ""}`} type="button" onClick={() => setToolsOpen((open) => !open)} aria-pressed={toolsOpen}><BookOpenText size={18} weight="fill" />学习助手</button><span className="reader-percent">{progress}%</span><button className="reader-close" type="button" onClick={onClose} aria-label="关闭阅读器"><X size={21} /></button></header><div className="reader-progress"><ProgressBar value={progress} label="阅读进度" /></div>{error ? <div className="reader-status"><BookOpen size={42} weight="duotone" /><h2>暂时无法打开正文</h2><p>{error}</p><button className="secondary-button" type="button" onClick={onClose}>返回</button></div> : !text ? <div className="reader-status"><span className="reader-loader" /><h2>正在打开完整原著…</h2><p>正文、词典与朗读工具正在准备。</p></div> : <div className={`reader-body ${toolsOpen ? "" : "is-tools-closed"}`}><main className="reader-scroll" ref={scrollRef} onScroll={handleScroll}><article><p className="reader-source">Project Gutenberg #{book.catalogGutenbergId || book.gutenbergId} · Public-domain English text · Images individually credited</p><figure className="reader-illustration hero"><img src={book.illustrations[0]} alt={`${book.title} 封面插图`} onLoad={() => updateReaderView(scrollRef.current)} /><figcaption>{illustrationCaption(book, book.illustrations[0], 0)}</figcaption></figure>{sections.map((section, index) => <section className="reader-text-section" key={`${section.illustration || "ending"}-${index}`}>{section.text.split(/\n{2,}/).filter(Boolean).map((block, blockIndex) => <pre className="reader-text-block" key={`${index}-${blockIndex}`}><HighlightedText text={block.trim()} word={selectedWord} /></pre>)}{section.illustration && <figure className={`reader-illustration ${isAiImage(section.illustration) ? "is-ai" : ""}`}><img src={section.illustration} alt={`${book.title} 内容插图 ${index + 1}`} loading="lazy" onLoad={() => updateReaderView(scrollRef.current)} /><figcaption>{illustrationCaption(book, section.illustration, index + 1)}</figcaption></figure>}</section>)}<div className="reader-finish"><Star size={42} weight="fill" /><h2>你读到故事的最后一页了</h2><p>这本书已计入阅读足迹与星图。</p></div></article></main>{toolsOpen && <ReaderTools book={book} pageNumber={pageInfo.current} pageText={pageText} vocabulary={vocabulary} vocabularyLoading={vocabularyLoading} selectedWord={selectedWord} onSelectWord={(word) => setSelectedWord((current) => current === word ? "" : word)} />}</div>}<footer className="reader-pagination"><button type="button" onClick={() => turnPage(-1)} disabled={pageInfo.current <= 1}><ArrowLeft size={18} />上一页</button><span><strong>第 {pageInfo.current} 页</strong><small>共 {pageInfo.total} 页</small></span><button type="button" onClick={() => turnPage(1)} disabled={pageInfo.current >= pageInfo.total}>下一页<ArrowRight size={18} /></button></footer></div>;
+  return <div className="reader-shell" role="dialog" aria-modal="true" aria-labelledby="reader-title"><header className="reader-header"><button type="button" onClick={onClose}><ArrowLeft size={20} weight="bold" />返回书目</button><div className="reader-book-title"><strong id="reader-title">{book.title}</strong><small>{book.author} · {book.ageRange}</small></div><button className={`reader-tools-toggle ${toolsOpen ? "is-active" : ""}`} type="button" onClick={() => setToolsOpen((open) => !open)} aria-pressed={toolsOpen}><BookOpenText size={18} weight="fill" />学习助手</button><span className="reader-percent">{progress}%</span><button className="reader-close" type="button" onClick={onClose} aria-label="关闭阅读器"><X size={21} /></button></header><div className="reader-progress"><ProgressBar value={progress} label="阅读进度" /></div>{error ? <div className="reader-status"><BookOpen size={42} weight="duotone" /><h2>暂时无法打开正文</h2><p>{error}</p><button className="secondary-button" type="button" onClick={onClose}>返回</button></div> : !text ? <div className="reader-status"><span className="reader-loader" /><h2>正在打开完整原著…</h2><p>正文、词典与朗读工具正在准备。</p></div> : <div className={`reader-body ${toolsOpen ? "" : "is-tools-closed"}`}><main className="reader-scroll" ref={scrollRef} onScroll={handleScroll}><article><p className="reader-source">Project Gutenberg #{book.textGutenbergId || book.catalogGutenbergId || book.gutenbergId} · 完整公版英文正文 · 图片来源单独标注</p><figure className="reader-illustration hero"><img src={book.illustrations[0]} alt={`${book.title} 封面插图`} onLoad={() => updateReaderView(scrollRef.current)} /><figcaption>{illustrationCaption(book, book.illustrations[0], 0)}</figcaption></figure>{sections.map((section, index) => <section className="reader-text-section" key={`${section.illustration || "ending"}-${index}`}>{section.text.split(/\n{2,}/).filter(Boolean).map((block, blockIndex) => <p className="reader-text-block" key={`${index}-${blockIndex}`}><HighlightedText text={block.trim()} word={selectedWord} /></p>)}{section.illustration && <figure className={`reader-illustration ${isAiImage(section.illustration) ? "is-ai" : ""}`}><img src={section.illustration} alt={`${book.title} 内容插图 ${index + 1}`} loading="lazy" onLoad={() => updateReaderView(scrollRef.current)} /><figcaption>{illustrationCaption(book, section.illustration, index + 1)}</figcaption></figure>}</section>)}<div className="reader-finish"><Star size={42} weight="fill" /><h2>你读到故事的最后一页了</h2><p>这本书已计入阅读足迹与星图。</p></div></article></main>{toolsOpen && <ReaderTools book={book} pageNumber={pageInfo.current} pageText={pageText} vocabulary={vocabulary} vocabularyLoading={vocabularyLoading} selectedWord={selectedWord} onSelectWord={(word) => setSelectedWord((current) => current === word ? "" : word)} />}</div>}<footer className="reader-pagination"><button type="button" onClick={() => turnPage(-1)} disabled={pageInfo.current <= 1}><ArrowLeft size={18} />上一页</button><span><strong>第 {pageInfo.current} 页</strong><small>共 {pageInfo.total} 页</small></span><button type="button" onClick={() => turnPage(1)} disabled={pageInfo.current >= pageInfo.total}>下一页<ArrowRight size={18} /></button></footer></div>;
 }
 
 export function App() {
@@ -404,7 +451,7 @@ export function App() {
 
   const filteredBooks = useMemo(() => {
     const normalized = query.trim().toLowerCase();
-    return books.filter((book) => (!normalized || `${book.title} ${book.author} ${book.category} ${book.secondaryCategory || ""} ${book.contentType || ""} ${book.level} ${book.ageRange}`.toLowerCase().includes(normalized)) && (selectedTheme === "全部" || book.themeId === selectedTheme) && (filterLevel === "全部" || book.level === filterLevel) && (filterAge === "全部" || book.ageGroup === filterAge));
+    return books.filter((book) => (!normalized || `${book.title} ${book.author} ${book.category} ${book.secondaryCategory || ""} ${book.contentType || ""} ${book.level} ${book.ageRange} ${book.summaryZh} ${book.summaryEn}`.toLowerCase().includes(normalized)) && (selectedTheme === "全部" || book.themeId === selectedTheme) && (filterLevel === "全部" || book.level === filterLevel) && (filterAge === "全部" || book.ageGroup === filterAge));
   }, [query, selectedTheme, filterLevel, filterAge]);
 
   useEffect(() => {

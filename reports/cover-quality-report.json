@@ -1,0 +1,2943 @@
+[
+  {
+    "gutenbergId": 11,
+    "status": "upgraded",
+    "cover": "/covers/11-hd.jpg",
+    "dimensions": [
+      800,
+      1104
+    ],
+    "sourceUrl": "https://www.gutenberg.org/files/11/11-h/images/cover.jpg"
+  },
+  {
+    "gutenbergId": 12,
+    "status": "upgraded",
+    "cover": "/covers/12-hd.jpg",
+    "dimensions": [
+      1014,
+      1326
+    ],
+    "sourceUrl": "https://www.gutenberg.org/files/12/12-h/images/cover.jpg"
+  },
+  {
+    "gutenbergId": 16,
+    "status": "upgraded",
+    "cover": "/covers/16-hd.jpg",
+    "dimensions": [
+      1283,
+      1797
+    ],
+    "sourceUrl": "https://www.gutenberg.org/files/16/16-h/images/cover.jpg"
+  },
+  {
+    "gutenbergId": 35,
+    "status": "already-hd",
+    "cover": "/covers/35-original.jpg",
+    "dimensions": [
+      650,
+      1000
+    ]
+  },
+  {
+    "gutenbergId": 36,
+    "status": "already-hd",
+    "cover": "/covers/36-original.jpg",
+    "dimensions": [
+      787,
+      1000
+    ]
+  },
+  {
+    "gutenbergId": 41,
+    "status": "upgraded",
+    "cover": "/covers/41-hd.jpg",
+    "dimensions": [
+      721,
+      1003
+    ],
+    "sourceUrl": "https://www.gutenberg.org/files/41/41-h/images/cover.jpg"
+  },
+  {
+    "gutenbergId": 45,
+    "status": "upgraded",
+    "cover": "/covers/45-hd.jpg",
+    "dimensions": [
+      1183,
+      1415
+    ],
+    "sourceUrl": "https://www.gutenberg.org/files/45/45-h/images/cover.jpg"
+  },
+  {
+    "gutenbergId": 46,
+    "status": "already-hd",
+    "cover": "/covers/46-original.jpg",
+    "dimensions": [
+      660,
+      990
+    ]
+  },
+  {
+    "gutenbergId": 47,
+    "status": "upgraded",
+    "cover": "/covers/47-hd.jpg",
+    "dimensions": [
+      661,
+      1000
+    ],
+    "sourceUrl": "https://www.gutenberg.org/files/47/47-h/images/cover.jpg"
+  },
+  {
+    "gutenbergId": 51,
+    "status": "ai-assisted",
+    "cover": "/covers/51-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/51/pg51.cover.medium.jpg",
+    "artSource": "/covers/51.jpg"
+  },
+  {
+    "gutenbergId": 54,
+    "status": "upgraded",
+    "cover": "/covers/54-hd.jpg",
+    "dimensions": [
+      1275,
+      1786
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/54/pg54.cover.medium.jpg"
+  },
+  {
+    "gutenbergId": 55,
+    "status": "already-hd",
+    "cover": "/covers/55-original.jpg",
+    "dimensions": [
+      750,
+      1000
+    ]
+  },
+  {
+    "gutenbergId": 74,
+    "status": "upgraded",
+    "cover": "/covers/74-hd.jpg",
+    "dimensions": [
+      784,
+      1000
+    ],
+    "sourceUrl": "https://www.gutenberg.org/files/74/74-h/images/cover.jpg"
+  },
+  {
+    "gutenbergId": 82,
+    "status": "already-hd",
+    "cover": "/covers/82-original.jpg",
+    "dimensions": [
+      668,
+      1000
+    ]
+  },
+  {
+    "gutenbergId": 83,
+    "status": "already-hd",
+    "cover": "/covers/83-original.jpg",
+    "dimensions": [
+      650,
+      1000
+    ]
+  },
+  {
+    "gutenbergId": 86,
+    "status": "upgraded",
+    "cover": "/covers/86-hd.jpg",
+    "dimensions": [
+      740,
+      1000
+    ],
+    "sourceUrl": "https://www.gutenberg.org/files/86/86-h/images/cover.jpg"
+  },
+  {
+    "gutenbergId": 95,
+    "status": "already-hd",
+    "cover": "/covers/95-original.jpg",
+    "dimensions": [
+      682,
+      1000
+    ]
+  },
+  {
+    "gutenbergId": 103,
+    "status": "upgraded",
+    "cover": "/covers/103-hd.jpg",
+    "dimensions": [
+      686,
+      1000
+    ],
+    "sourceUrl": "https://www.gutenberg.org/files/103/103-h/images/cover.jpg"
+  },
+  {
+    "gutenbergId": 108,
+    "status": "upgraded",
+    "cover": "/covers/108-hd.jpg",
+    "dimensions": [
+      677,
+      1000
+    ],
+    "sourceUrl": "https://www.gutenberg.org/files/108/108-h/images/cover.jpg"
+  },
+  {
+    "gutenbergId": 113,
+    "status": "ai-assisted",
+    "cover": "/covers/113-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/113/pg113.cover.medium.jpg",
+    "artSource": "/covers/113.jpg"
+  },
+  {
+    "gutenbergId": 120,
+    "status": "already-hd",
+    "cover": "/covers/120-original.jpg",
+    "dimensions": [
+      671,
+      1000
+    ]
+  },
+  {
+    "gutenbergId": 139,
+    "status": "ai-assisted",
+    "cover": "/covers/139-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/139/pg139.cover.medium.jpg",
+    "artSource": "/covers/139.jpg"
+  },
+  {
+    "gutenbergId": 146,
+    "status": "ai-assisted",
+    "cover": "/covers/146-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/146/pg146.cover.medium.jpg",
+    "artSource": "/covers/146.jpg"
+  },
+  {
+    "gutenbergId": 163,
+    "status": "already-hd",
+    "cover": "/covers/163-original.jpg",
+    "dimensions": [
+      621,
+      1000
+    ]
+  },
+  {
+    "gutenbergId": 164,
+    "status": "ai-assisted",
+    "cover": "/covers/164-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/164/pg164.cover.medium.jpg",
+    "artSource": "/illustrations/164/01.jpg"
+  },
+  {
+    "gutenbergId": 215,
+    "status": "already-hd",
+    "cover": "/covers/215-original.jpg",
+    "dimensions": [
+      661,
+      1000
+    ]
+  },
+  {
+    "gutenbergId": 225,
+    "status": "ai-assisted",
+    "cover": "/covers/225-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/225/pg225.cover.medium.jpg",
+    "artSource": "/covers/225.jpg"
+  },
+  {
+    "gutenbergId": 236,
+    "status": "upgraded",
+    "cover": "/covers/236-hd.jpg",
+    "dimensions": [
+      652,
+      1000
+    ],
+    "sourceUrl": "https://www.gutenberg.org/files/236/236-h/images/cover.jpg"
+  },
+  {
+    "gutenbergId": 271,
+    "status": "upgraded",
+    "cover": "/covers/271-hd.jpg",
+    "dimensions": [
+      1110,
+      1800
+    ],
+    "sourceUrl": "https://www.gutenberg.org/files/271/271-h/images/cover.jpg"
+  },
+  {
+    "gutenbergId": 289,
+    "status": "already-hd",
+    "cover": "/covers/289-original.jpg",
+    "dimensions": [
+      640,
+      1000
+    ]
+  },
+  {
+    "gutenbergId": 316,
+    "status": "upgraded",
+    "cover": "/covers/316-hd.jpg",
+    "dimensions": [
+      1155,
+      1800
+    ],
+    "sourceUrl": "https://www.gutenberg.org/files/316/316-h/images/cover.jpg"
+  },
+  {
+    "gutenbergId": 384,
+    "status": "ai-assisted",
+    "cover": "/covers/384-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/384/pg384.cover.medium.jpg",
+    "artSource": "/covers/384.jpg"
+  },
+  {
+    "gutenbergId": 419,
+    "status": "ai-assisted",
+    "cover": "/covers/419-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/419/pg419.cover.medium.jpg",
+    "artSource": "/covers/419.jpg"
+  },
+  {
+    "gutenbergId": 420,
+    "status": "upgraded",
+    "cover": "/covers/420-hd.jpg",
+    "dimensions": [
+      1342,
+      1800
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/420/pg420.cover.medium.jpg"
+  },
+  {
+    "gutenbergId": 421,
+    "status": "upgraded",
+    "cover": "/covers/421-hd.jpg",
+    "dimensions": [
+      650,
+      1000
+    ],
+    "sourceUrl": "https://www.gutenberg.org/files/421/421-h/images/cover.jpg"
+  },
+  {
+    "gutenbergId": 479,
+    "status": "ai-assisted",
+    "cover": "/covers/479-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/479/pg479.cover.medium.jpg",
+    "artSource": "/covers/479.jpg"
+  },
+  {
+    "gutenbergId": 485,
+    "status": "upgraded",
+    "cover": "/covers/485-hd.jpg",
+    "dimensions": [
+      853,
+      1166
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/485/pg485.cover.medium.jpg"
+  },
+  {
+    "gutenbergId": 486,
+    "status": "upgraded",
+    "cover": "/covers/486-hd.jpg",
+    "dimensions": [
+      1305,
+      1800
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/486/pg486.cover.medium.jpg"
+  },
+  {
+    "gutenbergId": 496,
+    "status": "ai-assisted",
+    "cover": "/covers/496-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/496/pg496.cover.medium.jpg",
+    "artSource": "/covers/496.jpg"
+  },
+  {
+    "gutenbergId": 498,
+    "status": "ai-assisted",
+    "cover": "/covers/498-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/ebooks/498",
+    "artSource": "/covers/498.jpg"
+  },
+  {
+    "gutenbergId": 500,
+    "status": "ai-assisted",
+    "cover": "/covers/500-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/500/pg500.cover.medium.jpg",
+    "artSource": "/covers/500.jpg"
+  },
+  {
+    "gutenbergId": 501,
+    "status": "already-hd",
+    "cover": "/covers/501-original.jpg",
+    "dimensions": [
+      501,
+      800
+    ]
+  },
+  {
+    "gutenbergId": 503,
+    "status": "upgraded",
+    "cover": "/covers/503-hd.jpg",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/503/pg503.cover.medium.jpg"
+  },
+  {
+    "gutenbergId": 514,
+    "status": "ai-assisted",
+    "cover": "/covers/514-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/514/pg514.cover.medium.jpg",
+    "artSource": "/covers/514.jpg"
+  },
+  {
+    "gutenbergId": 517,
+    "status": "upgraded",
+    "cover": "/covers/517-hd.jpg",
+    "dimensions": [
+      768,
+      1046
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/517/pg517.cover.medium.jpg"
+  },
+  {
+    "gutenbergId": 518,
+    "status": "ai-assisted",
+    "cover": "/covers/518-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/518/pg518.cover.medium.jpg",
+    "artSource": "/covers/518.jpg"
+  },
+  {
+    "gutenbergId": 519,
+    "status": "ai-assisted",
+    "cover": "/covers/519-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/ebooks/519",
+    "artSource": "/covers/519.jpg"
+  },
+  {
+    "gutenbergId": 520,
+    "status": "ai-assisted",
+    "cover": "/covers/520-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/520/pg520.cover.medium.jpg",
+    "artSource": "/covers/520.jpg"
+  },
+  {
+    "gutenbergId": 521,
+    "status": "ai-assisted",
+    "cover": "/covers/521-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/521/pg521.cover.medium.jpg",
+    "artSource": "/covers/521.jpg"
+  },
+  {
+    "gutenbergId": 540,
+    "status": "upgraded",
+    "cover": "/covers/540-hd.jpg",
+    "dimensions": [
+      650,
+      1010
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/540/pg540.cover.medium.jpg"
+  },
+  {
+    "gutenbergId": 544,
+    "status": "upgraded",
+    "cover": "/covers/544-hd.jpg",
+    "dimensions": [
+      1166,
+      1800
+    ],
+    "sourceUrl": "https://www.gutenberg.org/files/544/544-h/images/cover.jpg"
+  },
+  {
+    "gutenbergId": 557,
+    "status": "ai-assisted",
+    "cover": "/covers/557-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/ebooks/557",
+    "artSource": "/covers/557.jpg"
+  },
+  {
+    "gutenbergId": 640,
+    "status": "ai-assisted",
+    "cover": "/covers/640-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/640/pg640.cover.medium.jpg",
+    "artSource": "/covers/640.jpg"
+  },
+  {
+    "gutenbergId": 641,
+    "status": "ai-assisted",
+    "cover": "/covers/641-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/641/pg641.cover.medium.jpg",
+    "artSource": "/covers/641.jpg"
+  },
+  {
+    "gutenbergId": 646,
+    "status": "already-hd",
+    "cover": "/covers/646-original.jpg",
+    "dimensions": [
+      1263,
+      1432
+    ]
+  },
+  {
+    "gutenbergId": 677,
+    "status": "ai-assisted",
+    "cover": "/covers/677-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/677/pg677.cover.medium.jpg",
+    "artSource": "/illustrations/677/01.jpg"
+  },
+  {
+    "gutenbergId": 678,
+    "status": "ai-assisted",
+    "cover": "/covers/678-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/ebooks/678",
+    "artSource": "/illustrations/678/01.jpg"
+  },
+  {
+    "gutenbergId": 697,
+    "status": "ai-assisted",
+    "cover": "/covers/697-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/697/pg697.cover.medium.jpg",
+    "artSource": "/covers/697.jpg"
+  },
+  {
+    "gutenbergId": 708,
+    "status": "ai-assisted",
+    "cover": "/covers/708-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/708/pg708.cover.medium.jpg",
+    "artSource": "/covers/708.jpg"
+  },
+  {
+    "gutenbergId": 709,
+    "status": "ai-assisted",
+    "cover": "/covers/709-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/709/pg709.cover.medium.jpg",
+    "artSource": "/covers/709.jpg"
+  },
+  {
+    "gutenbergId": 770,
+    "status": "ai-assisted",
+    "cover": "/covers/770-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/770/pg770.cover.medium.jpg",
+    "artSource": "/covers/770.jpg"
+  },
+  {
+    "gutenbergId": 778,
+    "status": "ai-assisted",
+    "cover": "/covers/778-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/778/pg778.cover.medium.jpg",
+    "artSource": "/covers/778.jpg"
+  },
+  {
+    "gutenbergId": 794,
+    "status": "ai-assisted",
+    "cover": "/covers/794-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/794/pg794.cover.medium.jpg",
+    "artSource": "/covers/794.jpg"
+  },
+  {
+    "gutenbergId": 829,
+    "status": "upgraded",
+    "cover": "/covers/829-hd.jpg",
+    "dimensions": [
+      714,
+      1000
+    ],
+    "sourceUrl": "https://www.gutenberg.org/files/829/829-h/images/cover.jpg"
+  },
+  {
+    "gutenbergId": 834,
+    "status": "already-hd",
+    "cover": "/covers/834-original.jpg",
+    "dimensions": [
+      660,
+      1000
+    ]
+  },
+  {
+    "gutenbergId": 836,
+    "status": "ai-assisted",
+    "cover": "/covers/836-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/836/pg836.cover.medium.jpg",
+    "artSource": "/covers/836.jpg"
+  },
+  {
+    "gutenbergId": 837,
+    "status": "ai-assisted",
+    "cover": "/covers/837-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/837/pg837.cover.medium.jpg",
+    "artSource": "/illustrations/837/01.jpg"
+  },
+  {
+    "gutenbergId": 848,
+    "status": "ai-assisted",
+    "cover": "/covers/848-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/848/pg848.cover.medium.jpg",
+    "artSource": "/covers/848.jpg"
+  },
+  {
+    "gutenbergId": 902,
+    "status": "ai-assisted",
+    "cover": "/covers/902-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/902/images/covers.jpg",
+    "artSource": "/illustrations/902/01.jpg"
+  },
+  {
+    "gutenbergId": 910,
+    "status": "upgraded",
+    "cover": "/covers/910-hd.jpg",
+    "dimensions": [
+      1025,
+      1590
+    ],
+    "sourceUrl": "https://www.gutenberg.org/files/910/910-h/images/cover.jpg"
+  },
+  {
+    "gutenbergId": 940,
+    "status": "upgraded",
+    "cover": "/covers/940-hd.jpg",
+    "dimensions": [
+      1286,
+      1800
+    ],
+    "sourceUrl": "https://www.gutenberg.org/files/940/940-h/images/cover.jpg"
+  },
+  {
+    "gutenbergId": 955,
+    "status": "upgraded",
+    "cover": "/covers/955-hd.jpg",
+    "dimensions": [
+      1258,
+      1800
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/955/pg955.cover.medium.jpg"
+  },
+  {
+    "gutenbergId": 956,
+    "status": "ai-assisted",
+    "cover": "/covers/956-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/956/pg956.cover.medium.jpg",
+    "artSource": "/covers/956.jpg"
+  },
+  {
+    "gutenbergId": 957,
+    "status": "upgraded",
+    "cover": "/covers/957-hd.jpg",
+    "dimensions": [
+      1276,
+      1800
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/957/pg957.cover.medium.jpg"
+  },
+  {
+    "gutenbergId": 958,
+    "status": "upgraded",
+    "cover": "/covers/958-hd.jpg",
+    "dimensions": [
+      1294,
+      1800
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/958/pg958.cover.medium.jpg"
+  },
+  {
+    "gutenbergId": 959,
+    "status": "ai-assisted",
+    "cover": "/covers/959-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/959/pg959.cover.medium.jpg",
+    "artSource": "/covers/959.jpg"
+  },
+  {
+    "gutenbergId": 960,
+    "status": "ai-assisted",
+    "cover": "/covers/960-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/960/pg960.cover.medium.jpg",
+    "artSource": "/covers/960.jpg"
+  },
+  {
+    "gutenbergId": 961,
+    "status": "ai-assisted",
+    "cover": "/covers/961-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/961/pg961.cover.medium.jpg",
+    "artSource": "/covers/961.jpg"
+  },
+  {
+    "gutenbergId": 976,
+    "status": "ai-assisted",
+    "cover": "/covers/976-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/976/pg976.cover.medium.jpg",
+    "artSource": "/covers/976.jpg"
+  },
+  {
+    "gutenbergId": 1013,
+    "status": "already-hd",
+    "cover": "/covers/1013-original.jpg",
+    "dimensions": [
+      890,
+      1000
+    ]
+  },
+  {
+    "gutenbergId": 1018,
+    "status": "ai-assisted",
+    "cover": "/covers/1018-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/1018/pg1018.cover.medium.jpg",
+    "artSource": "/illustrations/1018/02.jpg"
+  },
+  {
+    "gutenbergId": 1074,
+    "status": "upgraded",
+    "cover": "/covers/1074-hd.jpg",
+    "dimensions": [
+      1007,
+      1500
+    ],
+    "sourceUrl": "https://www.gutenberg.org/files/1074/1074-h/images/cover.jpg"
+  },
+  {
+    "gutenbergId": 1154,
+    "status": "already-hd",
+    "cover": "/covers/1154-original.jpg",
+    "dimensions": [
+      513,
+      800
+    ]
+  },
+  {
+    "gutenbergId": 1184,
+    "status": "upgraded",
+    "cover": "/covers/1184-hd.jpg",
+    "dimensions": [
+      671,
+      1000
+    ],
+    "sourceUrl": "https://www.gutenberg.org/files/1184/1184-h/images/cover.jpg"
+  },
+  {
+    "gutenbergId": 1257,
+    "status": "upgraded",
+    "cover": "/covers/1257-hd.jpg",
+    "dimensions": [
+      972,
+      1398
+    ],
+    "sourceUrl": "https://www.gutenberg.org/files/1257/1257-h/images/cover.jpg"
+  },
+  {
+    "gutenbergId": 1268,
+    "status": "ai-assisted",
+    "cover": "/covers/1268-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/1268/pg1268.cover.medium.jpg",
+    "artSource": "/covers/1268.jpg"
+  },
+  {
+    "gutenbergId": 1354,
+    "status": "ai-assisted",
+    "cover": "/covers/1354-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/1354/pg1354.cover.medium.jpg",
+    "artSource": "/covers/1354.jpg"
+  },
+  {
+    "gutenbergId": 1375,
+    "status": "upgraded",
+    "cover": "/covers/1375-hd.jpg",
+    "dimensions": [
+      1128,
+      1800
+    ],
+    "sourceUrl": "https://www.gutenberg.org/files/1375/1375-h/images/cover.jpg"
+  },
+  {
+    "gutenbergId": 1430,
+    "status": "ai-assisted",
+    "cover": "/covers/1430-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/1430/pg1430.cover.medium.jpg",
+    "artSource": "/covers/1430.jpg"
+  },
+  {
+    "gutenbergId": 1448,
+    "status": "ai-assisted",
+    "cover": "/covers/1448-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/1448/pg1448.cover.medium.jpg",
+    "artSource": "/covers/1448.jpg"
+  },
+  {
+    "gutenbergId": 1597,
+    "status": "upgraded",
+    "cover": "/covers/1597-hd.jpg",
+    "dimensions": [
+      992,
+      1586
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/1597/pg1597.cover.medium.jpg"
+  },
+  {
+    "gutenbergId": 1599,
+    "status": "ai-assisted",
+    "cover": "/covers/1599-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/1599/pg1599.cover.medium.jpg",
+    "artSource": "/ai-illustrations/1599/01.jpg"
+  },
+  {
+    "gutenbergId": 1661,
+    "status": "already-hd",
+    "cover": "/covers/1661-original.jpg",
+    "dimensions": [
+      668,
+      1000
+    ]
+  },
+  {
+    "gutenbergId": 1825,
+    "status": "ai-assisted",
+    "cover": "/covers/1825-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/1825/pg1825.cover.medium.jpg",
+    "artSource": "/covers/1825.jpg"
+  },
+  {
+    "gutenbergId": 1837,
+    "status": "ai-assisted",
+    "cover": "/covers/1837-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/1837/images/cover.jpg",
+    "artSource": "/illustrations/1837/01.jpg"
+  },
+  {
+    "gutenbergId": 1874,
+    "status": "ai-assisted",
+    "cover": "/covers/1874-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/1874/pg1874.cover.medium.jpg",
+    "artSource": "/covers/1874.jpg"
+  },
+  {
+    "gutenbergId": 1880,
+    "status": "ai-assisted",
+    "cover": "/covers/1880-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/1880/pg1880.cover.medium.jpg",
+    "artSource": "/covers/1880.jpg"
+  },
+  {
+    "gutenbergId": 1937,
+    "status": "ai-assisted",
+    "cover": "/covers/1937-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/1937/pg1937.cover.medium.jpg",
+    "artSource": "/covers/1937.jpg"
+  },
+  {
+    "gutenbergId": 2186,
+    "status": "ai-assisted",
+    "cover": "/covers/2186-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/2186/pg2186.cover.medium.jpg",
+    "artSource": "/covers/2186.jpg"
+  },
+  {
+    "gutenbergId": 2226,
+    "status": "upgraded",
+    "cover": "/covers/2226-hd.jpg",
+    "dimensions": [
+      974,
+      1450
+    ],
+    "sourceUrl": "https://www.gutenberg.org/files/2226/2226-h/images/cover.jpg"
+  },
+  {
+    "gutenbergId": 2435,
+    "status": "ai-assisted",
+    "cover": "/covers/2435-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/ebooks/2435",
+    "artSource": "/covers/2435.jpg"
+  },
+  {
+    "gutenbergId": 2493,
+    "status": "ai-assisted",
+    "cover": "/covers/2493-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/2493/pg2493.cover.medium.jpg",
+    "artSource": "/covers/2493.jpg"
+  },
+  {
+    "gutenbergId": 2557,
+    "status": "ai-assisted",
+    "cover": "/covers/2557-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/2557/pg2557.cover.medium.jpg",
+    "artSource": "/covers/2557.jpg"
+  },
+  {
+    "gutenbergId": 2591,
+    "status": "ai-assisted",
+    "cover": "/covers/2591-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/2591/pg2591.cover.medium.jpg",
+    "artSource": "/covers/2591.jpg"
+  },
+  {
+    "gutenbergId": 2726,
+    "status": "ai-assisted",
+    "cover": "/covers/2726-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/2726/pg2726.cover.medium.jpg",
+    "artSource": "/covers/2726.jpg"
+  },
+  {
+    "gutenbergId": 2770,
+    "status": "ai-assisted",
+    "cover": "/covers/2770-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/ebooks/2770",
+    "artSource": "/covers/2770.jpg"
+  },
+  {
+    "gutenbergId": 2781,
+    "status": "ai-assisted",
+    "cover": "/covers/2781-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/2781/pg2781.cover.medium.jpg",
+    "artSource": "/covers/2781.jpg"
+  },
+  {
+    "gutenbergId": 2786,
+    "status": "ai-assisted",
+    "cover": "/covers/2786-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/2786/pg2786.cover.medium.jpg",
+    "artSource": "/covers/2786.jpg"
+  },
+  {
+    "gutenbergId": 2787,
+    "status": "ai-assisted",
+    "cover": "/covers/2787-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/2787/pg2787.cover.medium.jpg",
+    "artSource": "/covers/2787.jpg"
+  },
+  {
+    "gutenbergId": 2788,
+    "status": "upgraded",
+    "cover": "/covers/2788-hd.jpg",
+    "dimensions": [
+      1108,
+      1800
+    ],
+    "sourceUrl": "https://www.gutenberg.org/files/2788/2788-h/images/cover.jpg"
+  },
+  {
+    "gutenbergId": 2804,
+    "status": "ai-assisted",
+    "cover": "/covers/2804-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/2804/pg2804.cover.medium.jpg",
+    "artSource": "/covers/2804.jpg"
+  },
+  {
+    "gutenbergId": 2852,
+    "status": "ai-assisted",
+    "cover": "/covers/2852-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/2852/pg2852.cover.medium.jpg",
+    "artSource": "/covers/2852.jpg"
+  },
+  {
+    "gutenbergId": 3027,
+    "status": "ai-assisted",
+    "cover": "/covers/3027-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/ebooks/3027",
+    "artSource": "/covers/3027.jpg"
+  },
+  {
+    "gutenbergId": 3282,
+    "status": "ai-assisted",
+    "cover": "/covers/3282-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/ebooks/3282",
+    "artSource": "/covers/3282.jpg"
+  },
+  {
+    "gutenbergId": 3285,
+    "status": "ai-assisted",
+    "cover": "/covers/3285-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/3285/pg3285.cover.medium.jpg",
+    "artSource": "/covers/3285.jpg"
+  },
+  {
+    "gutenbergId": 3454,
+    "status": "ai-assisted",
+    "cover": "/covers/3454-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/ebooks/3454",
+    "artSource": "/covers/3454.jpg"
+  },
+  {
+    "gutenbergId": 3499,
+    "status": "ai-assisted",
+    "cover": "/covers/3499-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/ebooks/3499",
+    "artSource": "/covers/3499.jpg"
+  },
+  {
+    "gutenbergId": 3536,
+    "status": "ai-assisted",
+    "cover": "/covers/3536-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/3536/pg3536.cover.medium.jpg",
+    "artSource": "/covers/3536.jpg"
+  },
+  {
+    "gutenbergId": 3795,
+    "status": "ai-assisted",
+    "cover": "/covers/3795-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/3795/pg3795.cover.medium.jpg",
+    "artSource": "/covers/3795.jpg"
+  },
+  {
+    "gutenbergId": 4356,
+    "status": "ai-assisted",
+    "cover": "/covers/4356-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/4356/pg4356.cover.medium.jpg",
+    "artSource": "/covers/4356.jpg"
+  },
+  {
+    "gutenbergId": 4357,
+    "status": "ai-assisted",
+    "cover": "/covers/4357-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/4357/pg4357.cover.medium.jpg",
+    "artSource": "/covers/4357.jpg"
+  },
+  {
+    "gutenbergId": 4358,
+    "status": "ai-assisted",
+    "cover": "/covers/4358-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/4358/pg4358.cover.medium.jpg",
+    "artSource": "/covers/4358.jpg"
+  },
+  {
+    "gutenbergId": 4670,
+    "status": "ai-assisted",
+    "cover": "/covers/4670-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/4670/pg4670.cover.medium.jpg",
+    "artSource": "/covers/4670.jpg"
+  },
+  {
+    "gutenbergId": 4698,
+    "status": "ai-assisted",
+    "cover": "/covers/4698-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/4698/pg4698.cover.medium.jpg",
+    "artSource": "/covers/4698.jpg"
+  },
+  {
+    "gutenbergId": 4979,
+    "status": "ai-assisted",
+    "cover": "/covers/4979-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/4979/pg4979.cover.medium.jpg",
+    "artSource": "/covers/4979.jpg"
+  },
+  {
+    "gutenbergId": 4980,
+    "status": "upgraded",
+    "cover": "/covers/4980-hd.jpg",
+    "dimensions": [
+      670,
+      1000
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/4980/pg4980.cover.medium.jpg"
+  },
+  {
+    "gutenbergId": 5110,
+    "status": "ai-assisted",
+    "cover": "/covers/5110-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/5110/pg5110.cover.medium.jpg",
+    "artSource": "/covers/5110.jpg"
+  },
+  {
+    "gutenbergId": 5230,
+    "status": "already-hd",
+    "cover": "/covers/5230-original.jpg",
+    "dimensions": [
+      655,
+      1000
+    ]
+  },
+  {
+    "gutenbergId": 5302,
+    "status": "ai-assisted",
+    "cover": "/covers/5302-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/5302/pg5302.cover.medium.jpg",
+    "artSource": "/covers/5302.jpg"
+  },
+  {
+    "gutenbergId": 5312,
+    "status": "already-hd",
+    "cover": "/covers/5312-original.jpg",
+    "dimensions": [
+      476,
+      800
+    ]
+  },
+  {
+    "gutenbergId": 5340,
+    "status": "ai-assisted",
+    "cover": "/covers/5340-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/ebooks/5340",
+    "artSource": "/covers/5340.jpg"
+  },
+  {
+    "gutenbergId": 5341,
+    "status": "ai-assisted",
+    "cover": "/covers/5341-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/ebooks/5341",
+    "artSource": "/covers/5341.jpg"
+  },
+  {
+    "gutenbergId": 5342,
+    "status": "ai-assisted",
+    "cover": "/covers/5342-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/5342/pg5342.cover.medium.jpg",
+    "artSource": "/covers/5342.jpg"
+  },
+  {
+    "gutenbergId": 5343,
+    "status": "already-hd",
+    "cover": "/covers/5343-original.jpg",
+    "dimensions": [
+      665,
+      1000
+    ]
+  },
+  {
+    "gutenbergId": 5347,
+    "status": "ai-assisted",
+    "cover": "/covers/5347-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/5347/images/cover.jpg",
+    "artSource": "/illustrations/5347/01.jpg"
+  },
+  {
+    "gutenbergId": 5615,
+    "status": "ai-assisted",
+    "cover": "/covers/5615-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/ebooks/5615",
+    "artSource": "/covers/5615.jpg"
+  },
+  {
+    "gutenbergId": 5727,
+    "status": "ai-assisted",
+    "cover": "/covers/5727-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/5727/pg5727.cover.medium.jpg",
+    "artSource": "/ai-illustrations/5727/01.jpg"
+  },
+  {
+    "gutenbergId": 5791,
+    "status": "ai-assisted",
+    "cover": "/covers/5791-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/5791/pg5791.cover.medium.jpg",
+    "artSource": "/covers/5791.jpg"
+  },
+  {
+    "gutenbergId": 5844,
+    "status": "ai-assisted",
+    "cover": "/covers/5844-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/5844/pg5844.cover.medium.jpg",
+    "artSource": "/covers/5844.jpg"
+  },
+  {
+    "gutenbergId": 5846,
+    "status": "already-hd",
+    "cover": "/covers/5846-original.jpg",
+    "dimensions": [
+      651,
+      1000
+    ]
+  },
+  {
+    "gutenbergId": 6380,
+    "status": "upgraded",
+    "cover": "/covers/6380-hd.jpg",
+    "dimensions": [
+      1119,
+      1800
+    ],
+    "sourceUrl": "https://www.gutenberg.org/files/6380/6380-h/images/cover.jpg"
+  },
+  {
+    "gutenbergId": 6746,
+    "status": "ai-assisted",
+    "cover": "/covers/6746-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/ebooks/6746",
+    "artSource": "/covers/6746.jpg"
+  },
+  {
+    "gutenbergId": 7277,
+    "status": "ai-assisted",
+    "cover": "/covers/7277-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/ebooks/7277",
+    "artSource": "/covers/7277.jpg"
+  },
+  {
+    "gutenbergId": 8574,
+    "status": "ai-assisted",
+    "cover": "/covers/8574-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/8574/pg8574.cover.medium.jpg",
+    "artSource": "/illustrations/8574/02.jpg"
+  },
+  {
+    "gutenbergId": 8994,
+    "status": "ai-assisted",
+    "cover": "/covers/8994-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/ebooks/8994",
+    "artSource": "/covers/8994.jpg"
+  },
+  {
+    "gutenbergId": 8995,
+    "status": "ai-assisted",
+    "cover": "/covers/8995-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/8995/images/cover.jpg",
+    "artSource": "/illustrations/8995/01.jpg"
+  },
+  {
+    "gutenbergId": 9075,
+    "status": "ai-assisted",
+    "cover": "/covers/9075-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/9075/pg9075.cover.medium.jpg",
+    "artSource": "/illustrations/9075/01.jpg"
+  },
+  {
+    "gutenbergId": 9255,
+    "status": "ai-assisted",
+    "cover": "/covers/9255-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/ebooks/9255",
+    "artSource": "/covers/9255.jpg"
+  },
+  {
+    "gutenbergId": 9383,
+    "status": "ai-assisted",
+    "cover": "/covers/9383-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/9383/images/cover.png",
+    "artSource": "/illustrations/9383/01.png"
+  },
+  {
+    "gutenbergId": 9482,
+    "status": "ai-assisted",
+    "cover": "/covers/9482-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/9482/pg9482.cover.medium.jpg",
+    "artSource": "/illustrations/9482/01.jpg"
+  },
+  {
+    "gutenbergId": 10142,
+    "status": "ai-assisted",
+    "cover": "/covers/10142-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/10142/pg10142.cover.medium.jpg",
+    "artSource": "/illustrations/10142/01.jpg"
+  },
+  {
+    "gutenbergId": 10469,
+    "status": "ai-assisted",
+    "cover": "/covers/10469-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/ebooks/10469",
+    "artSource": "/illustrations/10469/01.jpg"
+  },
+  {
+    "gutenbergId": 10607,
+    "status": "ai-assisted",
+    "cover": "/covers/10607-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/10607/pg10607.cover.medium.jpg",
+    "artSource": "/illustrations/10607/01.jpg"
+  },
+  {
+    "gutenbergId": 10742,
+    "status": "ai-assisted",
+    "cover": "/covers/10742-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/ebooks/10742",
+    "artSource": "/ai-illustrations/10742/01.jpg"
+  },
+  {
+    "gutenbergId": 10834,
+    "status": "ai-assisted",
+    "cover": "/covers/10834-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/ebooks/10834",
+    "artSource": "/illustrations/10834/01.png"
+  },
+  {
+    "gutenbergId": 11027,
+    "status": "ai-assisted",
+    "cover": "/covers/11027-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/11027/pg11027.cover.medium.jpg",
+    "artSource": "/illustrations/11027/01.png"
+  },
+  {
+    "gutenbergId": 11092,
+    "status": "upgraded",
+    "cover": "/covers/11092-hd.jpg",
+    "dimensions": [
+      789,
+      1000
+    ],
+    "sourceUrl": "https://www.gutenberg.org/files/11092/11092-h/images/cover.jpg"
+  },
+  {
+    "gutenbergId": 11592,
+    "status": "ai-assisted",
+    "cover": "/covers/11592-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/ebooks/11592",
+    "artSource": "/ai-illustrations/11592/01.jpg"
+  },
+  {
+    "gutenbergId": 11703,
+    "status": "upgraded",
+    "cover": "/covers/11703-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/files/11703/11703-h/images/cover.jpg"
+  },
+  {
+    "gutenbergId": 11757,
+    "status": "ai-assisted",
+    "cover": "/covers/11757-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/11757/pg11757.cover.medium.jpg",
+    "artSource": "/illustrations/11757/02.jpg"
+  },
+  {
+    "gutenbergId": 11915,
+    "status": "ai-assisted",
+    "cover": "/covers/11915-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/11915/pg11915.cover.medium.jpg",
+    "artSource": "/covers/11915.jpg"
+  },
+  {
+    "gutenbergId": 12103,
+    "status": "ai-assisted",
+    "cover": "/covers/12103-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/12103/pg12103.cover.medium.jpg",
+    "artSource": "/ai-illustrations/12103/01.jpg"
+  },
+  {
+    "gutenbergId": 12109,
+    "status": "ai-assisted",
+    "cover": "/covers/12109-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/ebooks/12109",
+    "artSource": "/illustrations/12109/01.jpg"
+  },
+  {
+    "gutenbergId": 12630,
+    "status": "ai-assisted",
+    "cover": "/covers/12630-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/12630/images/cover.jpg",
+    "artSource": "/illustrations/12630/01.jpg"
+  },
+  {
+    "gutenbergId": 13355,
+    "status": "ai-assisted",
+    "cover": "/covers/13355-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/13355/pg13355.cover.medium.jpg",
+    "artSource": "/illustrations/13355/01.jpg"
+  },
+  {
+    "gutenbergId": 13646,
+    "status": "ai-assisted",
+    "cover": "/covers/13646-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/ebooks/13646",
+    "artSource": "/ai-illustrations/13646/01.jpg"
+  },
+  {
+    "gutenbergId": 13647,
+    "status": "ai-assisted",
+    "cover": "/covers/13647-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/ebooks/13647",
+    "artSource": "/ai-illustrations/13647/01.jpg"
+  },
+  {
+    "gutenbergId": 13648,
+    "status": "ai-assisted",
+    "cover": "/covers/13648-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/ebooks/13648",
+    "artSource": "/ai-illustrations/13648/01.jpg"
+  },
+  {
+    "gutenbergId": 13707,
+    "status": "ai-assisted",
+    "cover": "/covers/13707-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/ebooks/13707",
+    "artSource": "/covers/13707.jpg"
+  },
+  {
+    "gutenbergId": 13815,
+    "status": "ai-assisted",
+    "cover": "/covers/13815-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/ebooks/13815",
+    "artSource": "/covers/13815.jpg"
+  },
+  {
+    "gutenbergId": 14077,
+    "status": "already-hd",
+    "cover": "/covers/14077-original.jpg",
+    "dimensions": [
+      1000,
+      873
+    ]
+  },
+  {
+    "gutenbergId": 14220,
+    "status": "ai-assisted",
+    "cover": "/covers/14220-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/14220/pg14220.cover.medium.jpg",
+    "artSource": "/illustrations/14220/01.jpg"
+  },
+  {
+    "gutenbergId": 14375,
+    "status": "already-hd",
+    "cover": "/covers/14375-original.jpg",
+    "dimensions": [
+      480,
+      754
+    ]
+  },
+  {
+    "gutenbergId": 14407,
+    "status": "ai-assisted",
+    "cover": "/covers/14407-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/14407/pg14407.cover.medium.jpg",
+    "artSource": "/illustrations/14407/01.jpg"
+  },
+  {
+    "gutenbergId": 14732,
+    "status": "ai-assisted",
+    "cover": "/covers/14732-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/14732/pg14732.cover.medium.jpg",
+    "artSource": "/illustrations/14732/02.png"
+  },
+  {
+    "gutenbergId": 14797,
+    "status": "ai-assisted",
+    "cover": "/covers/14797-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/14797/pg14797.cover.medium.jpg",
+    "artSource": "/illustrations/14797/01.jpg"
+  },
+  {
+    "gutenbergId": 14814,
+    "status": "ai-assisted",
+    "cover": "/covers/14814-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/14814/pg14814.cover.medium.jpg",
+    "artSource": "/illustrations/14814/01.jpg"
+  },
+  {
+    "gutenbergId": 14837,
+    "status": "ai-assisted",
+    "cover": "/covers/14837-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/14837/pg14837.cover.medium.jpg",
+    "artSource": "/illustrations/14837/01.jpg"
+  },
+  {
+    "gutenbergId": 14838,
+    "status": "upgraded",
+    "cover": "/covers/14838-hd.jpg",
+    "dimensions": [
+      623,
+      877
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/14838/pg14838.cover.medium.jpg"
+  },
+  {
+    "gutenbergId": 14848,
+    "status": "ai-assisted",
+    "cover": "/covers/14848-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/14848/images/cover.jpg",
+    "artSource": "/illustrations/14848/01.jpg"
+  },
+  {
+    "gutenbergId": 14868,
+    "status": "ai-assisted",
+    "cover": "/covers/14868-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/14868/images/cover_final.jpg",
+    "artSource": "/illustrations/14868/01.jpg"
+  },
+  {
+    "gutenbergId": 14872,
+    "status": "ai-assisted",
+    "cover": "/covers/14872-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/14872/pg14872.cover.medium.jpg",
+    "artSource": "/illustrations/14872/01.jpg"
+  },
+  {
+    "gutenbergId": 14877,
+    "status": "ai-assisted",
+    "cover": "/covers/14877-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/14877/pg14877.cover.medium.jpg",
+    "artSource": "/illustrations/14877/01.png"
+  },
+  {
+    "gutenbergId": 15077,
+    "status": "already-hd",
+    "cover": "/covers/15077-original.jpg",
+    "dimensions": [
+      760,
+      1000
+    ]
+  },
+  {
+    "gutenbergId": 15137,
+    "status": "upgraded",
+    "cover": "/covers/15137-hd.jpg",
+    "dimensions": [
+      738,
+      810
+    ],
+    "sourceUrl": "https://www.gutenberg.org/files/15137/15137-h/images/cover.jpg"
+  },
+  {
+    "gutenbergId": 15234,
+    "status": "already-hd",
+    "cover": "/covers/15234-original.jpg",
+    "dimensions": [
+      820,
+      802
+    ]
+  },
+  {
+    "gutenbergId": 15284,
+    "status": "ai-assisted",
+    "cover": "/covers/15284-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/15284/images/cover.jpg",
+    "artSource": "/illustrations/15284/01.jpg"
+  },
+  {
+    "gutenbergId": 15575,
+    "status": "ai-assisted",
+    "cover": "/covers/15575-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/15575/pg15575.cover.medium.jpg",
+    "artSource": "/illustrations/15575/01.jpg"
+  },
+  {
+    "gutenbergId": 15661,
+    "status": "ai-assisted",
+    "cover": "/covers/15661-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/ebooks/15661",
+    "artSource": "/illustrations/15661/02.png"
+  },
+  {
+    "gutenbergId": 15809,
+    "status": "ai-assisted",
+    "cover": "/covers/15809-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/15809/images/a_apple_pie-web-title.jpg",
+    "artSource": "/illustrations/15809/01.jpg"
+  },
+  {
+    "gutenbergId": 16436,
+    "status": "upgraded",
+    "cover": "/covers/16436-hd.jpg",
+    "dimensions": [
+      689,
+      1000
+    ],
+    "sourceUrl": "https://www.gutenberg.org/files/16436/16436-h/images/cover.jpg"
+  },
+  {
+    "gutenbergId": 16457,
+    "status": "ai-assisted",
+    "cover": "/covers/16457-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/16457/images/02.jpg",
+    "artSource": "/illustrations/16457/02.jpg"
+  },
+  {
+    "gutenbergId": 17089,
+    "status": "ai-assisted",
+    "cover": "/covers/17089-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/17089/images/cover.jpg",
+    "artSource": "/illustrations/17089/02.jpg"
+  },
+  {
+    "gutenbergId": 17135,
+    "status": "already-hd",
+    "cover": "/covers/17135-original.jpg",
+    "dimensions": [
+      1000,
+      384
+    ]
+  },
+  {
+    "gutenbergId": 17208,
+    "status": "ai-assisted",
+    "cover": "/covers/17208-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/17208/images/cover_t.jpg",
+    "artSource": "/illustrations/17208/01.jpg"
+  },
+  {
+    "gutenbergId": 17283,
+    "status": "upgraded",
+    "cover": "/covers/17283-hd.jpg",
+    "dimensions": [
+      984,
+      1200
+    ],
+    "sourceUrl": "https://www.gutenberg.org/files/17283/17283-h/images/cover.jpg"
+  },
+  {
+    "gutenbergId": 17314,
+    "status": "ai-assisted",
+    "cover": "/covers/17314-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/ebooks/17314",
+    "artSource": "/illustrations/17314/02.png"
+  },
+  {
+    "gutenbergId": 17382,
+    "status": "ai-assisted",
+    "cover": "/covers/17382-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/17382/images/title_page.jpg",
+    "artSource": "/illustrations/17382/01.jpg"
+  },
+  {
+    "gutenbergId": 17860,
+    "status": "ai-assisted",
+    "cover": "/covers/17860-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/17860/images/cover.jpg",
+    "artSource": "/illustrations/17860/01.jpg"
+  },
+  {
+    "gutenbergId": 18155,
+    "status": "ai-assisted",
+    "cover": "/covers/18155-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/18155/images/imgcover.jpg",
+    "artSource": "/illustrations/18155/01.jpg"
+  },
+  {
+    "gutenbergId": 18343,
+    "status": "ai-assisted",
+    "cover": "/covers/18343-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/18343/pg18343.cover.medium.jpg",
+    "artSource": "/illustrations/18343/01.jpg"
+  },
+  {
+    "gutenbergId": 18417,
+    "status": "ai-assisted",
+    "cover": "/covers/18417-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/18417/images/frontcover.jpg",
+    "artSource": "/illustrations/18417/01.jpg"
+  },
+  {
+    "gutenbergId": 18546,
+    "status": "ai-assisted",
+    "cover": "/covers/18546-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/18546/images/img001.jpg",
+    "artSource": "/illustrations/18546/01.jpg"
+  },
+  {
+    "gutenbergId": 18735,
+    "status": "already-hd",
+    "cover": "/covers/18735-original.jpg",
+    "dimensions": [
+      600,
+      783
+    ]
+  },
+  {
+    "gutenbergId": 18857,
+    "status": "ai-assisted",
+    "cover": "/covers/18857-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/18857/pg18857.cover.medium.jpg",
+    "artSource": "/illustrations/18857/01.png"
+  },
+  {
+    "gutenbergId": 19068,
+    "status": "ai-assisted",
+    "cover": "/covers/19068-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/19068/pg19068.cover.medium.jpg",
+    "artSource": "/illustrations/19068/01.jpg"
+  },
+  {
+    "gutenbergId": 19221,
+    "status": "ai-assisted",
+    "cover": "/covers/19221-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/19221/pg19221.cover.medium.jpg",
+    "artSource": "/covers/19221.jpg"
+  },
+  {
+    "gutenbergId": 19466,
+    "status": "ai-assisted",
+    "cover": "/covers/19466-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/ebooks/19466",
+    "artSource": "/covers/19466.jpg"
+  },
+  {
+    "gutenbergId": 19541,
+    "status": "already-hd",
+    "cover": "/covers/19541-original.jpg",
+    "dimensions": [
+      600,
+      762
+    ]
+  },
+  {
+    "gutenbergId": 19575,
+    "status": "ai-assisted",
+    "cover": "/covers/19575-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/ebooks/19575",
+    "artSource": "/covers/19575.jpg"
+  },
+  {
+    "gutenbergId": 19722,
+    "status": "ai-assisted",
+    "cover": "/covers/19722-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/ebooks/19722",
+    "artSource": "/illustrations/19722/01.jpg"
+  },
+  {
+    "gutenbergId": 19772,
+    "status": "already-hd",
+    "cover": "/covers/19772-original.jpg",
+    "dimensions": [
+      783,
+      1000
+    ]
+  },
+  {
+    "gutenbergId": 19805,
+    "status": "ai-assisted",
+    "cover": "/covers/19805-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/19805/images/image001_thumb.jpg",
+    "artSource": "/illustrations/19805/01.jpg"
+  },
+  {
+    "gutenbergId": 19994,
+    "status": "ai-assisted",
+    "cover": "/covers/19994-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/19994/pg19994.cover.medium.jpg",
+    "artSource": "/illustrations/19994/01.jpg"
+  },
+  {
+    "gutenbergId": 20437,
+    "status": "ai-assisted",
+    "cover": "/covers/20437-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/20437/pg20437.cover.medium.jpg",
+    "artSource": "/illustrations/20437/01.jpg"
+  },
+  {
+    "gutenbergId": 20511,
+    "status": "already-hd",
+    "cover": "/covers/20511-original.jpg",
+    "dimensions": [
+      1000,
+      738
+    ]
+  },
+  {
+    "gutenbergId": 20606,
+    "status": "ai-assisted",
+    "cover": "/covers/20606-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/20606/pg20606.cover.medium.jpg",
+    "artSource": "/illustrations/20606/01.png"
+  },
+  {
+    "gutenbergId": 20652,
+    "status": "ai-assisted",
+    "cover": "/covers/20652-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/20652/images/cover.jpg",
+    "artSource": "/ai-illustrations/20652/01.jpg"
+  },
+  {
+    "gutenbergId": 20748,
+    "status": "ai-assisted",
+    "cover": "/covers/20748-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/20748/images/front_cover.jpg",
+    "artSource": "/illustrations/20748/01.jpg"
+  },
+  {
+    "gutenbergId": 20781,
+    "status": "upgraded",
+    "cover": "/covers/20781-hd.jpg",
+    "dimensions": [
+      583,
+      800
+    ],
+    "sourceUrl": "https://www.gutenberg.org/files/20781/20781-h/images/cover.jpg"
+  },
+  {
+    "gutenbergId": 20860,
+    "status": "ai-assisted",
+    "cover": "/covers/20860-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/ebooks/20860",
+    "artSource": "/illustrations/20860/02.jpg"
+  },
+  {
+    "gutenbergId": 20916,
+    "status": "ai-assisted",
+    "cover": "/covers/20916-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/20916/images/illus02.jpg",
+    "artSource": "/illustrations/20916/01.jpg"
+  },
+  {
+    "gutenbergId": 20997,
+    "status": "upgraded",
+    "cover": "/covers/20997-hd.jpg",
+    "dimensions": [
+      800,
+      1233
+    ],
+    "sourceUrl": "https://www.gutenberg.org/files/20997/20997-h/images/cover.jpg"
+  },
+  {
+    "gutenbergId": 21015,
+    "status": "ai-assisted",
+    "cover": "/covers/21015-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/ebooks/21015",
+    "artSource": "/illustrations/21015/01.jpg"
+  },
+  {
+    "gutenbergId": 21588,
+    "status": "ai-assisted",
+    "cover": "/covers/21588-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/21588/pg21588.cover.medium.jpg",
+    "artSource": "/covers/21588.jpg"
+  },
+  {
+    "gutenbergId": 21650,
+    "status": "already-hd",
+    "cover": "/covers/21650-original.jpg",
+    "dimensions": [
+      600,
+      720
+    ]
+  },
+  {
+    "gutenbergId": 21935,
+    "status": "already-hd",
+    "cover": "/covers/21935-original.jpg",
+    "dimensions": [
+      665,
+      1000
+    ]
+  },
+  {
+    "gutenbergId": 22014,
+    "status": "ai-assisted",
+    "cover": "/covers/22014-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/22014/images/covers.jpg",
+    "artSource": "/illustrations/22014/01.jpg"
+  },
+  {
+    "gutenbergId": 22022,
+    "status": "ai-assisted",
+    "cover": "/covers/22022-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/ebooks/22022",
+    "artSource": "/covers/22022.jpg"
+  },
+  {
+    "gutenbergId": 22234,
+    "status": "ai-assisted",
+    "cover": "/covers/22234-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/22234/images/titlepage.jpg",
+    "artSource": "/illustrations/22234/01.jpg"
+  },
+  {
+    "gutenbergId": 22406,
+    "status": "ai-assisted",
+    "cover": "/covers/22406-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/22406/images/cover.jpg",
+    "artSource": "/illustrations/22406/01.jpg"
+  },
+  {
+    "gutenbergId": 22566,
+    "status": "ai-assisted",
+    "cover": "/covers/22566-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/22566/images/imgcover.jpg",
+    "artSource": "/illustrations/22566/01.jpg"
+  },
+  {
+    "gutenbergId": 22888,
+    "status": "already-hd",
+    "cover": "/covers/22888-original.jpg",
+    "dimensions": [
+      600,
+      821
+    ]
+  },
+  {
+    "gutenbergId": 22921,
+    "status": "already-hd",
+    "cover": "/covers/22921-original.jpg",
+    "dimensions": [
+      600,
+      1005
+    ]
+  },
+  {
+    "gutenbergId": 23302,
+    "status": "ai-assisted",
+    "cover": "/covers/23302-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/23302/images/img001a.jpg",
+    "artSource": "/illustrations/23302/01.jpg"
+  },
+  {
+    "gutenbergId": 23322,
+    "status": "ai-assisted",
+    "cover": "/covers/23322-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/23322/images/cover.jpg",
+    "artSource": "/illustrations/23322/01.jpg"
+  },
+  {
+    "gutenbergId": 23344,
+    "status": "ai-assisted",
+    "cover": "/covers/23344-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/ebooks/23344",
+    "artSource": "/illustrations/23344/01.jpg"
+  },
+  {
+    "gutenbergId": 23350,
+    "status": "ai-assisted",
+    "cover": "/covers/23350-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/23350/images/illus-0009-1.jpg",
+    "artSource": "/illustrations/23350/01.jpg"
+  },
+  {
+    "gutenbergId": 23433,
+    "status": "ai-assisted",
+    "cover": "/covers/23433-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/23433/images/kgv01.jpg",
+    "artSource": "/illustrations/23433/02.jpg"
+  },
+  {
+    "gutenbergId": 23452,
+    "status": "ai-assisted",
+    "cover": "/covers/23452-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/ebooks/23452",
+    "artSource": "/illustrations/23452/01.jpg"
+  },
+  {
+    "gutenbergId": 23462,
+    "status": "ai-assisted",
+    "cover": "/covers/23462-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/ebooks/23462",
+    "artSource": "/illustrations/23462/02.jpg"
+  },
+  {
+    "gutenbergId": 23521,
+    "status": "ai-assisted",
+    "cover": "/covers/23521-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/23521/images/imgcover.jpg",
+    "artSource": "/illustrations/23521/01.jpg"
+  },
+  {
+    "gutenbergId": 23661,
+    "status": "ai-assisted",
+    "cover": "/covers/23661-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/23661/pg23661.cover.medium.jpg",
+    "artSource": "/illustrations/23661/01.jpg"
+  },
+  {
+    "gutenbergId": 23665,
+    "status": "ai-assisted",
+    "cover": "/covers/23665-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/ebooks/23665",
+    "artSource": "/illustrations/23665/01.jpg"
+  },
+  {
+    "gutenbergId": 23749,
+    "status": "ai-assisted",
+    "cover": "/covers/23749-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/ebooks/23749",
+    "artSource": "/illustrations/23749/01.jpg"
+  },
+  {
+    "gutenbergId": 23794,
+    "status": "ai-assisted",
+    "cover": "/covers/23794-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/23794/images/img5-1.jpg",
+    "artSource": "/illustrations/23794/01.jpg"
+  },
+  {
+    "gutenbergId": 23869,
+    "status": "ai-assisted",
+    "cover": "/covers/23869-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/23869/images/lmt01.jpg",
+    "artSource": "/illustrations/23869/02.jpg"
+  },
+  {
+    "gutenbergId": 23871,
+    "status": "ai-assisted",
+    "cover": "/covers/23871-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/23871/images/cover.jpg",
+    "artSource": "/illustrations/23871/01.jpg"
+  },
+  {
+    "gutenbergId": 24644,
+    "status": "ai-assisted",
+    "cover": "/covers/24644-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/24644/images/cover.jpg",
+    "artSource": "/illustrations/24644/01.jpg"
+  },
+  {
+    "gutenbergId": 24692,
+    "status": "ai-assisted",
+    "cover": "/covers/24692-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/ebooks/24692",
+    "artSource": "/illustrations/24692/01.jpg"
+  },
+  {
+    "gutenbergId": 24778,
+    "status": "ai-assisted",
+    "cover": "/covers/24778-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/24778/images/i-020.jpg",
+    "artSource": "/illustrations/24778/01.jpg"
+  },
+  {
+    "gutenbergId": 24912,
+    "status": "already-hd",
+    "cover": "/covers/24912-original.png",
+    "dimensions": [
+      600,
+      742
+    ]
+  },
+  {
+    "gutenbergId": 25418,
+    "status": "ai-assisted",
+    "cover": "/covers/25418-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/25418/images/cover.jpg",
+    "artSource": "/illustrations/25418/02.jpg"
+  },
+  {
+    "gutenbergId": 25432,
+    "status": "ai-assisted",
+    "cover": "/covers/25432-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/25432/images/front_cover.jpg",
+    "artSource": "/illustrations/25432/01.jpg"
+  },
+  {
+    "gutenbergId": 25433,
+    "status": "ai-assisted",
+    "cover": "/covers/25433-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/25433/images/front_cover.png",
+    "artSource": "/illustrations/25433/01.png"
+  },
+  {
+    "gutenbergId": 25496,
+    "status": "ai-assisted",
+    "cover": "/covers/25496-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/25496/images/cover01.jpg",
+    "artSource": "/illustrations/25496/01.png"
+  },
+  {
+    "gutenbergId": 25519,
+    "status": "ai-assisted",
+    "cover": "/covers/25519-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/25519/images/cover.jpg",
+    "artSource": "/illustrations/25519/01.jpg"
+  },
+  {
+    "gutenbergId": 25564,
+    "status": "ai-assisted",
+    "cover": "/covers/25564-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/25564/images/cover.jpg",
+    "artSource": "/illustrations/25564/01.jpg"
+  },
+  {
+    "gutenbergId": 25581,
+    "status": "already-hd",
+    "cover": "/covers/25581-original.jpg",
+    "dimensions": [
+      600,
+      811
+    ]
+  },
+  {
+    "gutenbergId": 25714,
+    "status": "ai-assisted",
+    "cover": "/covers/25714-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/25714/images/1-1_th.jpg",
+    "artSource": "/illustrations/25714/01.jpg"
+  },
+  {
+    "gutenbergId": 27903,
+    "status": "ai-assisted",
+    "cover": "/covers/27903-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/27903/pg27903.cover.medium.jpg",
+    "artSource": "/illustrations/27903/01.png"
+  },
+  {
+    "gutenbergId": 31342,
+    "status": "ai-assisted",
+    "cover": "/covers/31342-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/31342/images/ill_cover_th.jpg",
+    "artSource": "/illustrations/31342/01.jpg"
+  },
+  {
+    "gutenbergId": 37529,
+    "status": "already-hd",
+    "cover": "/covers/37529-original.jpg",
+    "dimensions": [
+      638,
+      1000
+    ]
+  },
+  {
+    "gutenbergId": 38562,
+    "status": "ai-assisted",
+    "cover": "/covers/38562-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/38562/pg38562.cover.medium.jpg",
+    "artSource": "/illustrations/38562/03.jpg"
+  },
+  {
+    "gutenbergId": 40425,
+    "status": "ai-assisted",
+    "cover": "/covers/40425-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/40425/pg40425.cover.medium.jpg",
+    "artSource": "/illustrations/40425/01.jpg"
+  },
+  {
+    "gutenbergId": 42366,
+    "status": "ai-assisted",
+    "cover": "/covers/42366-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/42366/images/01_book_cover.jpg",
+    "artSource": "/illustrations/42366/01.jpg"
+  },
+  {
+    "gutenbergId": 42920,
+    "status": "ai-assisted",
+    "cover": "/covers/42920-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/42920/images/01_book_cover.jpg",
+    "artSource": "/covers/42920-original.jpg"
+  },
+  {
+    "gutenbergId": 42947,
+    "status": "already-hd",
+    "cover": "/covers/42947-original.jpg",
+    "dimensions": [
+      510,
+      800
+    ]
+  },
+  {
+    "gutenbergId": 45264,
+    "status": "already-hd",
+    "cover": "/covers/45264-original.jpg",
+    "dimensions": [
+      574,
+      800
+    ]
+  },
+  {
+    "gutenbergId": 45265,
+    "status": "already-hd",
+    "cover": "/covers/45265-original.jpg",
+    "dimensions": [
+      528,
+      800
+    ]
+  },
+  {
+    "gutenbergId": 46515,
+    "status": "ai-assisted",
+    "cover": "/covers/46515-ai-hd.jpg",
+    "dimensions": [
+      1200,
+      1600
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/46515/images/cover.jpg",
+    "artSource": "/illustrations/46515/02.jpg"
+  },
+  {
+    "gutenbergId": 47166,
+    "status": "upgraded",
+    "cover": "/covers/47166-hd.jpg",
+    "dimensions": [
+      724,
+      1000
+    ],
+    "sourceUrl": "https://www.gutenberg.org/files/47166/47166-h/images/cover.jpg"
+  },
+  {
+    "gutenbergId": 47284,
+    "status": "already-hd",
+    "cover": "/covers/47284-original.jpg",
+    "dimensions": [
+      594,
+      800
+    ]
+  },
+  {
+    "gutenbergId": 50361,
+    "status": "already-hd",
+    "cover": "/covers/50361-original.jpg",
+    "dimensions": [
+      600,
+      800
+    ]
+  },
+  {
+    "gutenbergId": 50994,
+    "status": "upgraded",
+    "cover": "/covers/50994-hd.jpg",
+    "dimensions": [
+      500,
+      806
+    ],
+    "sourceUrl": "https://www.gutenberg.org/files/50994/50994-h/images/cover.jpg"
+  },
+  {
+    "gutenbergId": 55737,
+    "status": "already-hd",
+    "cover": "/covers/55737-original.jpg",
+    "dimensions": [
+      590,
+      800
+    ]
+  },
+  {
+    "gutenbergId": 57799,
+    "status": "already-hd",
+    "cover": "/covers/57799-original.jpg",
+    "dimensions": [
+      631,
+      1000
+    ]
+  },
+  {
+    "gutenbergId": 63463,
+    "status": "upgraded",
+    "cover": "/covers/63463-hd.jpg",
+    "dimensions": [
+      736,
+      1000
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/63463/pg63463.cover.medium.jpg"
+  },
+  {
+    "gutenbergId": 68359,
+    "status": "already-hd",
+    "cover": "/covers/68359-original.jpg",
+    "dimensions": [
+      473,
+      1000
+    ]
+  },
+  {
+    "gutenbergId": 71096,
+    "status": "upgraded",
+    "cover": "/covers/71096-hd.jpg",
+    "dimensions": [
+      1307,
+      1800
+    ],
+    "sourceUrl": "https://www.gutenberg.org/cache/epub/71096/pg71096.cover.medium.jpg"
+  }
+]

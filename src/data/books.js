@@ -1,5 +1,6 @@
 import gutenbergBooks from "./gutenberg-books.json";
 import librivoxAudiobooks from "./librivox-audiobooks.json";
+import bookSummaries from "./book-summaries.json";
 
 export const categories = [
   { id: "fantasy", name: "奇幻童话", tone: "purple", description: "魔法、想象与经典童话" },
@@ -36,6 +37,7 @@ function ageGroupFor(ageRange) {
 
 export const books = gutenbergBooks.map((book) => {
   const ageRange = book.ageRange || recommendedAge(book.wordCount);
+  const summary = bookSummaries[book.gutenbergId];
   const originalIllustrations = book.originalIllustrations || [];
   const aiIllustrations = book.aiIllustrations || [];
   const illustrations = [
@@ -53,6 +55,8 @@ export const books = gutenbergBooks.map((book) => {
     originalIllustrations,
     aiIllustrations,
     illustrations,
+    summaryZh: summary.zh,
+    summaryEn: summary.en,
     description: book.recommendation
       ? `${book.recommendation}。完整英文原文来自 Project Gutenberg，可直接在线阅读。`
       : `${descriptions[book.themeId]}。完整英文原文来自 Project Gutenberg，可直接在线阅读。`,
